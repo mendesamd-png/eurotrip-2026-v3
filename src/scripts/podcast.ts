@@ -36,6 +36,27 @@ if (root) {
  window.addEventListener('hashchange', syncFromLocation);
  window.addEventListener('popstate', syncFromLocation);
  root.querySelectorAll<HTMLAudioElement>('audio').forEach(audio => {
+  const container = audio.closest('.episode-audio');
+  const toggle = container?.querySelector<HTMLButtonElement>('.audio-toggle');
+  const message = container?.querySelector<HTMLElement>('.audio-error');
+  const syncToggle = () => {
+   if (toggle) {
+    toggle.textContent = audio.paused ? '▶ Ouvir episódio' : 'Ⅱ Pausar episódio';
+    toggle.setAttribute('aria-label', `${audio.paused ? 'Ouvir' : 'Pausar'} ${audio.dataset.title}`);
+   }
+  };
+  if (toggle) {
+   toggle.hidden = false;
+   toggle.addEventListener('click', async () => {
+    if (!audio.paused) { audio.pause(); return; }
+    if (message) message.hidden = true;
+    try { await audio.play(); } catch { if (message) message.hidden = false; }
+   });
+  }
+  audio.addEventListener('play', syncToggle);
+  audio.addEventListener('pause', syncToggle);
+  audio.addEventListener('ended', syncToggle);
+  audio.addEventListener('playing', () => { if (message) message.hidden = true; });
   audio.addEventListener('play', () => root.querySelectorAll<HTMLAudioElement>('audio').forEach(other => {if(other!==audio) other.pause();}));
   audio.addEventListener('error', () => {
    const message=audio.closest('.episode-audio')?.querySelector<HTMLElement>('.audio-error');

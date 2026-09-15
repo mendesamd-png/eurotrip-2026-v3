@@ -26,8 +26,10 @@
       "F10",
       "F33"
     ],
-    "audio": null,
-    "transcript": []
+    "audio": "/audio/00-antes-do-embarque.mp3",
+    "transcript": [],
+    "duration": "20:46",
+    "durationSeconds": 1246
   },
   {
     "number": "01",
@@ -64,8 +66,10 @@
       "F07",
       "F01"
     ],
-    "audio": null,
-    "transcript": []
+    "audio": "/audio/01-londres.mp3",
+    "transcript": [],
+    "duration": "23:10",
+    "durationSeconds": 1391
   },
   {
     "number": "02",
@@ -93,8 +97,10 @@
       "P17",
       "F15"
     ],
-    "audio": null,
-    "transcript": []
+    "audio": "/audio/02-birmingham.mp3",
+    "transcript": [],
+    "duration": "24:48",
+    "durationSeconds": 1488
   },
   {
     "number": "03",
@@ -127,8 +133,10 @@
       "F11",
       "P22"
     ],
-    "audio": null,
-    "transcript": []
+    "audio": "/audio/03-manchester.mp3",
+    "transcript": [],
+    "duration": "15:59",
+    "durationSeconds": 960
   },
   {
     "number": "04",
@@ -166,8 +174,10 @@
       "P23",
       "P24"
     ],
-    "audio": null,
-    "transcript": []
+    "audio": "/audio/04-dia-de-jogo.mp3",
+    "transcript": [],
+    "duration": "24:01",
+    "durationSeconds": 1442
   },
   {
     "number": "05",
@@ -197,8 +207,10 @@
       "P20",
       "P21"
     ],
-    "audio": null,
-    "transcript": []
+    "audio": "/audio/05-liverpool.mp3",
+    "transcript": [],
+    "duration": "29:13",
+    "durationSeconds": 1753
   },
   {
     "number": "06",
@@ -232,8 +244,10 @@
       "F31",
       "F32"
     ],
-    "audio": null,
-    "transcript": []
+    "audio": "/audio/06-san-sebastian.mp3",
+    "transcript": [],
+    "duration": "20:09",
+    "durationSeconds": 1210
   },
   {
     "number": "07",
@@ -272,8 +286,10 @@
       "P16",
       "F38"
     ],
-    "audio": null,
-    "transcript": []
+    "audio": "/audio/07-funchal.mp3",
+    "transcript": [],
+    "duration": "26:27",
+    "durationSeconds": 1588
   },
   {
     "number": "08",
@@ -307,7 +323,9 @@
       "F38",
       "P15"
     ],
-    "audio": null,
-    "transcript": []
+    "audio": "/audio/08-costa-norte.mp3",
+    "transcript": [],
+    "duration": "23:40",
+    "durationSeconds": 1421
   }
 ]

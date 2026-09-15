@@ -1,0 +1,113 @@
+{
+  "notebook": "https://notebook.google.com/notebook/b2531154-1fd3-416b-a227-834220893edf",
+  "preparedAt": "2026-09-15",
+  "language": "pt-BR",
+  "format": "Análise detalhada",
+  "length": "Padrão",
+  "sources": {
+    "uploadedDocuments": 14,
+    "importedWebSources": 34,
+    "failedWebSources": [
+      "https://arsenaldirect.arsenal.com/tour/virtual-stadium-tour",
+      "https://whc.unesco.org/en/list/0934/",
+      "https://www.liverpoolfc.com/stadium-tours/",
+      "https://www.manutd.com/ko/news/detail/match-report-man-utd-bournemouth-premier-league-15-december-2025"
+    ]
+  },
+  "episodes": [
+    {
+      "number": "00",
+      "slug": "antes-do-embarque",
+      "title": "Antes do primeiro embarque",
+      "status": "audio_integrated",
+      "editorialListening": "pending",
+      "audio": "/audio/00-antes-do-embarque.mp3",
+      "duration": "20:46",
+      "notebookTitle": "EP 00 · A travessia — Antes do primeiro embarque"
+    },
+    {
+      "number": "01",
+      "slug": "londres",
+      "title": "Entre telas, arquibancadas e uma árvore",
+      "status": "audio_integrated",
+      "editorialListening": "pending",
+      "audio": "/audio/01-londres.mp3",
+      "duration": "23:10",
+      "notebookTitle": "EP 01 · Londres — Entre telas, arquibancadas e uma árvore"
+    },
+    {
+      "number": "02",
+      "slug": "birmingham",
+      "title": "A cidade que começa num abraço",
+      "status": "audio_integrated",
+      "editorialListening": "pending",
+      "audio": "/audio/02-birmingham.mp3",
+      "duration": "24:48",
+      "notebookTitle": "O abraço nos canais de Birmingham"
+    },
+    {
+      "number": "03",
+      "slug": "manchester",
+      "title": "Uma cidade que se escuta",
+      "status": "audio_integrated",
+      "editorialListening": "pending",
+      "audio": "/audio/03-manchester.mp3",
+      "duration": "15:59",
+      "notebookTitle": "Manchester do algodão ao Teatro dos Sonhos"
+    },
+    {
+      "number": "04",
+      "slug": "dia-de-jogo",
+      "title": "Hoje o coração joga em casa",
+      "status": "audio_integrated",
+      "editorialListening": "pending",
+      "audio": "/audio/04-dia-de-jogo.mp3",
+      "duration": "24:01",
+      "notebookTitle": "Do sofá ao concreto de Old Trafford"
+    },
+    {
+      "number": "05",
+      "slug": "liverpool",
+      "title": "Do outro lado da arquibancada",
+      "status": "audio_integrated",
+      "editorialListening": "pending",
+      "audio": "/audio/05-liverpool.mp3",
+      "duration": "29:13",
+      "notebookTitle": "Anfield era do rival e outras ironias"
+    },
+    {
+      "number": "06",
+      "slug": "san-sebastian",
+      "title": "Onde a arte encontra o vento",
+      "status": "audio_integrated",
+      "editorialListening": "pending",
+      "audio": "/audio/06-san-sebastian.mp3",
+      "duration": "20:09",
+      "notebookTitle": "Madeira brasileira no vento de San Sebastián"
+    },
+    {
+      "number": "07",
+      "slug": "funchal",
+      "title": "A ilha conta, a gente escuta",
+      "status": "audio_integrated",
+      "editorialListening": "pending",
+      "audio": "/audio/07-funchal.mp3",
+      "duration": "26:27",
+      "notebookTitle": "As mentiras visuais da Ilha da Madeira"
+    },
+    {
+      "number": "08",
+      "slug": "costa-norte",
+      "title": "A floresta tem outro relógio",
+      "status": "audio_integrated",
+      "editorialListening": "pending",
+      "audio": "/audio/08-costa-norte.mp3",
+      "duration": "23:40",
+      "notebookTitle": "A colisão de tempos na Madeira"
+    }
+  ],
+  "notes": [
+    "Episode 04 is a September historical draft. Its generation prompt excludes the 2025 match and current team analysis. Refresh the pre-match context in October.",
+    "All nine generated audios are integrated as 96 kbps MP3 files. Full editorial listening remains pending."
+  ]
+}

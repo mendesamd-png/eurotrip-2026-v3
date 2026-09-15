@@ -1,0 +1,164 @@
+{
+  "galleryEmirates": {
+    "id": "gallery-emirates",
+    "src": "/images/galleries/emirates.webp",
+    "alt": "Vista aérea do Emirates Stadium e dos bairros ao redor, em Londres",
+    "author": "Arne Müseler",
+    "source": "https://commons.wikimedia.org/wiki/File:London_Emirates_Stadium_arsenal.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "credit": "Arne Müseler / www.arne-mueseler.com · Wikimedia Commons · CC BY-SA 3.0 de · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryChelsea": {
+    "id": "gallery-chelsea",
+    "src": "/images/galleries/chelsea.webp",
+    "alt": "Stamford Bridge, estádio do Chelsea em Londres",
+    "author": "Arne Müseler",
+    "source": "https://commons.wikimedia.org/wiki/File:London_Stamford_Bridge.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "credit": "Arne Müseler / www.arne-mueseler.com · Wikimedia Commons · CC BY-SA 3.0 de · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryWembley": {
+    "id": "gallery-wembley",
+    "src": "/images/galleries/wembley.webp",
+    "alt": "Arco e arquibancadas de Wembley em uma partida de 2023",
+    "author": "Hullian111",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Challenge_Cup_Final_Wembley_Arch_Within.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Hullian111 · Wikimedia Commons · CC BY-SA 4.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryBridge": {
+    "id": "gallery-bridge",
+    "src": "/images/galleries/bridge.webp",
+    "alt": "Tower Bridge sobre o Tâmisa, em Londres",
+    "author": "Ввласенко",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_the_Tower_Bridge_from_the_Thames_from_northwest._London.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Ввласенко · Wikimedia Commons · CC BY-SA 3.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryLibrary": {
+    "id": "gallery-library",
+    "src": "/images/galleries/library.webp",
+    "alt": "Fachada da Library of Birmingham",
+    "author": "Neil Thompson",
+    "source": "https://commons.wikimedia.org/wiki/File:Library-of-Birmingham-oblique-crop.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/2.0",
+    "credit": "Neil Thompson · Wikimedia Commons · CC BY-SA 2.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryGasstreet": {
+    "id": "gallery-gasstreet",
+    "src": "/images/galleries/gasstreet.webp",
+    "alt": "Barcos e canais de Gas Street Basin, em Birmingham",
+    "author": "The wub",
+    "source": "https://commons.wikimedia.org/wiki/File:Gas_Street_Basin,_Birmingham.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "The wub · Wikimedia Commons · CC BY-SA 4.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryVictoria": {
+    "id": "gallery-victoria",
+    "src": "/images/galleries/victoria.webp",
+    "alt": "Vista de Victoria Square, no centro de Birmingham",
+    "author": "Mihaita Tatarusanu",
+    "source": "https://commons.wikimedia.org/wiki/File:Victoria_Square_Birmingham_2014-03-15.jpg",
+    "license": "https://creativecommons.org/licenses/by/2.0",
+    "credit": "Mihaita Tatarusanu · Wikimedia Commons · CC BY 2.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryDigbeth": {
+    "id": "gallery-digbeth",
+    "src": "/images/galleries/digbeth.webp",
+    "alt": "Arte de rua em Milk Street, no bairro de Digbeth, Birmingham",
+    "author": "Mutney",
+    "source": "https://commons.wikimedia.org/wiki/File:Graffiti,_Milk_Street,_Digbeth,_Birmingham_-_July_2022_(23).jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Mutney · Wikimedia Commons · CC BY-SA 4.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryMcrlibrary": {
+    "id": "gallery-mcrlibrary",
+    "src": "/images/galleries/mcrlibrary.webp",
+    "alt": "Salão circular e cúpula da Manchester Central Library",
+    "author": "Michael D Beckwith",
+    "source": "https://commons.wikimedia.org/wiki/File:Manchester_Central_Library_HDR.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Michael D Beckwith · Wikimedia Commons · CC BY-SA 3.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryCastlefield": {
+    "id": "gallery-castlefield",
+    "src": "/images/galleries/castlefield.webp",
+    "alt": "Canais e pontes de Castlefield, Manchester",
+    "author": "Gillie Rhodes",
+    "source": "https://commons.wikimedia.org/wiki/File:Castlefield_Manchester_-_geograph.org.uk_-_6758927.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/2.0",
+    "credit": "Gillie Rhodes · Wikimedia Commons · CC BY-SA 2.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryPeine": {
+    "id": "gallery-peine",
+    "src": "/images/galleries/peine.webp",
+    "alt": "Escultura do Peine del Viento junto ao mar em San Sebastián",
+    "author": "Ermell",
+    "source": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Peine_del_Viento-Haizearen_Orrazia_1190518.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Ermell · Wikimedia Commons · CC BY-SA 4.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryKursaal": {
+    "id": "gallery-kursaal",
+    "src": "/images/galleries/kursaal.webp",
+    "alt": "Palácio Kursaal à beira-mar em San Sebastián",
+    "author": "Ermell",
+    "source": "https://commons.wikimedia.org/wiki/File:San_Sebastian_Kursaal_Palace_1190314.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Ermell · Wikimedia Commons · CC BY-SA 4.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryDonostia": {
+    "id": "gallery-donostia",
+    "src": "/images/galleries/donostia.webp",
+    "alt": "Kanpandegi kalea, rua da Parte Vieja de San Sebastián",
+    "author": "Hpholke",
+    "source": "https://commons.wikimedia.org/wiki/File:Kanpandegi_kalea.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Hpholke · Wikimedia Commons · CC BY-SA 4.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryMarket": {
+    "id": "gallery-market",
+    "src": "/images/galleries/market.webp",
+    "alt": "Pátio do Mercado dos Lavradores, no Funchal",
+    "author": "Dietmar Rabich",
+    "source": "https://commons.wikimedia.org/wiki/File:Funchal_(Madeira,_Portugal),_Mercado_dos_Lavradores_--_2025_--_0995.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Dietmar Rabich · Wikimedia Commons · CC BY-SA 4.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryCamara": {
+    "id": "gallery-camara",
+    "src": "/images/galleries/camara.webp",
+    "alt": "Barcos na baía de Câmara de Lobos, Madeira",
+    "author": "Diego Delso",
+    "source": "https://commons.wikimedia.org/wiki/File:Bah%C3%ADa_de_C%C3%A1mara_de_Lobos,_Madeira,_Portugal,_2019-05-29,_DD_50.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Diego Delso · Wikimedia Commons · CC BY-SA 4.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "galleryPonta": {
+    "id": "gallery-ponta",
+    "src": "/images/galleries/ponta.webp",
+    "alt": "Ponta Delgada na costa norte da Madeira",
+    "author": "Maximovich Nikolay",
+    "source": "https://commons.wikimedia.org/wiki/File:Ponta_Delgada,_Madeira_-_2013-01-11_-_86049649.jpg",
+    "license": "https://creativecommons.org/licenses/by/3.0",
+    "credit": "Maximovich Nikolay · Wikimedia Commons · CC BY 3.0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "gallerySeixal": {
+    "id": "gallery-seixal",
+    "src": "/images/galleries/seixal.webp",
+    "alt": "Seixal e a costa norte da Madeira vistos da estrada",
+    "author": "Gerda Arendt",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_Seixal,_Madeira,_from_mountain_road.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Gerda Arendt · Wikimedia Commons · CC0 · imagem redimensionada; enquadramento adaptado à tela"
+  },
+  "gallerySantana": {
+    "id": "gallery-santana",
+    "src": "/images/galleries/santana.webp",
+    "alt": "Casa tradicional de Santana, na Madeira",
+    "author": "H. Zell",
+    "source": "https://commons.wikimedia.org/wiki/File:Traditional_farmhouse_-_Santana_06.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "H. Zell · Wikimedia Commons · CC BY-SA 3.0 · imagem redimensionada; enquadramento adaptado à tela"
+  }
+}

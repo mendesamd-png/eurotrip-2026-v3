@@ -35,8 +35,8 @@ function render() {
     scene.style.opacity=String(opacity);
     scene.style.visibility=opacity>.001?'visible':'hidden';
     scene.style.pointerEvents=i===index?'auto':'none';
-    const img=scene.querySelector<HTMLElement>('.scene-image img');
-    if (img && distance<1.2) img.style.transform=`scale(${1.035+clamp(position-i,-1,1)*.025}) translateY(${(position-i)*-1.5}%)`;
+    const imgs=scene.querySelectorAll<HTMLElement>('.scene-image img');
+    if (distance<1.2) imgs.forEach(img => img.style.transform=`scale(${1.035+clamp(position-i,-1,1)*.025}) translateY(${(position-i)*-1.5}%)`);
   });
   const line=document.querySelector<SVGPathElement>('#route-draw');
   if(line) line.style.strokeDashoffset=String(1-clamp((position-.6)/.4));

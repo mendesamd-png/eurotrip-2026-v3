@@ -1,0 +1,9 @@
+---
+const { id, count, name } = Astro.props;
+---
+<div class="gallery-controls" data-gallery-controls={id} aria-label={`Fotos de ${name}`}>
+  <button type="button" data-photo-prev aria-label={`Foto anterior de ${name}`}>←</button>
+  <span class="gallery-count" aria-label={`Foto 1 de ${count}`}><span data-photo-count>01</span> / {String(count).padStart(2,'0')}</span>
+  <button type="button" data-photo-next aria-label={`Próxima foto de ${name}`}>→</button>
+  <button type="button" data-photo-pause aria-label={`Pausar fotos de ${name}`} aria-pressed="false">Ⅱ</button>
+</div>

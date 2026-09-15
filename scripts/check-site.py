@@ -15,6 +15,13 @@ class Page(HTMLParser):
         self.feed(path.read_text())
     def handle_starttag(self, tag, pairs):
         a=dict(pairs)
+        if 'data-photos' in a:
+            photos=json.loads(a['data-photos'])
+            if not 6 <= len(photos) <= 10:self.errors.append('gallery must contain 6 to 10 photos')
+            if len({p['src'] for p in photos})!=len(photos):self.errors.append('duplicate gallery photo')
+            for photo in photos:
+                self.refs.append(photo['src'])
+                if not all(photo.get(key) for key in ('alt','credit','source')):self.errors.append('gallery photo missing description or attribution')
         hidden='hidden' in a or any(item[1] for item in self.stack)
         if tag not in ('area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'):
             self.stack.append((tag,hidden))

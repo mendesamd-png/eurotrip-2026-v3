@@ -1,0 +1,22 @@
+---
+import { images, unsplash, type ImageKey, type Img } from '../data/images';
+import GalleryControls from './GalleryControls.astro';
+import '../styles/gallery.css';
+interface Props { id: string; keys: ImageKey[]; name: string; cinema?: boolean; eager?: boolean; }
+const { id, keys, name, cinema = false, eager = false } = Astro.props;
+const photos = keys.map(k => {const p: Img=images[k]; return {src:unsplash(p,1800,80),alt:p.alt,author:p.author,credit:p.credit || `Unsplash · @${p.author}`,source:p.source || `https://unsplash.com/@${p.author}`};});
+const first = photos[0];
+---
+<div class:list={['photo-gallery', {'film-gallery':cinema}]} data-gallery={id} data-photos={JSON.stringify(photos)} aria-label={`Galeria de ${name}`}>
+  <div class:list={['gallery-images', {'scene-image':cinema,'destination-image':cinema}]}>
+    <img class="gallery-photo is-current" src={first.src} alt={first.alt} loading={eager?'eager':'lazy'} decoding="async" width="1800" height="1200" />
+    <img class="gallery-photo" alt="" aria-hidden="true" decoding="async" width="1800" height="1200" />
+  </div>
+  <div class="gallery-caption">
+    <span data-photo-caption>{first.alt}</span>
+    <a data-photo-credit href={first.source} target="_blank" rel="noopener noreferrer">{cinema ? `Foto: ${first.author}` : first.credit} ↗</a>
+    {!cinema && <GalleryControls id={id} count={photos.length} name={name} />}
+  </div>
+  <p class="gallery-announcement" aria-live="polite" aria-atomic="true"></p>
+</div>
+<script src="../scripts/gallery.ts"></script>

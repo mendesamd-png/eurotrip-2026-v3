@@ -1,4 +1,6 @@
 ---
+import PhotoGallery from '../../components/PhotoGallery.astro';
+import { galleries } from '../../data/galleries';
 import StoryText from '../../components/StoryText.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Frame from '../../components/Frame.astro';
@@ -37,8 +39,8 @@ const stops = c.places.filter((p) => p.category === 'base' || p.category === 'tr
 
   <!-- abertura -->
   <header class="open wrap">
-    <div class="rv">
-      <Frame k={c.hero} eager rec tl={`REC · CENA ${c.number}`} tr={`TC ${timecode(firstDay)}`} bl={`${c.flag} ${c.city}`} br={`${c.dates} · ${c.nights}N`} />
+    <div>
+      {galleries[c.slug] ? <PhotoGallery id={`chapter-${c.slug}`} keys={galleries[c.slug]} name={c.title} eager /> : <Frame k={c.hero} eager rec tl={`REC · CENA ${c.number}`} tr={`TC ${timecode(firstDay)}`} bl={`${c.flag} ${c.city}`} br={`${c.dates} · ${c.nights}N`} />}
     </div>
     <div class="open__text">
       <h1 class="t-hero">{c.title}<span class="accent">.</span></h1>
@@ -74,18 +76,6 @@ const stops = c.places.filter((p) => p.category === 'base' || p.category === 'tr
     <p class="t-m" style="margin-top:.8rem; max-width:52ch; font-weight:500">{c.film.sentence}</p>
     <ul class="ref__list">{c.film.titles.map((t) => <li class="tc-lg">▸ {t}</li>)}</ul>
   </section>
-
-  <!-- stills -->
-  {c.gallery.length > 1 && (
-    <section class="wrap section">
-      <p class="tc" style="margin-bottom:1.2rem">stills de referência · a substituir por material próprio</p>
-      <div class="stills">
-        {c.gallery.slice(1).map((k, i) => (
-          <div class:list={['rv', { wide: i === 0 }]}><Frame k={k} ratio={i === 0 ? 'scope' : '16'} tl={`STILL ${String(i + 1).padStart(2, '0')}`} caption="" /></div>
-        ))}
-      </div>
-    </section>
-  )}
 
   <!-- ordem do dia -->
   <section class="wrap section">

@@ -5,6 +5,7 @@ export type PodcastEpisode = {
   description: string; when: string; chapter: string; image: ImageKey;
   stops: string[]; topics: string[]; note: string; sourceIds: string[];
   audio: string | null; duration?: string; durationSeconds?: number; transcript: string[];
+  english?: { title: string; audio: string; duration: string; durationSeconds: number };
 };
 // Each episode uses a stable, locally hosted audio file.
 // Null means in preparation. Selection never starts audio automatically.

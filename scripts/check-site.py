@@ -57,7 +57,8 @@ sources=json.loads((ROOT/'src/data/podcast-sources.json').read_text())
 assert len({e['slug'] for e in episodes})==len(episodes), 'Duplicate episode slug'
 for episode in episodes:
     assert all(key in sources for key in episode['sourceIds']), 'Unknown podcast source'
-    audio=episode['audio']
-    if audio and audio.startswith('/') and not (ROOT/'public'/audio.lstrip('/')).is_file():errors.append(f'Missing episode audio: {audio}')
+    for version in [episode, episode.get('english', {})]:
+        audio=version.get('audio')
+        if audio and audio.startswith('/') and not (ROOT/'public'/audio.lstrip('/')).is_file():errors.append(f'Missing episode audio: {audio}')
 if errors:raise SystemExit('\n'.join(errors))
 print(f'OK: {len(pages)} pages, {checked} internal references, {len(episodes)} podcast episodes.')

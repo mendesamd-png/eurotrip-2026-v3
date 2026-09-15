@@ -1,0 +1,96 @@
+{
+  "notebook": "https://notebook.google.com/notebook/b2531154-1fd3-416b-a227-834220893edf",
+  "preparedAt": "2026-09-15",
+  "language": "en",
+  "format": "Análise detalhada",
+  "length": "Padrão",
+  "editorialListening": "pending",
+  "episodes": [
+    {
+      "number": "00",
+      "slug": "antes-do-embarque",
+      "title": "Before the first departure",
+      "audio": "/audio/en/00-antes-do-embarque.mp3",
+      "duration": "19:29",
+      "durationSeconds": 1169,
+      "status": "audio_integrated"
+    },
+    {
+      "number": "01",
+      "slug": "londres",
+      "title": "London: screens, stadiums and a tree",
+      "audio": "/audio/en/01-londres.mp3",
+      "duration": "21:28",
+      "durationSeconds": 1288,
+      "status": "audio_integrated"
+    },
+    {
+      "number": "02",
+      "slug": "birmingham",
+      "title": "Birmingham: a city that begins with a hug",
+      "audio": "/audio/en/02-birmingham.mp3",
+      "duration": "20:11",
+      "durationSeconds": 1211,
+      "status": "audio_integrated"
+    },
+    {
+      "number": "03",
+      "slug": "manchester",
+      "title": "Manchester: a city you can hear",
+      "audio": "/audio/en/03-manchester.mp3",
+      "duration": "16:18",
+      "durationSeconds": 978,
+      "status": "audio_integrated"
+    },
+    {
+      "number": "04",
+      "slug": "dia-de-jogo",
+      "title": "Matchday: from the sofa to Old Trafford",
+      "audio": "/audio/en/04-dia-de-jogo.mp3",
+      "duration": "19:54",
+      "durationSeconds": 1194,
+      "status": "audio_integrated"
+    },
+    {
+      "number": "05",
+      "slug": "liverpool",
+      "title": "Liverpool: across the football divide",
+      "audio": "/audio/en/05-liverpool.mp3",
+      "duration": "19:15",
+      "durationSeconds": 1156,
+      "status": "audio_integrated"
+    },
+    {
+      "number": "06",
+      "slug": "san-sebastian",
+      "title": "San Sebastián: where art meets the wind",
+      "audio": "/audio/en/06-san-sebastian.mp3",
+      "duration": "17:00",
+      "durationSeconds": 1020,
+      "status": "audio_integrated"
+    },
+    {
+      "number": "07",
+      "slug": "funchal",
+      "title": "Funchal: listening to the island",
+      "audio": "/audio/en/07-funchal.mp3",
+      "duration": "19:12",
+      "durationSeconds": 1152,
+      "status": "audio_integrated"
+    },
+    {
+      "number": "08",
+      "slug": "costa-norte",
+      "title": "Northern Madeira: the forest keeps its own time",
+      "audio": "/audio/en/08-costa-norte.mp3",
+      "duration": "17:00",
+      "durationSeconds": 1020,
+      "status": "audio_integrated"
+    }
+  ],
+  "notes": [
+    "English adaptations using selected sources, not literal translations or transcripts of the Portuguese recordings.",
+    "Clear conversational English and British football vocabulary requested; accent and learning prompts have not been editorially audited in full.",
+    "Episode 04 is historical; current sporting context requires a separate update near the October match. The 2025 match was excluded because its source import failed."
+  ]
+}

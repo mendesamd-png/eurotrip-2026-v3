@@ -29,7 +29,13 @@
     "audio": "/audio/00-antes-do-embarque.mp3",
     "transcript": [],
     "duration": "20:46",
-    "durationSeconds": 1246
+    "durationSeconds": 1246,
+    "english": {
+      "title": "Before the first departure",
+      "audio": "/audio/en/00-antes-do-embarque.mp3",
+      "duration": "19:29",
+      "durationSeconds": 1169
+    }
   },
   {
     "number": "01",
@@ -69,7 +75,13 @@
     "audio": "/audio/01-londres.mp3",
     "transcript": [],
     "duration": "23:10",
-    "durationSeconds": 1391
+    "durationSeconds": 1391,
+    "english": {
+      "title": "London: screens, stadiums and a tree",
+      "audio": "/audio/en/01-londres.mp3",
+      "duration": "21:28",
+      "durationSeconds": 1288
+    }
   },
   {
     "number": "02",
@@ -100,7 +112,13 @@
     "audio": "/audio/02-birmingham.mp3",
     "transcript": [],
     "duration": "24:48",
-    "durationSeconds": 1488
+    "durationSeconds": 1488,
+    "english": {
+      "title": "Birmingham: a city that begins with a hug",
+      "audio": "/audio/en/02-birmingham.mp3",
+      "duration": "20:11",
+      "durationSeconds": 1211
+    }
   },
   {
     "number": "03",
@@ -136,7 +154,13 @@
     "audio": "/audio/03-manchester.mp3",
     "transcript": [],
     "duration": "15:59",
-    "durationSeconds": 960
+    "durationSeconds": 960,
+    "english": {
+      "title": "Manchester: a city you can hear",
+      "audio": "/audio/en/03-manchester.mp3",
+      "duration": "16:18",
+      "durationSeconds": 978
+    }
   },
   {
     "number": "04",
@@ -177,7 +201,13 @@
     "audio": "/audio/04-dia-de-jogo.mp3",
     "transcript": [],
     "duration": "24:01",
-    "durationSeconds": 1442
+    "durationSeconds": 1442,
+    "english": {
+      "title": "Matchday: from the sofa to Old Trafford",
+      "audio": "/audio/en/04-dia-de-jogo.mp3",
+      "duration": "19:54",
+      "durationSeconds": 1194
+    }
   },
   {
     "number": "05",
@@ -210,7 +240,13 @@
     "audio": "/audio/05-liverpool.mp3",
     "transcript": [],
     "duration": "29:13",
-    "durationSeconds": 1753
+    "durationSeconds": 1753,
+    "english": {
+      "title": "Liverpool: across the football divide",
+      "audio": "/audio/en/05-liverpool.mp3",
+      "duration": "19:15",
+      "durationSeconds": 1156
+    }
   },
   {
     "number": "06",
@@ -247,7 +283,13 @@
     "audio": "/audio/06-san-sebastian.mp3",
     "transcript": [],
     "duration": "20:09",
-    "durationSeconds": 1210
+    "durationSeconds": 1210,
+    "english": {
+      "title": "San Sebastián: where art meets the wind",
+      "audio": "/audio/en/06-san-sebastian.mp3",
+      "duration": "17:00",
+      "durationSeconds": 1020
+    }
   },
   {
     "number": "07",
@@ -289,7 +331,13 @@
     "audio": "/audio/07-funchal.mp3",
     "transcript": [],
     "duration": "26:27",
-    "durationSeconds": 1588
+    "durationSeconds": 1588,
+    "english": {
+      "title": "Funchal: listening to the island",
+      "audio": "/audio/en/07-funchal.mp3",
+      "duration": "19:12",
+      "durationSeconds": 1152
+    }
   },
   {
     "number": "08",
@@ -326,6 +374,12 @@
     "audio": "/audio/08-costa-norte.mp3",
     "transcript": [],
     "duration": "23:40",
-    "durationSeconds": 1421
+    "durationSeconds": 1421,
+    "english": {
+      "title": "Northern Madeira: the forest keeps its own time",
+      "audio": "/audio/en/08-costa-norte.mp3",
+      "duration": "17:00",
+      "durationSeconds": 1020
+    }
   }
 ]

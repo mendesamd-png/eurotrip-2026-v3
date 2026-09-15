@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /eurotrip-2026-v3/bordo
+Disallow: /eurotrip-2026-v3/bordo.enc

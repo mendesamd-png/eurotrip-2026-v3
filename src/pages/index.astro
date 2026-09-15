@@ -3,6 +3,7 @@ import '@fontsource-variable/inter-tight';
 import '@fontsource-variable/instrument-sans';
 import '@fontsource-variable/jetbrains-mono';
 import '../styles/cinema.css';
+import { planePath } from '../data/plane';
 import { chapters } from '../data/trip';
 import PhotoGallery from '../components/PhotoGallery.astro';
 import GalleryControls from '../components/GalleryControls.astro';
@@ -43,6 +44,7 @@ const headlines = [['A cidade segue.', 'A gente chega.'], ['Uma pausa.', 'Um ami
       <defs><pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0 L0 0 0 38" fill="none" stroke="currentColor" stroke-opacity=".09"/></pattern></defs><rect width="750" height="630" fill="url(#grid)"/>
       <path class="route-ghost" d="M80 552 C100 380 560 400 560 235 L482 163 L420 85 C240 105 270 310 402 360 C435 480 175 605 205 487 L153 443"/>
       <path id="route-draw" pathLength="1" d="M80 552 C100 380 560 400 560 235 L482 163 L420 85 C240 105 270 310 402 360 C435 480 175 605 205 487 L153 443"/>
+      <g id="route-plane" transform="translate(80 552) rotate(0)" aria-hidden="true"><path d={planePath}/></g>
       <g><circle cx="80" cy="552" r="4"/><text x="65" y="584">DE SÃO PAULO</text></g><g><circle cx="560" cy="235" r="6"/><text x="581" y="240">01 LONDRES</text></g><g><circle cx="482" cy="163" r="6"/><text x="500" y="163">02 BIRMINGHAM</text></g><g><circle cx="420" cy="85" r="6"/><text x="442" y="89">03 MANCHESTER</text></g><g><circle cx="402" cy="360" r="6"/><text x="426" y="365">04 SAN SEBASTIÁN</text></g><g><circle cx="205" cy="487" r="6"/><text x="226" y="494">05 FUNCHAL</text></g><g><circle cx="153" cy="443" r="6"/><text x="37" y="409">06 PONTA DELGADA</text></g></svg><p class="mono map-caption">UM DESENHO DO PERCURSO · SEM ESCALA</p></div>
       <div class="route-foot mono"><span>6 BASES</span><span>INGLATERRA · PAÍS BASCO · MADEIRA</span><span>OUT / NOV 2026</span></div>
     </section>

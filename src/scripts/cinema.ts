@@ -9,6 +9,10 @@ const rail = [...document.querySelectorAll<HTMLButtonElement>('.scene-rail butto
 const progress = document.querySelector<HTMLElement>('#film-progress')!;
 let current = -1, position = 0, target = 0, raf = 0, step = innerHeight * 1.15;
 const clamp = (v:number,min=0,max=1) => Math.min(max,Math.max(min,v));
+const routeLine=document.querySelector<SVGPathElement>('#route-draw');
+const routePlane=document.querySelector<SVGGElement>('#route-plane');
+const routeLength=routeLine?.getTotalLength() || 0;
+let flightStarted=0;
 const smooth = (x:number) => x*x*(3-2*x);
 function setActive(index:number) {
   if (current === index) return;
@@ -38,10 +42,21 @@ function render() {
     const imgs=scene.querySelectorAll<HTMLElement>('.scene-image img');
     if (distance<1.2) imgs.forEach(img => img.style.transform=`scale(${1.035+clamp(position-i,-1,1)*.025}) translateY(${(position-i)*-1.5}%)`);
   });
-  const line=document.querySelector<SVGPathElement>('#route-draw');
-  if(line) line.style.strokeDashoffset=String(1-clamp((position-.6)/.4));
+  if(routeLine && routePlane){
+    const now=performance.now();
+    if(current===1 && (!flightStarted || now-flightStarted>12000))flightStarted=now;
+    const flight=current===1?clamp((now-flightStarted)/10000):clamp((position-.6)/.4);
+    if(current!==1)flightStarted=0;
+    routeLine.style.strokeDashoffset=String(1-flight);
+    const distance=flight*routeLength;
+    const point=routeLine.getPointAtLength(distance);
+    const before=routeLine.getPointAtLength(Math.max(0,distance-1));
+    const after=routeLine.getPointAtLength(Math.min(routeLength,distance+1));
+    const angle=Math.atan2(after.y-before.y,after.x-before.x)*180/Math.PI+90;
+    routePlane.setAttribute('transform',`translate(${point.x} ${point.y}) rotate(${angle})`);
+  }
   progress.style.transform=`scaleX(${position/(scenes.length-1)})`;
-  raf= Math.abs(position-target)>.001 ? requestAnimationFrame(render) : 0;
+  raf= Math.abs(position-target)>.001 || current===1 ? requestAnimationFrame(render) : 0;
 }
 function onScroll(){ if(staticMode()) return; target=clamp(scrollY/step,0,scenes.length-1); if(!raf) raf=requestAnimationFrame(render); }
 function goTo(index:number,immediate=false){

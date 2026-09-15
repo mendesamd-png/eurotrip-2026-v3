@@ -77,7 +77,7 @@ const stops = route.filter((r) => bases.includes(r.name)).map((r) => ({ label: r
     </ol>
   </section>
 
-  <section class="wrap section new-paths"><a href={u('/futebol')}><p class="tc">o coração da viagem</p><h2 class="t-l">Da tela à arquibancada ↗</h2><p>Old Trafford, a cidade do Gustavo, Londres e os caminhos de Ted Lasso.</p></a><a href={u('/trabalhos')}><p class="tc">Rota · dois projetos</p><h2 class="t-l">A viagem também cria ↗</h2><p>Conheça as histórias da FUMI e da Sorgin que vamos ajudar a contar.</p></a><a href={u('/podcast')}><p class="tc">episódio em preparação</p><h2 class="t-l">Perto, mesmo longe ↗</h2><p>Nosso futuro podcast: uma conversa para levar vocês junto.</p></a></section>
+  <section class="wrap section new-paths"><a href={u('/futebol')}><p class="tc">o coração da viagem</p><h2 class="t-l">Da tela à arquibancada ↗</h2><p>Old Trafford, a cidade do Gustavo, Londres e os caminhos de Ted Lasso.</p></a><a href={u('/trabalhos')}><p class="tc">Rota · dois projetos</p><h2 class="t-l">A viagem também cria ↗</h2><p>Conheça as histórias da FUMI e da Sorgin que vamos ajudar a contar.</p></a><a href={u('/podcast')}><p class="tc">podcasts da viagem</p><h2 class="t-l">Perto, mesmo longe ↗</h2><p>Histórias dos destinos em português e inglês para levar vocês junto.</p></a></section>
   <!-- MAPA -->
   <section class="wrap section">
     <div class="slate-row">
@@ -88,7 +88,7 @@ const stops = route.filter((r) => bases.includes(r.name)).map((r) => ({ label: r
       <a href={u('/jornada')} class="btn">mapa completo e timeline</a>
     </div>
     <MapView id="map-home" markers={routeMarkers} route={route} center={{ lat: 40, lng: -12, zoom: 4 }} fit animate stops={stops} />
-    <p class="tc" style="margin-top:.8rem">▶ percorre a rota · os atalhos voam até cada base · clique num pino para abrir no google maps · role dentro do mapa depois de clicar nele</p>
+    <p class="tc" style="margin-top:.8rem">▶ acompanhe o avião pelo percurso ilustrado · os atalhos voam até cada base · clique num pino para abrir no google maps · role dentro do mapa depois de clicar nele</p>
   </section>
 
   <!-- KIT + TRIPULAÇÃO -->

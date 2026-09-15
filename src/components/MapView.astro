@@ -29,6 +29,7 @@ const { id, markers, route = [], center, fit = false, animate = false, stops = [
 
 <script>
   import L from 'leaflet';
+  import { planePath } from '../data/plane';
   import 'leaflet/dist/leaflet.css';
   const mapsUrl = (q: string) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -90,13 +91,20 @@ const { id, markers, route = [], center, fit = false, animate = false, stops = [
     let startTimer = 0, endTimer = 0;
     const playBtn = el.querySelector<HTMLButtonElement>('[data-play]');
     const stop = () => { playing = false; cancelAnimationFrame(raf); clearTimeout(startTimer); clearTimeout(endTimer); if (playBtn) { playBtn.textContent = '▶ percorrer a rota'; playBtn.classList.remove('on'); } hud?.classList.remove('on'); if (traveler) { map.removeLayer(traveler); traveler = null; } };
+    const frameSegment = (a: [number, number], b: [number, number]) => {
+      const controlsHeight = el.querySelector('.map-ui')?.getBoundingClientRect().height || 0;
+      map.flyToBounds(L.latLngBounds([a, b]), {
+        paddingTopLeft: [45, 65], paddingBottomRight: [45, Math.max(85, controlsHeight + 35)],
+        maxZoom: 8, animate: !reduced, duration: .7,
+      });
+    };
     const play = () => {
       if (pts.length < 2) return;
       playing = true; playBtn!.textContent = '■ parar'; playBtn!.classList.add('on');
       line?.setLatLngs(pts); glow?.setLatLngs(pts);
-      const icon = L.divIcon({ html: '<div class="traveler"></div>', className: '', iconSize: [10, 10], iconAnchor: [5, 5] });
+      const icon = L.divIcon({ html: `<div class="traveler-plane" aria-hidden="true"><svg viewBox="-18 -18 36 36"><path d="${planePath}"/></svg></div>`, className: '', iconSize: [38, 38], iconAnchor: [19, 19] });
       traveler = L.marker(pts[0], { icon, interactive: false, zIndexOffset: 1000 }).addTo(map);
-      const segDur = reduced ? 1 : 1600; let seg = 0; let t0 = performance.now();
+      const segDur = reduced ? 1 : 2400; let seg = 0; let t0 = performance.now();
       const nameAt = (i: number) => route[i]?.name || '';
       const frame = (now: number) => {
         if (!playing) return;
@@ -105,16 +113,20 @@ const { id, markers, route = [], center, fit = false, animate = false, stops = [
         const e = k < 0.5 ? 2 * k * k : -1 + (4 - 2 * k) * k; // easeInOut
         const cur: [number, number] = [a[0] + (b[0] - a[0]) * e, a[1] + (b[1] - a[1]) * e];
         traveler!.setLatLng(cur);
+        const from=map.latLngToLayerPoint(a), to=map.latLngToLayerPoint(b);
+        const angle=Math.atan2(to.y-from.y,to.x-from.x)*180/Math.PI+90;
+        const plane=traveler!.getElement()?.querySelector<SVGElement>('svg');
+        if(plane)plane.style.transform=`rotate(${angle}deg)`;
         if (hud) { hud.textContent = `${nameAt(seg)} → ${nameAt(seg + 1)}`; hud.classList.add('on'); }
         if (k >= 1) {
-          seg++; t0 = now + 350;
+          seg++; t0 = now + (reduced ? 0 : 850);
           if (seg >= pts.length - 1) { if (hud) hud.textContent = `${nameAt(pts.length - 1)} · fim da rota`; endTimer = window.setTimeout(stop, 1400); return; }
-          map.panTo(pts[seg + 1], { animate: true, duration: 1.2, easeLinearity: 0.3 });
+          frameSegment(pts[seg], pts[seg + 1]);
         }
         raf = requestAnimationFrame(frame);
       };
-      map.flyTo(pts[0], Math.max(map.getZoom(), 4), { duration: 0.8 });
-      startTimer = window.setTimeout(() => { t0 = performance.now(); raf = requestAnimationFrame(frame); }, 850);
+      frameSegment(pts[0], pts[1]);
+      startTimer = window.setTimeout(() => { t0 = performance.now(); raf = requestAnimationFrame(frame); }, reduced ? 0 : 850);
     };
     playBtn?.addEventListener('click', () => (playing ? stop() : play()));
 

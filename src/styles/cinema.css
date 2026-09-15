@@ -98,3 +98,7 @@ html { scrollbar-width: none; } html::-webkit-scrollbar { display: none; }
  .scene-framed .destination-heading h2{font-size:min(5vw,7vh)}
  .scene-framed .destination-story{bottom:110px}
 }
+
+#route-plane{color:#c5221b;pointer-events:none;filter:drop-shadow(0 2px 3px #0002)}
+#route-plane path{fill:currentColor;stroke:#e8e8e8;stroke-width:1.4;stroke-linejoin:round}
+#route-draw{stroke:#c5221b}

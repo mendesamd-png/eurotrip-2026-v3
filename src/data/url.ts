@@ -5,10 +5,10 @@ export const u = (path: string) => `${base}${path.startsWith('/') ? path : `/${p
 // Cores de acento por capítulo, calibradas para fundo preto.
 export const accents: Record<string, string> = {
   partida: '#9AA0A6',
-  londres: '#7C9CC2',
+  londres: 'var(--united-red)',
   birmingham: '#D19A5B',
-  manchester: '#E4503A',
-  'san-sebastian': '#3FB0DC',
+  manchester: 'var(--united-red)',
+  'san-sebastian': 'var(--united-red)',
   funchal: '#4FB98A',
   'ponta-delgada': '#8ED0C8',
 };

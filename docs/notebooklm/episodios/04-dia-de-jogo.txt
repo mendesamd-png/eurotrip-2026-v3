@@ -1,0 +1,80 @@
+EPISÓDIO 04 — Hoje o coração joga em casa
+United × Bournemouth · Manchester · Reino Unido
+Pauta preparada em 15/09/2026. Áudio ainda não gerado.
+
+PROMESSA
+Um companheiro para o dia de Old Trafford: de Newton Heath às grandes noites europeias, dos encontros com o Bournemouth ao United que vai entrar em campo.
+
+QUANDO OUVIR
+25 out no roteiro · antes do jogo
+
+PARADAS
+- Old Trafford
+- História do Manchester United
+- Confrontos com o Bournemouth
+- O clube na semana da partida
+
+PAUTA E ORDEM DA CONVERSA
+1. Newton Heath, Old Trafford, os Busby Babes, a reconstrução e os marcos de 1968 e 1999.
+2. Um adversário com história própria: os 3–0 do Bournemouth em 2023 e 2024 e o empate por 4–4 em dezembro de 2025.
+3. Um bloco datado com treinador, resultados recentes, tabela e notícias dos dois clubes, revisado na semana do jogo.
+4. A chegada da torcida e o motivo pessoal desta viagem: sair da tela e estar na arquibancada.
+
+O QUE AINDA DEPENDE DE CONFIRMAÇÃO
+A página oficial consultada em 15/09 lista 25/10/2026 às 14h. Reconferir horário local e cenário esportivo antes de gerar a versão final.
+
+FONTES A IMPORTAR
+
+[P01] United · história por décadas
+https://www.manutd.com/en/club/history/history-by-decade
+Uso: Origem, Busby, reconstrução, 1968 e 1999. História, não retrato da temporada atual.
+
+[P02] United · história institucional
+https://ir.manutd.com/company-information/history.aspx
+Uso: Newton Heath em 1878, nome em 1902 e Old Trafford em 1910.
+
+[P03] Premier League · United 0–3 Bournemouth, 09/12/2023
+https://www.premierleague.com/en/news/3814732
+Uso: Primeira vitória do Bournemouth em Old Trafford. Não usar a tabela da época como atual.
+
+[P04] Premier League · United 0–3 Bournemouth, 22/12/2024
+https://www.premierleague.com/es/news/4200470
+Uso: Segundo 3–0 consecutivo em Old Trafford; conferir a data do relato.
+
+[P05] United · empate com Bournemouth, 15/12/2025
+https://www.manutd.com/ko/news/detail/match-report-man-utd-bournemouth-premier-league-15-december-2025
+Uso: Relato oficial em coreano: 4–4. Traduzir o texto importado e conferir nomes. Escalação histórica, não atual.
+
+[F13] Manchester United · Bournemouth 2026/27
+https://hospitality.manutd.com/manutd_v_bournemouth_pl_26_27?xid=manu_pl_matches_26_27_id
+Uso: Página oficial listava 25/10/2026 às 14h na consulta. Reconferir horário local e mudanças antes do episódio.
+
+[F12] Manchester United · calendário
+https://www.manutd.com/en/team-fixture-calendars
+Uso: Fonte para acompanhar mudanças de datas e horários. Informação prática, não tema principal de narração.
+
+[P06] United · notícias da equipe masculina
+https://www.manutd.com/en/news/listing/mens-news?page=1&type=news
+Uso: Página dinâmica: importar artigos datados da semana do jogo; não confiar na ordem de resultados antigos.
+
+[P07] United · coletivas
+https://www.manutd.com/en/news/category/press-conference?page=0
+Uso: Boletins do clube, com data. Selecionar apenas a equipe masculina principal para o episódio do jogo.
+
+[P23] Premier League · tabela oficial
+https://www.premierleague.com/en/tables/premier-league
+Uso: Página dinâmica; a tabela não foi recuperada em texto em 15/09/2026. Selecionar temporada correta e registrar data antes de narrar posições.
+
+[P24] AFC Bournemouth · site oficial
+https://www.afcb.co.uk/
+Uso: Fonte para notícias e boletins do adversário. Conteúdo não recuperado na consulta; conferir manualmente antes de gerar a parte atual.
+
+PROMPT PARA PERSONALIZAR O RESUMO EM ÁUDIO
+Crie uma conversa em português brasileiro para a série Perto, mesmo longe. Dois apresentadores curiosos, calor humano e humor leve. Eles não devem fingir ser Douglas Mendes e Hugo Lima nem inventar falas ou lembranças dos viajantes. O público inclui familiares, amigos e quem não acompanha futebol. A viagem é futura, em outubro e novembro de 2026.
+Use apenas as fontes selecionadas. Não transforme possibilidade em reserva ou plano em fato vivido. Lisboa é só conexão aérea; Ponta Delgada é na Madeira. Não narre endereços privados, códigos de reserva nem valores comerciais. Explique termos culturais e esportivos sem tom de aula. A poesia vem de um detalhe concreto, não de slogans.
+Estrutura: convite para a experiência que queremos viver; contexto histórico; passeio pelas paradas; um detalhe para observar sem câmera; despedida. Não leia uma lista de curiosidades. Diferencie o que é pauta de pesquisa do que já é fato verificado. Não use letras de músicas nem invente sons gravados pela dupla.
+Antes de gerar o áudio, mostre no chat uma tabela fato / fonte / data / confirmado ou pendente. Quando faltar evidência, omita ou explicite a lacuna. Revise nomes, geografia e mudanças de agenda. A duração é uma intenção editorial, não garantia da ferramenta. Priorize uma conversa que caiba num deslocamento curto, sem cortar contexto essencial.
+
+Concentre este episódio em United × Bournemouth, com o título “Hoje o coração joga em casa”. Ligue cada história às paradas listadas. Encerre com uma pergunta concreta que os viajantes possam responder depois da visita.
+
+Importe também os documentos 10 e 11. Separe história e atualidade. Narre o cenário esportivo apenas com uma data de apuração explícita e fontes da semana da partida. Não chamar Bournemouth de rival local. O recorte de 2023–2025 não é necessariamente o retrospecto mais recente. Se a ficha atual não estiver preenchida, produza apenas a parte histórica e marque a atualidade como pendente.

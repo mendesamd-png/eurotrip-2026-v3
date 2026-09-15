@@ -1,61 +1,21 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Frame from '../components/Frame.astro';
-import type { ImageKey } from '../data/images';
 import { u } from '../data/url';
-
-const kit: { n: string; cat: string; name: string; poetic: string; functional: string; notes: string[]; img: ImageKey }[] = [
-  { n: '01', cat: 'Câmera', name: 'Sony A7V', img: 'kitCamera', poetic: 'A câmera discreta. Boa para rua, boa para canto escuro, boa para fingir que eu estava só passando por ali.', functional: 'Corpo principal. Full-frame, ISO alto, 4K, estabilização suficiente para caminhada sem virar operação de gimbal.', notes: ['Primeira viagem internacional dela, e a primeira vez que trabalha fora do país: Gallery FUMI em Londres e Sorgin Gallery em San Sebastián.', 'Obturador silencioso por padrão. Em Borough Market e na Parte Vieja, ninguém precisa saber que virou cena.'] },
-  { n: '02', cat: 'Lente', name: 'Sony FE 24-70mm f/2.8 GM', img: 'kitLente', poetic: 'A lente da rua. É a que salva o dia quando a viagem resolve andar mais rápido que o roteiro.', functional: 'Zoom standard para resolver 90% da vida real: rua, paisagem, retrato médio, detalhe, café, pub, estação, fachada.', notes: ['Vai morar no corpo da câmera durante quase toda a viagem.', 'Nas galerias, é a lente das peças: ampla o suficiente para o espaço, fechada o suficiente para o detalhe da madeira.'] },
-  { n: '03', cat: 'Lente', name: 'Sony FE 50mm f/1.2 GM', img: 'kitLente', poetic: 'A lente do silêncio. Quando sai da mochila, é porque alguém ou alguma coisa merece mais atenção do que cobertura.', functional: 'Prime de retrato. f/1.2 para luz difícil, separação de plano e aquela profundidade que parece exagero até aparecer no monitor.', notes: ['Reservada para retrato: Max Lamb, Miriam Badaró, Hugo no pub.', 'Vai sair pouco. Por isso, quando sair, precisa importar.'] },
-  { n: '04', cat: 'Action cam', name: 'Insta360 Ace Pro 2', img: 'kitCamera', poetic: 'A câmera do gesto. Cabe na mão fechada, entra rápido, sai rápido e deixa a caminhada em paz.', functional: 'Action cam compacta, estabilizada, feita para registrar movimento sem montar cerimônia.', notes: ['Chegada em estação, fila do jogo, AP-8 pela janela do carro, trilha do Areeiro.', 'Em Madeira, pode ser a câmera que salva a trilha quando a mochila técnica virar inimiga pessoal.'] },
+import '../styles/editorial.css';
+const kit = [
+ ['01','Sony FX3','Cinema','Para as histórias que pedem uma diária de filmagem: entrevistas, gestos, espaços e tempo para observar.'],
+ ['02','Sony A7V','Foto + vídeo','Um segundo olhar para acompanhar o trabalho e guardar o que acontece entre uma cena e outra.'],
+ ['03','Sony GM 24–70mm','O espaço e o detalhe','A lente para mudar de enquadramento quando o mundo continua andando e a gente quer acompanhar.'],
+ ['04','Sony GM 70–200mm','Olhar de longe','Para descobrir detalhes à distância e deixar uma cena respirar sem chegar tão perto.'],
+ ['05','Sony FE 50mm f/1.2 GM','Pessoas e presença','Para os momentos em que vale demorar um pouco mais num rosto, num gesto, numa pequena descoberta.'],
+ ['06','Insta360 Ace Pro 2','O caminho também conta','Continua na viagem: movimento, bastidores e aquele pedaço de caminhada que dá vontade de dividir.'],
 ];
+const hugo=['Sony A7V','iPhone 17 Pro Max · 512 GB','Sony FE 50mm f/1.2 GM','Monitor Viltrox','3 baterias Sony','SD Lexar · 320 GB','LED quadrado · 40 W','Hollyland Lark M2S'];
 ---
-
-<BaseLayout title="Kit" description="O equipamento como elenco. Sony A7V, duas G Master e uma Insta360." current={u('/kit')}>
-  <header class="wrap section" style="padding-bottom:2rem">
-    <p class="tc">equipamento · lista de câmera</p>
-    <h1 class="t-hero" style="margin-top:.6rem">Elenco<span class="accent">,</span><br />quatro peças.</h1>
-    <p class="t-lead" style="max-width:56ch; margin-top:2rem">Como todo elenco, tem protagonista, coadjuvante caro e a peça que entra só quando a cena pede. Quatro itens, escolhidos para caber em 10 kg de mochila de mão e em duas galerias. Esta página é a ficha técnica dessa escolha.</p>
-  </header>
-
-  <section class="wrap">
-    <ol>
-      {kit.map((k, i) => (
-        <li class:list={['ki', { alt: i % 2 === 1 }]}>
-          <div class="ki__pic rv"><Frame k={k.img} ratio="43" tl={`ITEM ${k.n}`} tr={k.cat.toUpperCase()} caption="" /></div>
-          <div class="ki__text rv-f">
-            <p class="tc"><span class="on">{k.n}</span> · {k.cat}</p>
-            <h2 class="t-xl" style="margin-top:.5rem; font-size:clamp(2rem,4.5vw,4rem)">{k.name}</h2>
-            <p class="t-lead" style="margin-top:1.2rem; max-width:40ch; color:var(--text)">{k.poetic}</p>
-            <p class="muted" style="margin-top:1.2rem; max-width:52ch">{k.functional}</p>
-            <ul class="ki__notes">{k.notes.map((n) => <li>→ {n}</li>)}</ul>
-          </div>
-        </li>
-      ))}
-    </ol>
-  </section>
-
-  <section class="wrap section">
-    <div class="box">
-      <p class="tc" style="margin-bottom:1.2rem">logística do kit · setembro 2026</p>
-      <div class="box__grid">
-        <div><strong>≈ R$ 65.000</strong><br /><span class="muted">valor do kit, bem acima do gatilho de US$ 2.000 da Receita</span></div>
-        <div><strong>e-DBV de saída</strong><br /><span class="muted">gratuita, prova posse anterior à viagem. Carimbo em GRU no dia 16/10</span></div>
-        <div><strong>9,7 kg</strong><br /><span class="muted">mochila PGYTECH cheia. Limite de mão na TAP: 10 kg. Pesar em casa</span></div>
-        <div><strong>4 itens, 3 baterias cada</strong><br /><span class="muted">carregador duplo, power bank e adaptador UK + EU na mochila de mão</span></div>
-        <div><strong>2 TB em campo</strong><br /><span class="muted">backup diário em dois SSDs, um na mochila, outro na mala</span></div>
-        <div><strong>Seguro com equipamento</strong><br /><span class="muted">mínimo R$ 100 mil, obrigatório numa viagem que virou de trabalho</span></div>
-      </div>
-    </div>
-  </section>
+<BaseLayout title="O kit" description="Sony FX3, A7V, três lentes G Master, Insta360 e a lista de equipamentos do Hugo." current={u('/kit')}>
+ <header class="wrap editorial-intro"><p class="tc">O que vai na mochila</p><h1 class="t-hero">O que vai<br/>com a gente.</h1><p class="t-lead">Câmeras, lentes, som e luz para os dois trabalhos. E, entre as diárias, para os detalhes da viagem que a gente quer trazer para vocês. A mochila leva bastante coisa. A curiosidade vai do lado de fora.</p></header>
+ <section class="wrap"><ol class="kit-list">{kit.map(([n,name,cat,text])=><li><span class="tc">{n} / {cat}</span><div><h2 class="t-l">{name}</h2><p>{text}</p></div></li>)}</ol></section>
+ <section class="wrap section editorial-grid"><div><p class="tc">Lista enviada pelo Hugo</p><h2 class="t-xl" style="margin-top:1rem">A parte dele<br/>da bagagem.</h2><p class="t-lead" style="margin-top:1.4rem">Da A7V ao microfone, o conjunto que Hugo está preparando para os dias de trabalho e os bastidores.</p><p class="editorial-aside">A A7V e a 50mm aparecem também no conjunto acima. Esta é a distribuição informada pelo Hugo, não uma soma de unidades extras.</p></div><ul class="editorial-list">{hugo.map(item=><li>{item}</li>)}</ul></section>
+ <section class="wrap editorial-callout"><p class="tc">Entre uma diária e outra</p><h2 class="t-l">Carregar, conferir, guardar.</h2><p class="t-lead" style="max-width:55ch">O fim do dia também tem bastidores: conferir o material, organizar as cópias e preparar tudo para a próxima saída. Cabos, carregadores, adaptadores e os demais acessórios ainda entram na lista final.</p><p class="editorial-source">Lista em preparação, conforme os equipamentos informados por Douglas e Hugo. Modelo do monitor, geração dos zooms e capacidade/modelo do cartão Lexar ficam para a conferência final do kit.</p><div class="editorial-links"><a class="btn" href={u('/trabalhos')}>Conhecer os dois trabalhos ↗</a><a class="lnk" href={u('/podcast')}>Ouvir a história da viagem ↗</a></div></section>
 </BaseLayout>
-
-<style>
-  .ki { display: grid; gap: 2rem; padding-block: 3rem; border-top: 1px solid var(--line); }
-  @media (min-width: 900px) { .ki { grid-template-columns: 5fr 7fr; gap: 4rem; align-items: center; } .ki.alt .ki__pic { order: 2; } }
-  .ki__notes { margin-top: 1.5rem; display: grid; gap: 0.5rem; max-width: 56ch; font-size: 0.95rem; color: var(--text-2); }
-  .box { border: 1px solid var(--line-strong); padding: 2rem; background: var(--panel); }
-  .box__grid { display: grid; gap: 1.5rem; }
-  @media (min-width: 800px) { .box__grid { grid-template-columns: repeat(3, 1fr); } }
-</style>
+<style>.kit-list li{display:grid;gap:1rem;border-top:1px solid var(--line);padding-block:2.3rem}.kit-list p{max-width:53ch;margin-top:1rem;color:var(--text-2)}@media(min-width:800px){.kit-list li{grid-template-columns:1fr 3fr;gap:3rem}}</style>

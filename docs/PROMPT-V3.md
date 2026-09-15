@@ -44,3 +44,15 @@ Implemente a experiência de verdade no projeto existente. Prefira CSS, SVG para
 Garanta leitura e controles funcionais em desktop, janelas quadradas e celular. Respeite a preferência de reduzir movimento, oferecendo fluxo de leitura sem paralaxe. Ofereça uma alternativa sem JavaScript, foco visível, navegação por teclado, rótulos acessíveis e um menu com fechamento por Escape. Não deixe cenas ocultas receberem foco.
 
 Inclua um controle de depuração para saltar às dez cenas. Abra a versão final no navegador, examine cada cena, teste os links e o menu em desktop e celular, corrija sobreposições e imagens quebradas e execute a compilação de produção. Não prometa uma taxa de quadros sem medi-la. Publique somente a v3, em endereço separado, e entregue o link da nova versão e este prompt.
+
+## Revisão editorial — 15/09/2026
+
+Preservar a v3 independente. Dar protagonismo à vontade de ver o Manchester United em Old Trafford e explorar a cultura do futebol britânico. Gustavo Barros é o amigo visitado em Birmingham; St Andrew’s, Anfield e os estádios de Londres são possibilidades, não reservas presumidas. Hugo torce pelo Arsenal: distinguir Emirates de Wembley. Conectar Ted Lasso a Richmond e Prince’s Head, explicando Selhurst Park / Crystal Palace como Nelson Road da ficção em outro ponto da cidade.
+
+Usar tom leve, divertido e poético para familiares e amigos. Preferir encontros, curiosidade e detalhes concretos a sarcasmo, publicidade de turismo ou biografias inventadas. Remover o relato de Lisboa como destino descartado; mantê-la somente nas conexões dos voos. Combinar futebol com cinema, arte e contemplação da natureza.
+
+Contextualizar FUMI e Sorgin pelas propostas fornecidas. FUMI: residência de Hugo França e Max Lamb em Trancoso, com etapa londrina proposta para 18–21/10. Sorgin: voz de Miriam Badaró e relação entre obras, espaço e paisagem; janela proposta 28–31/10. Não anunciar essas janelas como inaugurações nem reproduzir detalhes comerciais na narrativa.
+
+Equipamentos informados: Sony FX3, A7V, G Master 24–70mm, 70–200mm, 50mm f/1.2 e Insta360 Ace Pro 2. Mostrar a lista do Hugo sem somar novamente itens comuns. Não inventar modelos, pesos ou valores.
+
+Usar fotografias reais com fonte e licença, distinguindo referências anteriores à viagem de registros próprios. Preparar página de podcast para o áudio futuro do NotebookLM, com estado honesto sem arquivo, reprodutor nativo sem autoplay quando o episódio estiver pronto e espaço para transcrição. Manter material de pesquisa em docs/notebooklm.

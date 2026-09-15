@@ -1,0 +1,464 @@
+{
+  "F01": {
+    "id": "F01",
+    "tema": "Trabalhos",
+    "recurso": "Rota · proposta FUMI",
+    "url": "https://rota-fumi.netlify.app/",
+    "uso": "Fonte do projeto, da residência já filmada e da etapa londrina proposta; contém também informações comerciais."
+  },
+  "F02": {
+    "id": "F02",
+    "tema": "Trabalhos",
+    "recurso": "Rota · proposta Sorgin",
+    "url": "https://rota-sorgin.netlify.app/",
+    "uso": "Fonte do conceito A que faz nascer e da janela proposta; contém também informações comerciais."
+  },
+  "F03": {
+    "id": "F03",
+    "tema": "Trabalhos",
+    "recurso": "Teaser indicado na proposta FUMI",
+    "url": "https://youtu.be/O_ZrS2-AMnE",
+    "uso": "Referência audiovisual do projeto. A importação depende de transcrição/legendas disponíveis; não equivale a analisar imagens."
+  },
+  "F04": {
+    "id": "F04",
+    "tema": "Trabalhos",
+    "recurso": "Filme de processo indicado na proposta FUMI",
+    "url": "https://youtu.be/7thlsyMZ0WE",
+    "uso": "Referência de processo. Link conferido na proposta; transcrição e conteúdo integral do vídeo não foram verificados."
+  },
+  "F05": {
+    "id": "F05",
+    "tema": "Trabalhos",
+    "recurso": "Gallery FUMI · Max Lamb",
+    "url": "https://galleryfumi.com/artists/max-lamb",
+    "uso": "Perfil oficial: matéria, gesto e processo na prática do designer."
+  },
+  "F06": {
+    "id": "F06",
+    "tema": "Trabalhos",
+    "recurso": "Gallery FUMI",
+    "url": "https://galleryfumi.com/",
+    "uso": "Contexto institucional da galeria. Sua programação pública não confirma a data da nossa diária."
+  },
+  "F07": {
+    "id": "F07",
+    "tema": "Trabalhos",
+    "recurso": "Atelier Hugo França · Quem somos",
+    "url": "https://www.hugofranca.com.br/sobre",
+    "uso": "Descrição do processo de trabalhar com troncos, raízes e formas encontradas na madeira."
+  },
+  "F08": {
+    "id": "F08",
+    "tema": "Trabalhos",
+    "recurso": "Sorgin Gallery",
+    "url": "https://www.sorgingallery.com/",
+    "uso": "Apresentação oficial da galeria e de suas relações entre design, arte, arquitetura e paisagem."
+  },
+  "F09": {
+    "id": "F09",
+    "tema": "Trabalhos",
+    "recurso": "FGV Arte · material sobre Hugo França",
+    "url": "https://arte.fgv.br/sites/default/files/uploads/2025-10/mbc_24maio_0.pdf",
+    "uso": "PDF institucional para ampliar a pesquisa sobre a obra e a trajetória do artista."
+  },
+  "F10": {
+    "id": "F10",
+    "tema": "Futebol",
+    "recurso": "Manchester United · visitar Old Trafford",
+    "url": "https://www.manutd.com/en/club/visit-old-trafford",
+    "uso": "Porta de entrada oficial para conhecer o estádio e a experiência de visita."
+  },
+  "F11": {
+    "id": "F11",
+    "tema": "Futebol",
+    "recurso": "Manchester United · Museum & Stadium Tours",
+    "url": "https://www.manutd.com/en/club/Visit-Old-Trafford/Museum-Stadium-Tours",
+    "uso": "Tour, museu e condições de visita. O clube informa fechamento de ambos em jogos em casa."
+  },
+  "F12": {
+    "id": "F12",
+    "tema": "Futebol",
+    "recurso": "Manchester United · calendário",
+    "url": "https://www.manutd.com/en/team-fixture-calendars",
+    "uso": "Fonte para acompanhar mudanças de datas e horários. Informação prática, não tema principal de narração."
+  },
+  "F13": {
+    "id": "F13",
+    "tema": "Futebol",
+    "recurso": "Manchester United · Bournemouth 2026/27",
+    "url": "https://hospitality.manutd.com/manutd_v_bournemouth_pl_26_27?xid=manu_pl_matches_26_27_id",
+    "uso": "Página oficial listava 25/10/2026 às 14h na consulta. Reconferir horário local e mudanças antes do episódio."
+  },
+  "F14": {
+    "id": "F14",
+    "tema": "Futebol",
+    "recurso": "Liverpool FC · Stadium Tours",
+    "url": "https://www.liverpoolfc.com/stadium-tours/",
+    "uso": "Experiência oficial de Anfield. A nossa visita ainda é uma possibilidade."
+  },
+  "F15": {
+    "id": "F15",
+    "tema": "Futebol",
+    "recurso": "Visit Birmingham · St Andrew’s",
+    "url": "https://visitbirmingham.com/listing/st-andrews-%40-knighthead-park-birmingham-city-football-club/141254101/",
+    "uso": "Turismo oficial da cidade: história do estádio e acesso às informações de tours."
+  },
+  "F16": {
+    "id": "F16",
+    "tema": "Futebol",
+    "recurso": "Wembley Stadium · Tours",
+    "url": "https://www.wembleystadium.com/tours/",
+    "uso": "Visitas oficiais a Wembley, um destino independente do Emirates."
+  },
+  "F17": {
+    "id": "F17",
+    "tema": "Futebol",
+    "recurso": "Chelsea · Stadium Tour and Museum",
+    "url": "https://www.chelseafc.com/en/stadium-tour-and-museum",
+    "uso": "Fonte oficial para a possível visita a Stamford Bridge."
+  },
+  "F18": {
+    "id": "F18",
+    "tema": "Futebol",
+    "recurso": "Arsenal · Virtual Stadium Tour",
+    "url": "https://arsenaldirect.arsenal.com/tour/virtual-stadium-tour",
+    "uso": "O Emirates apresentado pelo Arsenal. Visita virtual não significa reserva de tour presencial."
+  },
+  "F19": {
+    "id": "F19",
+    "tema": "Futebol",
+    "recurso": "Crystal Palace · Selhurst Park e Ted Lasso",
+    "url": "https://www.cpfc.co.uk/news/features/how-palace-and-selhurst-park-inspired-the-makers-of-hit-apple-series-ted-lasso/",
+    "uso": "O clube explica a ligação entre Selhurst Park e a produção da série."
+  },
+  "F20": {
+    "id": "F20",
+    "tema": "Futebol",
+    "recurso": "Crystal Palace · Film locations",
+    "url": "https://www.cpfc.co.uk/selhurst-park/events/locations/",
+    "uso": "O próprio estádio como locação de cinema e televisão, incluindo Ted Lasso."
+  },
+  "F21": {
+    "id": "F21",
+    "tema": "Futebol",
+    "recurso": "Crystal Palace · guia de Selhurst Park",
+    "url": "https://www.cpfc.co.uk/information/guide-visiting-selhurst-park/",
+    "uso": "Contexto de visita e localização. Não confirma que haverá tour nos nossos dias."
+  },
+  "F22": {
+    "id": "F22",
+    "tema": "Futebol",
+    "recurso": "National Football Museum · histórias",
+    "url": "https://nationalfootballmuseum.com/stories/",
+    "uso": "Pautas sobre memória, pioneiros, objetos, torcedores e o futebol na sociedade."
+  },
+  "F23": {
+    "id": "F23",
+    "tema": "Futebol",
+    "recurso": "National Football Museum · coleção",
+    "url": "https://nationalfootballmuseum.com/collection/",
+    "uso": "Uma maneira de falar de futebol a partir dos objetos que preservam sua memória."
+  },
+  "F24": {
+    "id": "F24",
+    "tema": "Futebol",
+    "recurso": "National Football Museum · visita",
+    "url": "https://nationalfootballmuseum.com/visit-us/",
+    "uso": "Contexto das galerias e do museu. Não assumir gratuidade geral."
+  },
+  "F25": {
+    "id": "F25",
+    "tema": "Cinema e cidade",
+    "recurso": "Visit Richmond · Film and TV",
+    "url": "https://www.visitrichmond.co.uk/explore/film-and-tv",
+    "uso": "Locações reais de cinema e televisão no borough, incluindo o universo de Ted Lasso."
+  },
+  "F26": {
+    "id": "F26",
+    "tema": "Cinema e cidade",
+    "recurso": "Visit Richmond · roteiro de Ted Lasso em PDF",
+    "url": "https://www.visitrichmond.co.uk/dbimgs/Ted%20lasso%20Suggested%20route%20%28A4%20Document%29%20-%20Final%20Version%20%281%29.pdf",
+    "uso": "Mapa oficial sugerido das locações. Usar o texto do PDF; conferir visualmente o mapa."
+  },
+  "F27": {
+    "id": "F27",
+    "tema": "Cinema e cidade",
+    "recurso": "BFI Southbank",
+    "url": "https://www.bfi.org.uk/bfi-southbank",
+    "uso": "Cultura cinematográfica, salas, arquivo e biblioteca: Londres também vista de dentro do cinema."
+  },
+  "F28": {
+    "id": "F28",
+    "tema": "Cinema e cidade",
+    "recurso": "BFI Reuben Library · visita",
+    "url": "https://www.bfi.org.uk/bfi-reuben-library/visiting-library",
+    "uso": "Acervo de cinema e televisão como possibilidade de pesquisa e descoberta."
+  },
+  "F29": {
+    "id": "F29",
+    "tema": "Cinema e cidade",
+    "recurso": "Tabakalera",
+    "url": "https://www.tabakalera.eus/en/",
+    "uso": "Centro de cultura contemporânea de Donostia; arte, cinema, fotografia e criação."
+  },
+  "F30": {
+    "id": "F30",
+    "tema": "Cinema e cidade",
+    "recurso": "Chillida Leku",
+    "url": "https://www.museochillidaleku.com/",
+    "uso": "Relação entre escultura e paisagem como referência temática, sem visita confirmada."
+  },
+  "F31": {
+    "id": "F31",
+    "tema": "Cinema e cidade",
+    "recurso": "Guggenheim Bilbao",
+    "url": "https://www.guggenheim-bilbao.eus/en",
+    "uso": "Arte e arquitetura para contextualizar Bilbao, sem prometer visita ao interior no dia do voo."
+  },
+  "F32": {
+    "id": "F32",
+    "tema": "Cinema e cidade",
+    "recurso": "Festival de San Sebastián",
+    "url": "https://www.sansebastianfestival.com/",
+    "uso": "Site oficial do festival. Referência cultural da cidade; não afirmar presença da dupla no evento."
+  },
+  "F33": {
+    "id": "F33",
+    "tema": "Madeira",
+    "recurso": "UNESCO · Laurisilva of Madeira",
+    "url": "https://whc.unesco.org/en/list/0934/",
+    "uso": "Fonte central sobre importância ecológica, biodiversidade e relação da floresta com a água."
+  },
+  "F34": {
+    "id": "F34",
+    "tema": "Madeira",
+    "recurso": "UNESCO · documentos da Laurissilva",
+    "url": "https://whc.unesco.org/en/list/934/documents",
+    "uso": "Biblioteca de documentos técnicos. Complemento de pesquisa, não necessário ao primeiro episódio."
+  },
+  "F35": {
+    "id": "F35",
+    "tema": "Madeira",
+    "recurso": "Visit Madeira · Fanal",
+    "url": "https://visitmadeira.com/pt/o-que-fazer/exploradores-da-natureza/floresta-laurissilva/fanal/",
+    "uso": "O bosque de tis e a paisagem de contemplação. Neblina não é uma condição garantida."
+  },
+  "F36": {
+    "id": "F36",
+    "tema": "Madeira",
+    "recurso": "Visit Madeira · Pico do Areeiro",
+    "url": "https://visitmadeira.com/pt/onde-ir/madeira/cordilheira-central/pico-do-areeiro/",
+    "uso": "Paisagem da cordilheira central. Distinguir o miradouro de um percurso pedestre completo."
+  },
+  "F37": {
+    "id": "F37",
+    "tema": "Madeira",
+    "recurso": "Visit Madeira · Ponta Delgada",
+    "url": "https://visitmadeira.com/pt/onde-ir/madeira/costa-norte/sao-vicente/ponta-delgada/",
+    "uso": "A localidade da Madeira que será base; não confundir com Ponta Delgada nos Açores."
+  },
+  "F38": {
+    "id": "F38",
+    "tema": "Madeira",
+    "recurso": "Visit Madeira · caminhadas",
+    "url": "https://visitmadeira.com/pt/o-que-fazer/exploradores-da-natureza/atividades/caminhadas/",
+    "uso": "Consultar percursos e condições oficiais atualizadas antes de planejar trilhas."
+  },
+  "F39": {
+    "id": "F39",
+    "tema": "Madeira",
+    "recurso": "Visit Madeira · piscinas de Porto Moniz",
+    "url": "https://visitmadeira.com/pt/onde-ir/madeira/costa-norte/porto-moniz/piscinas-naturais-do-porto-moniz/",
+    "uso": "Rochas vulcânicas e mar como contexto. Funcionamento depende das condições locais."
+  },
+  "F40": {
+    "id": "F40",
+    "tema": "Madeira",
+    "recurso": "Visit Madeira · Ponta de São Lourenço",
+    "url": "https://visitmadeira.com/pt/onde-ir/madeira/costa-este/machico/ponta-de-sao-lourenco/",
+    "uso": "Uma paisagem da costa leste para contrastar com o verde do Fanal."
+  },
+  "F41": {
+    "id": "F41",
+    "tema": "NotebookLM",
+    "recurso": "Google · gerar Resumo em Áudio",
+    "url": "https://support.google.com/notebooklm/answer/16212820?hl=pt-BR",
+    "uso": "Como gerar, personalizar, escolher português do Brasil e baixar o áudio. Ajuda pode redirecionar para Gemini Notebook."
+  },
+  "F42": {
+    "id": "F42",
+    "tema": "NotebookLM",
+    "recurso": "Google · adicionar fontes",
+    "url": "https://support.google.com/notebooklm/answer/16215270?hl=pt-BR",
+    "uso": "Tipos de fontes, importação de páginas, arquivos, áudio e limitações. Consultar instruções atuais na sua conta."
+  },
+  "P01": {
+    "id": "P01",
+    "tema": "Playlist por destino",
+    "recurso": "United · história por décadas",
+    "url": "https://www.manutd.com/en/club/history/history-by-decade",
+    "uso": "Origem, Busby, reconstrução, 1968 e 1999. História, não retrato da temporada atual."
+  },
+  "P02": {
+    "id": "P02",
+    "tema": "Playlist por destino",
+    "recurso": "United · história institucional",
+    "url": "https://ir.manutd.com/company-information/history.aspx",
+    "uso": "Newton Heath em 1878, nome em 1902 e Old Trafford em 1910."
+  },
+  "P03": {
+    "id": "P03",
+    "tema": "Playlist por destino",
+    "recurso": "Premier League · United 0–3 Bournemouth, 09/12/2023",
+    "url": "https://www.premierleague.com/en/news/3814732",
+    "uso": "Primeira vitória do Bournemouth em Old Trafford. Não usar a tabela da época como atual."
+  },
+  "P04": {
+    "id": "P04",
+    "tema": "Playlist por destino",
+    "recurso": "Premier League · United 0–3 Bournemouth, 22/12/2024",
+    "url": "https://www.premierleague.com/es/news/4200470",
+    "uso": "Segundo 3–0 consecutivo em Old Trafford; conferir a data do relato."
+  },
+  "P05": {
+    "id": "P05",
+    "tema": "Playlist por destino",
+    "recurso": "United · empate com Bournemouth, 15/12/2025",
+    "url": "https://www.manutd.com/ko/news/detail/match-report-man-utd-bournemouth-premier-league-15-december-2025",
+    "uso": "Relato oficial em coreano: 4–4. Traduzir o texto importado e conferir nomes. Escalação histórica, não atual."
+  },
+  "P06": {
+    "id": "P06",
+    "tema": "Playlist por destino",
+    "recurso": "United · notícias da equipe masculina",
+    "url": "https://www.manutd.com/en/news/listing/mens-news?page=1&type=news",
+    "uso": "Página dinâmica: importar artigos datados da semana do jogo; não confiar na ordem de resultados antigos."
+  },
+  "P07": {
+    "id": "P07",
+    "tema": "Playlist por destino",
+    "recurso": "United · coletivas",
+    "url": "https://www.manutd.com/en/news/category/press-conference?page=0",
+    "uso": "Boletins do clube, com data. Selecionar apenas a equipe masculina principal para o episódio do jogo."
+  },
+  "P08": {
+    "id": "P08",
+    "tema": "Playlist por destino",
+    "recurso": "United · relato do dérbi de 13/09/2026",
+    "url": "https://www.manutd.com/en/news/report-united-v-man-city-13-sep-2026",
+    "uso": "Título oficial registra United 0–1 City. Corpo não recuperado nesta consulta: não sustenta análise tática."
+  },
+  "P09": {
+    "id": "P09",
+    "tema": "Playlist por destino",
+    "recurso": "United · reação de Carrick ao dérbi",
+    "url": "https://www.manutd.com/en/news/carrick-this-wont-change-uniteds-season",
+    "uso": "Link oficial encontrado em setembro de 2026. Corpo não recuperado: não inventar falas."
+  },
+  "P10": {
+    "id": "P10",
+    "tema": "Playlist por destino",
+    "recurso": "Visit Madeira · Mercado dos Lavradores",
+    "url": "https://visitmadeira.com/pt/o-que-fazer/apaixonados-por-cultura/patrimonio/monumentos-e-arquitetura/mercado-dos-lavradores/",
+    "uso": "Inauguração em 1940, Edmundo Tavares, azulejos e abastecimento da cidade."
+  },
+  "P11": {
+    "id": "P11",
+    "tema": "Playlist por destino",
+    "recurso": "Visit Madeira · Eira do Serrado",
+    "url": "https://www.visitmadeira.com/pt/onde-ir/madeira/costa-sul/camara-de-lobos/miradouro-da-eira-do-serrado/",
+    "uso": "Miradouro, maciço central e paisagem modelada pela erosão."
+  },
+  "P12": {
+    "id": "P12",
+    "tema": "Playlist por destino",
+    "recurso": "Visit Madeira · Curral das Freiras",
+    "url": "https://visitmadeira.com/pt/onde-ir/madeira/costa-sul/camara-de-lobos/curral-das-freiras/",
+    "uso": "Narrativa turística do refúgio de freiras em 1566. Atribuir à fonte; semelhança visual não significa cratera."
+  },
+  "P13": {
+    "id": "P13",
+    "tema": "Playlist por destino",
+    "recurso": "Governo da Madeira · Eira do Serrado",
+    "url": "https://geodiversidade.madeira.gov.pt/geossitios/madeira/camara-de-lobos/cl01-miradouro-da-eira-do-serrado",
+    "uso": "Referência geológica sobre formações vulcânicas e o vale."
+  },
+  "P14": {
+    "id": "P14",
+    "tema": "Playlist por destino",
+    "recurso": "Governo da Madeira · Cabo Girão",
+    "url": "https://geodiversidade.madeira.gov.pt/index.php/geossitios/madeira/camara-de-lobos/cl02-miradouro-do-cabo-girao",
+    "uso": "Camadas vulcânicas, arriba e fajã agrícola. Evitar rankings de altura."
+  },
+  "P15": {
+    "id": "P15",
+    "tema": "Playlist por destino",
+    "recurso": "Turismo de Portugal · guia Madeira e Porto Santo",
+    "url": "https://www.visitportugal.com/sites/default/files/GUIA%20_MADEIRA%20E%20_PORTO_SANTO_PT.pdf",
+    "uso": "História e cultura: localizar Zona Velha, portas pintadas, Funchal e Câmara de Lobos. Não confirma nossa agenda."
+  },
+  "P16": {
+    "id": "P16",
+    "tema": "Playlist por destino",
+    "recurso": "IFCN · conservação do lobo-marinho",
+    "url": "https://ifcn.madeira.gov.pt/images/Doc_Artigos/Biodiversidade/Projetos/lobomarinho/Estrategia_para_a_Conservacao_do_Lobo-marinho_na_Madeira.pdf",
+    "uso": "Presença histórica de lobos-marinhos no arquipélago e em Câmara de Lobos. Não prometer avistamento."
+  },
+  "P17": {
+    "id": "P17",
+    "tema": "Playlist por destino",
+    "recurso": "Visit Birmingham · passeio pelos canais",
+    "url": "https://visitbirmingham.com/listing/birmingham-city-virtual-canal-walk/136731101/",
+    "uso": "Brindley Place e Gas Street Basin como fio de caminhada."
+  },
+  "P18": {
+    "id": "P18",
+    "tema": "Playlist por destino",
+    "recurso": "San Sebastián Turismo · Peine del Viento",
+    "url": "https://sansebastianturismoa.eus/en/to-do/open-air-sculptures/the-wind-comb/",
+    "uso": "Chillida, escultura e a relação da cidade com o mar."
+  },
+  "P19": {
+    "id": "P19",
+    "tema": "Playlist por destino",
+    "recurso": "Liverpool FC · fundação em 1892",
+    "url": "https://www.liverpoolfc.com/info/how-liverpool-fc-was-founded-1892",
+    "uso": "História oficial da separação do Everton e do nascimento do Liverpool em Anfield."
+  },
+  "P20": {
+    "id": "P20",
+    "tema": "Playlist por destino",
+    "recurso": "Cavern Club · história",
+    "url": "https://www.cavernclub.com/history/",
+    "uso": "Abertura em 1957 como clube de jazz e trajetória do local. Não descrever o espaço atual como intacto desde os Beatles."
+  },
+  "P21": {
+    "id": "P21",
+    "tema": "Playlist por destino",
+    "recurso": "Royal Albert Dock · história",
+    "url": "https://albertdock.com/dock-180-then-now/",
+    "uso": "Abertura em 1846, Jesse Hartley e a arquitetura portuária."
+  },
+  "P22": {
+    "id": "P22",
+    "tema": "Playlist por destino",
+    "recurso": "Science and Industry Museum · algodão e escravização",
+    "url": "https://blog.scienceandindustrymuseum.org.uk/manchester-cotton-and-transatlantic-slavery-project/",
+    "uso": "Contextualizar criticamente a cidade industrial; referência, não visita adicionada ao roteiro."
+  },
+  "P23": {
+    "id": "P23",
+    "tema": "Playlist por destino",
+    "recurso": "Premier League · tabela oficial",
+    "url": "https://www.premierleague.com/en/tables/premier-league",
+    "uso": "Página dinâmica; a tabela não foi recuperada em texto em 15/09/2026. Selecionar temporada correta e registrar data antes de narrar posições."
+  },
+  "P24": {
+    "id": "P24",
+    "tema": "Playlist por destino",
+    "recurso": "AFC Bournemouth · site oficial",
+    "url": "https://www.afcb.co.uk/",
+    "uso": "Fonte para notícias e boletins do adversário. Conteúdo não recuperado na consulta; conferir manualmente antes de gerar a parte atual."
+  }
+}

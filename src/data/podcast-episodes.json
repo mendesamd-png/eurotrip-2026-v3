@@ -1,0 +1,313 @@
+[
+  {
+    "number": "00",
+    "slug": "antes-do-embarque",
+    "city": "A travessia",
+    "country": "Brasil → Europa",
+    "title": "Antes do primeiro embarque",
+    "description": "Um estádio no coração, dois filmes no caminho e amigos que vêm com a gente pelas histórias. A abertura da nossa viagem em áudio.",
+    "when": "Para ouvir antes de arrumar a mala",
+    "chapter": "partida",
+    "image": "areeiroEstrada",
+    "stops": [
+      "São Paulo → Londres",
+      "Seis bases",
+      "Dois trabalhos da Rota"
+    ],
+    "topics": [
+      "O que aproxima futebol, cinema, arte e natureza nesta viagem.",
+      "Douglas e Hugo, o reencontro com Gustavo e a vontade de dividir o caminho com quem ficou em casa.",
+      "FUMI em Londres e Sorgin no País Basco: por que a câmera também vai trabalhar."
+    ],
+    "note": "A viagem ainda vai acontecer. Este episódio apresenta desejos e planos, sem inventar lembranças.",
+    "sourceIds": [
+      "F01",
+      "F02",
+      "F10",
+      "F33"
+    ],
+    "audio": null,
+    "transcript": []
+  },
+  {
+    "number": "01",
+    "slug": "londres",
+    "city": "Londres",
+    "country": "Reino Unido",
+    "title": "Entre telas, arquibancadas e uma árvore",
+    "description": "O Tâmisa conduz a conversa: arte, cinema, Ted Lasso e o Arsenal do Hugo. Uma diária da FUMI prolonga uma história que começou em Trancoso.",
+    "when": "17–22 out · para chegar conhecendo",
+    "chapter": "londres",
+    "image": "londres",
+    "stops": [
+      "Westminster e Southbank",
+      "Tate e BFI",
+      "Richmond · possível passeio",
+      "Emirates, Wembley ou Stamford Bridge",
+      "Gallery FUMI"
+    ],
+    "topics": [
+      "Os espaços de arte e cinema na vida da cidade e no nosso passeio pelo Southbank.",
+      "Richmond e Ted Lasso: Selhurst Park fica em outro endereço, e o AFC Richmond é ficção.",
+      "O Arsenal do Hugo, os estádios desejados e a conversa entre Max Lamb, Hugo França e a madeira."
+    ],
+    "note": "A janela FUMI é proposta para 18–21/10. Passeios dependem da diária e das reservas; Wembley não é o estádio do Arsenal.",
+    "sourceIds": [
+      "F25",
+      "F26",
+      "F19",
+      "F27",
+      "F16",
+      "F17",
+      "F18",
+      "F05",
+      "F07",
+      "F01"
+    ],
+    "audio": null,
+    "transcript": []
+  },
+  {
+    "number": "02",
+    "slug": "birmingham",
+    "city": "Birmingham",
+    "country": "Reino Unido",
+    "title": "A cidade que começa num abraço",
+    "description": "Gustavo Barros entra no roteiro e a cidade ganha outro ritmo. Canais, tijolos, Digbeth e a possibilidade de conhecer o Birmingham City.",
+    "when": "22–23 out · no trem ou antes do reencontro",
+    "chapter": "birmingham",
+    "image": "birmingham",
+    "stops": [
+      "Gustavo Barros",
+      "Gas Street Basin",
+      "Digbeth",
+      "St Andrew’s · visita possível"
+    ],
+    "topics": [
+      "Ler o passado da cidade nos canais e nos espaços que mudaram de uso.",
+      "Como um amigo apresenta uma cidade de um jeito que nenhum mapa consegue.",
+      "St Andrew’s e o futebol de bairro: conhecer a casa do Birmingham City, se der tempo."
+    ],
+    "note": "A estadia é curta. O encontro faz parte da viagem; o tour de estádio ainda é uma possibilidade.",
+    "sourceIds": [
+      "P17",
+      "F15"
+    ],
+    "audio": null,
+    "transcript": []
+  },
+  {
+    "number": "03",
+    "slug": "manchester",
+    "city": "Manchester",
+    "country": "Reino Unido",
+    "title": "Uma cidade que se escuta",
+    "description": "Antes do apito, Manchester já tem som: discos, ruas e histórias de torcida. Um passeio para conhecer a cidade entre um estádio e uma mesa de pub.",
+    "when": "23–28 out · antes de explorar a cidade",
+    "chapter": "manchester",
+    "image": "manchester",
+    "stops": [
+      "Northern Quarter",
+      "Afflecks e Vinyl Exchange",
+      "National Football Museum",
+      "Old Trafford · tour possível",
+      "Salford Quays"
+    ],
+    "topics": [
+      "A cidade industrial e suas contradições, antes de caminhar pelo Northern Quarter e procurar discos.",
+      "O futebol como memória coletiva: objetos e torcedores no National Football Museum.",
+      "O que queremos registrar com a câmera e o que merece primeiro virar memória."
+    ],
+    "note": "O jogo tem um episódio próprio. Tour, show e outras visitas dependem da programação.",
+    "sourceIds": [
+      "F22",
+      "F23",
+      "F24",
+      "F10",
+      "F11",
+      "P22"
+    ],
+    "audio": null,
+    "transcript": []
+  },
+  {
+    "number": "04",
+    "slug": "dia-de-jogo",
+    "city": "United × Bournemouth",
+    "country": "Manchester · Reino Unido",
+    "title": "Hoje o coração joga em casa",
+    "description": "Um companheiro para o dia de Old Trafford: de Newton Heath às grandes noites europeias, dos encontros com o Bournemouth ao United que vai entrar em campo.",
+    "when": "25 out no roteiro · antes do jogo",
+    "chapter": "manchester",
+    "image": "oldTraffordJogo",
+    "stops": [
+      "Old Trafford",
+      "História do Manchester United",
+      "Confrontos com o Bournemouth",
+      "O clube na semana da partida"
+    ],
+    "topics": [
+      "Newton Heath, Old Trafford, os Busby Babes, a reconstrução e os marcos de 1968 e 1999.",
+      "Um adversário com história própria: os 3–0 do Bournemouth em 2023 e 2024 e o empate por 4–4 em dezembro de 2025.",
+      "Um bloco datado com treinador, resultados recentes, tabela e notícias dos dois clubes, revisado na semana do jogo.",
+      "A chegada da torcida e o motivo pessoal desta viagem: sair da tela e estar na arquibancada."
+    ],
+    "note": "A página oficial consultada em 15/09 lista 25/10/2026 às 14h. Reconferir horário local e cenário esportivo antes de gerar a versão final.",
+    "sourceIds": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "F13",
+      "F12",
+      "P06",
+      "P07",
+      "P23",
+      "P24"
+    ],
+    "audio": null,
+    "transcript": []
+  },
+  {
+    "number": "05",
+    "slug": "liverpool",
+    "city": "Liverpool",
+    "country": "Reino Unido · passeio possível",
+    "title": "Do outro lado da arquibancada",
+    "description": "Anfield, memória portuária e música. A rivalidade viaja no bolso; a vontade de conhecer vem na frente.",
+    "when": "26 out no esboço · se o bate-volta acontecer",
+    "chapter": "manchester",
+    "image": "liverpool",
+    "stops": [
+      "Anfield · visita possível",
+      "Albert Dock",
+      "Cavern Club"
+    ],
+    "topics": [
+      "Anfield como encontro entre clube, bairro e gerações de torcedores.",
+      "Anfield desde a fundação do Liverpool, o Albert Dock de 1846 e o Cavern que nasceu como clube de jazz.",
+      "Albert Dock e Cavern Club como desejos do passeio, sem fingir que já estivemos lá."
+    ],
+    "note": "O bate-volta e o tour ainda não estão confirmados. A história já pode ser conhecida, mesmo que o passeio mude.",
+    "sourceIds": [
+      "F14",
+      "F22",
+      "P19",
+      "P20",
+      "P21"
+    ],
+    "audio": null,
+    "transcript": []
+  },
+  {
+    "number": "06",
+    "slug": "san-sebastian",
+    "city": "San Sebastián",
+    "country": "Espanha · País Basco",
+    "title": "Onde a arte encontra o vento",
+    "description": "Donostia, o Cantábrico e uma câmera que veio trabalhar. A Sorgin abre o caminho; a Concha, o Peine del Viento e o cinema ajudam a conhecer o lugar.",
+    "when": "28–31 out · entre as diárias",
+    "chapter": "san-sebastian",
+    "image": "sorginCampo",
+    "stops": [
+      "Sorgin Gallery",
+      "La Concha e Parte Vieja",
+      "Monte Igueldo e Peine del Viento",
+      "Tabakalera",
+      "Bilbao · passagem"
+    ],
+    "topics": [
+      "Donostia / San Sebastián e a identidade local: ouvir o lugar antes de resumir sua cultura.",
+      "A proposta A que faz nascer, Miriam Badaró e o encontro entre arte, arquitetura e paisagem.",
+      "Chillida à beira-mar e a cidade do cinema; Tabakalera como possibilidade para os intervalos."
+    ],
+    "note": "As diárias da Sorgin orientam a agenda. O festival é contexto cultural; não está prevista participação no evento.",
+    "sourceIds": [
+      "F02",
+      "F08",
+      "P18",
+      "F29",
+      "F30",
+      "F31",
+      "F32"
+    ],
+    "audio": null,
+    "transcript": []
+  },
+  {
+    "number": "07",
+    "slug": "funchal",
+    "city": "Funchal & arredores",
+    "country": "Portugal · Madeira",
+    "title": "A ilha conta, a gente escuta",
+    "description": "Portas pintadas, um mercado cheio de vida e montanhas que guardam outro tempo. Histórias para reconhecer os lugares por onde queremos passar.",
+    "when": "31 out–3 nov · antes dos passeios",
+    "chapter": "funchal",
+    "image": "funchal",
+    "stops": [
+      "Mercado dos Lavradores",
+      "Zona Velha e Rua de Santa Maria",
+      "Pico do Areeiro",
+      "Eira do Serrado e Curral das Freiras",
+      "Ponta de São Lourenço",
+      "Cabo Girão e Câmara de Lobos"
+    ],
+    "topics": [
+      "O Mercado dos Lavradores, inaugurado em 1940, e a história que aparece na arquitetura e nos azulejos.",
+      "Zona Velha e portas pintadas: observar arte, ruas e vida cotidiana com tempo.",
+      "Eira do Serrado: a paisagem do vale e a narrativa das freiras; separar memória histórica de explicação geológica.",
+      "Do Areeiro à península de São Lourenço, do Cabo Girão à pesca em Câmara de Lobos: aprender a ler a ilha."
+    ],
+    "note": "Funchal é a base; vários passeios ficam em outros municípios. A ordem depende do tempo e dos acessos.",
+    "sourceIds": [
+      "P10",
+      "P15",
+      "P11",
+      "P12",
+      "P13",
+      "F36",
+      "F40",
+      "P14",
+      "P16",
+      "F38"
+    ],
+    "audio": null,
+    "transcript": []
+  },
+  {
+    "number": "08",
+    "slug": "costa-norte",
+    "city": "Costa norte da Madeira",
+    "country": "Portugal · Madeira",
+    "title": "A floresta tem outro relógio",
+    "description": "Ponta Delgada é a última base. Entre Fanal, Seixal, Porto Moniz e Santana, acompanhamos a água, a floresta e a vontade de ficar mais um pouco.",
+    "when": "3–5 nov · para desacelerar",
+    "chapter": "ponta-delgada",
+    "image": "fanal",
+    "stops": [
+      "Ponta Delgada · Madeira",
+      "São Vicente",
+      "Fanal e Laurissilva",
+      "Seixal e Porto Moniz",
+      "Santana"
+    ],
+    "topics": [
+      "O que torna a Laurissilva especial e como floresta, água e neblina se relacionam.",
+      "Paisagens vulcânicas e vida na costa norte, com paradas conforme as condições locais.",
+      "O Fanal como tempo de observação e o retorno como começo das histórias para compartilhar."
+    ],
+    "note": "Ponta Delgada aqui é na Madeira, não nos Açores. Neblina, banho e acesso às trilhas não são garantidos.",
+    "sourceIds": [
+      "F33",
+      "F34",
+      "F35",
+      "F37",
+      "F39",
+      "F38",
+      "P15"
+    ],
+    "audio": null,
+    "transcript": []
+  }
+]

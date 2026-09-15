@@ -1,0 +1,58 @@
+EPISÓDIO 03 — Uma cidade que se escuta
+Manchester · Reino Unido
+Pauta preparada em 15/09/2026. Áudio ainda não gerado.
+
+PROMESSA
+Antes do apito, Manchester já tem som: discos, ruas e histórias de torcida. Um passeio para conhecer a cidade entre um estádio e uma mesa de pub.
+
+QUANDO OUVIR
+23–28 out · antes de explorar a cidade
+
+PARADAS
+- Northern Quarter
+- Afflecks e Vinyl Exchange
+- National Football Museum
+- Old Trafford · tour possível
+- Salford Quays
+
+PAUTA E ORDEM DA CONVERSA
+1. A cidade industrial e suas contradições, antes de caminhar pelo Northern Quarter e procurar discos.
+2. O futebol como memória coletiva: objetos e torcedores no National Football Museum.
+3. O que queremos registrar com a câmera e o que merece primeiro virar memória.
+
+O QUE AINDA DEPENDE DE CONFIRMAÇÃO
+O jogo tem um episódio próprio. Tour, show e outras visitas dependem da programação.
+
+FONTES A IMPORTAR
+
+[F22] National Football Museum · histórias
+https://nationalfootballmuseum.com/stories/
+Uso: Pautas sobre memória, pioneiros, objetos, torcedores e o futebol na sociedade.
+
+[F23] National Football Museum · coleção
+https://nationalfootballmuseum.com/collection/
+Uso: Uma maneira de falar de futebol a partir dos objetos que preservam sua memória.
+
+[F24] National Football Museum · visita
+https://nationalfootballmuseum.com/visit-us/
+Uso: Contexto das galerias e do museu. Não assumir gratuidade geral.
+
+[F10] Manchester United · visitar Old Trafford
+https://www.manutd.com/en/club/visit-old-trafford
+Uso: Porta de entrada oficial para conhecer o estádio e a experiência de visita.
+
+[F11] Manchester United · Museum & Stadium Tours
+https://www.manutd.com/en/club/Visit-Old-Trafford/Museum-Stadium-Tours
+Uso: Tour, museu e condições de visita. O clube informa fechamento de ambos em jogos em casa.
+
+[P22] Science and Industry Museum · algodão e escravização
+https://blog.scienceandindustrymuseum.org.uk/manchester-cotton-and-transatlantic-slavery-project/
+Uso: Contextualizar criticamente a cidade industrial; referência, não visita adicionada ao roteiro.
+
+PROMPT PARA PERSONALIZAR O RESUMO EM ÁUDIO
+Crie uma conversa em português brasileiro para a série Perto, mesmo longe. Dois apresentadores curiosos, calor humano e humor leve. Eles não devem fingir ser Douglas Mendes e Hugo Lima nem inventar falas ou lembranças dos viajantes. O público inclui familiares, amigos e quem não acompanha futebol. A viagem é futura, em outubro e novembro de 2026.
+Use apenas as fontes selecionadas. Não transforme possibilidade em reserva ou plano em fato vivido. Lisboa é só conexão aérea; Ponta Delgada é na Madeira. Não narre endereços privados, códigos de reserva nem valores comerciais. Explique termos culturais e esportivos sem tom de aula. A poesia vem de um detalhe concreto, não de slogans.
+Estrutura: convite para a experiência que queremos viver; contexto histórico; passeio pelas paradas; um detalhe para observar sem câmera; despedida. Não leia uma lista de curiosidades. Diferencie o que é pauta de pesquisa do que já é fato verificado. Não use letras de músicas nem invente sons gravados pela dupla.
+Antes de gerar o áudio, mostre no chat uma tabela fato / fonte / data / confirmado ou pendente. Quando faltar evidência, omita ou explicite a lacuna. Revise nomes, geografia e mudanças de agenda. A duração é uma intenção editorial, não garantia da ferramenta. Priorize uma conversa que caiba num deslocamento curto, sem cortar contexto essencial.
+
+Concentre este episódio em Manchester, com o título “Uma cidade que se escuta”. Ligue cada história às paradas listadas. Encerre com uma pergunta concreta que os viajantes possam responder depois da visita.

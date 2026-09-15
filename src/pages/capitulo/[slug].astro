@@ -62,6 +62,9 @@ const stops = c.places.filter((p) => p.category === 'base' || p.category === 'tr
     </div>
   </section>
 
+  {['londres','birmingham','manchester'].includes(c.slug) && <aside class="wrap" style="padding-block:1rem"><a class="btn" href={u('/futebol')}>Nossos caminhos pelo futebol e por Ted Lasso ↗</a></aside>}
+  {['londres','san-sebastian'].includes(c.slug) && <aside class="wrap" style="padding-block:1rem"><a class="btn" href={u('/trabalhos')}>Conhecer as histórias da FUMI e da Sorgin ↗</a></aside>}
+
   <!-- referência -->
   <section class="wrap ref rv-f">
     <p class="tc">referência de imagem</p>
@@ -163,7 +166,7 @@ const stops = c.places.filter((p) => p.category === 'base' || p.category === 'tr
       ) : (
         <a href={u('/')} class="t-xl nxt__link">Voltar ao início →</a>
       )}
-      <p class="muted" style="max-width:46ch; margin-top:1rem">{next ? next.lead : 'Funchal, Lisboa, São Paulo. O caderno fecha aqui. O filme começa depois.'}</p>
+      <p class="muted" style="max-width:46ch; margin-top:1rem">{next ? next.lead : 'Da Madeira para casa. A viagem continua nas imagens e nas conversas.'}</p>
     </div>
   </section>
 </BaseLayout>

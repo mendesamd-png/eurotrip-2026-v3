@@ -1,0 +1,74 @@
+EPISÓDIO 01 — Entre telas, arquibancadas e uma árvore
+Londres · Reino Unido
+Pauta preparada em 15/09/2026. Áudio ainda não gerado.
+
+PROMESSA
+O Tâmisa conduz a conversa: arte, cinema, Ted Lasso e o Arsenal do Hugo. Uma diária da FUMI prolonga uma história que começou em Trancoso.
+
+QUANDO OUVIR
+17–22 out · para chegar conhecendo
+
+PARADAS
+- Westminster e Southbank
+- Tate e BFI
+- Richmond · possível passeio
+- Emirates, Wembley ou Stamford Bridge
+- Gallery FUMI
+
+PAUTA E ORDEM DA CONVERSA
+1. Os espaços de arte e cinema na vida da cidade e no nosso passeio pelo Southbank.
+2. Richmond e Ted Lasso: Selhurst Park fica em outro endereço, e o AFC Richmond é ficção.
+3. O Arsenal do Hugo, os estádios desejados e a conversa entre Max Lamb, Hugo França e a madeira.
+
+O QUE AINDA DEPENDE DE CONFIRMAÇÃO
+A janela FUMI é proposta para 18–21/10. Passeios dependem da diária e das reservas; Wembley não é o estádio do Arsenal.
+
+FONTES A IMPORTAR
+
+[F25] Visit Richmond · Film and TV
+https://www.visitrichmond.co.uk/explore/film-and-tv
+Uso: Locações reais de cinema e televisão no borough, incluindo o universo de Ted Lasso.
+
+[F26] Visit Richmond · roteiro de Ted Lasso em PDF
+https://www.visitrichmond.co.uk/dbimgs/Ted%20lasso%20Suggested%20route%20%28A4%20Document%29%20-%20Final%20Version%20%281%29.pdf
+Uso: Mapa oficial sugerido das locações. Usar o texto do PDF; conferir visualmente o mapa.
+
+[F19] Crystal Palace · Selhurst Park e Ted Lasso
+https://www.cpfc.co.uk/news/features/how-palace-and-selhurst-park-inspired-the-makers-of-hit-apple-series-ted-lasso/
+Uso: O clube explica a ligação entre Selhurst Park e a produção da série.
+
+[F27] BFI Southbank
+https://www.bfi.org.uk/bfi-southbank
+Uso: Cultura cinematográfica, salas, arquivo e biblioteca: Londres também vista de dentro do cinema.
+
+[F16] Wembley Stadium · Tours
+https://www.wembleystadium.com/tours/
+Uso: Visitas oficiais a Wembley, um destino independente do Emirates.
+
+[F17] Chelsea · Stadium Tour and Museum
+https://www.chelseafc.com/en/stadium-tour-and-museum
+Uso: Fonte oficial para a possível visita a Stamford Bridge.
+
+[F18] Arsenal · Virtual Stadium Tour
+https://arsenaldirect.arsenal.com/tour/virtual-stadium-tour
+Uso: O Emirates apresentado pelo Arsenal. Visita virtual não significa reserva de tour presencial.
+
+[F05] Gallery FUMI · Max Lamb
+https://galleryfumi.com/artists/max-lamb
+Uso: Perfil oficial: matéria, gesto e processo na prática do designer.
+
+[F07] Atelier Hugo França · Quem somos
+https://www.hugofranca.com.br/sobre
+Uso: Descrição do processo de trabalhar com troncos, raízes e formas encontradas na madeira.
+
+[F01] Rota · proposta FUMI
+https://rota-fumi.netlify.app/
+Uso: Fonte do projeto, da residência já filmada e da etapa londrina proposta; contém também informações comerciais.
+
+PROMPT PARA PERSONALIZAR O RESUMO EM ÁUDIO
+Crie uma conversa em português brasileiro para a série Perto, mesmo longe. Dois apresentadores curiosos, calor humano e humor leve. Eles não devem fingir ser Douglas Mendes e Hugo Lima nem inventar falas ou lembranças dos viajantes. O público inclui familiares, amigos e quem não acompanha futebol. A viagem é futura, em outubro e novembro de 2026.
+Use apenas as fontes selecionadas. Não transforme possibilidade em reserva ou plano em fato vivido. Lisboa é só conexão aérea; Ponta Delgada é na Madeira. Não narre endereços privados, códigos de reserva nem valores comerciais. Explique termos culturais e esportivos sem tom de aula. A poesia vem de um detalhe concreto, não de slogans.
+Estrutura: convite para a experiência que queremos viver; contexto histórico; passeio pelas paradas; um detalhe para observar sem câmera; despedida. Não leia uma lista de curiosidades. Diferencie o que é pauta de pesquisa do que já é fato verificado. Não use letras de músicas nem invente sons gravados pela dupla.
+Antes de gerar o áudio, mostre no chat uma tabela fato / fonte / data / confirmado ou pendente. Quando faltar evidência, omita ou explicite a lacuna. Revise nomes, geografia e mudanças de agenda. A duração é uma intenção editorial, não garantia da ferramenta. Priorize uma conversa que caiba num deslocamento curto, sem cortar contexto essencial.
+
+Concentre este episódio em Londres, com o título “Entre telas, arquibancadas e uma árvore”. Ligue cada história às paradas listadas. Encerre com uma pergunta concreta que os viajantes possam responder depois da visita.

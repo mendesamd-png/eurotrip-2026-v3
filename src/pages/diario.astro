@@ -22,7 +22,7 @@ const stops = route.filter((r) => bases.includes(r.name)).map((r) => ({ label: r
     </div>
     <div class="hero__text wrap">
       <h1 class="t-hero"><span class="hero__l1">Uma viagem</span><span class="hero__l2">meio planejada</span><span class="hero__l3">demais<span class="accent">.</span></span></h1>
-      <p class="t-lead hero__lead">Seis capítulos entre o concreto inglês, o Cantábrico e o vulcão. Dezenove noites, quatro voos, dois trabalhos e uma mochila no limite. Outubro e novembro de 2026.</p>
+      <p class="t-lead hero__lead">Futebol, cinema, arte e natureza. Seis bases, dois trabalhos e um monte de histórias para dividir com família e amigos. Outubro e novembro de 2026.</p>
       <div class="hero__count">
         <p class="tc"><span class="rec"></span>contagem regressiva · embarque GRU · 16/10 · 23:50</p>
         <p class="t-xl count" data-countdown>--<span class="u">d</span>--<span class="u">h</span>--<span class="u">m</span>--<span class="u">s</span></p>
@@ -38,7 +38,7 @@ const stops = route.filter((r) => bases.includes(r.name)).map((r) => ({ label: r
       <div><dt class="tc">fotografia</dt><dd>Douglas Mendes</dd></div>
       <div><dt class="tc">cenas</dt><dd>06</dd></div>
       <div><dt class="tc">noites</dt><dd>19</dd></div>
-      <div><dt class="tc">voos</dt><dd>04</dd></div>
+      <div><dt class="tc">companhia</dt><dd>vocês</dd></div>
       <div><dt class="tc">trabalhos</dt><dd>02</dd></div>
       <div><dt class="tc">formato</dt><dd>4K · 10-bit · S-Log3</dd></div>
     </dl>
@@ -47,8 +47,8 @@ const stops = route.filter((r) => bases.includes(r.name)).map((r) => ({ label: r
   <!-- SINOPSE -->
   <section class="wrap section synopsis">
     <p class="tc">sinopse</p>
-    <p class="t-l rv-f synopsis__t">Toda viagem longa tem a estrutura de um filme, mesmo quando ninguém planejou. O mundo comum, o chamado, o mentor, a provação, a virada no meio, o tesouro e o retorno com o HD cheio.</p>
-    <p class="t-lead rv-f" style="max-width:56ch; margin-top:1.5rem">Este caderno segue esse roteiro, cena a cena, com mapa, timeline e o que der para filmar antes de a luz acabar.</p>
+    <p class="t-l rv-f synopsis__t">Tem jogo que faz a gente atravessar um oceano. Tem amigo que faz uma cidade parecer casa. E tem paisagem que pede só um pouco de silêncio.</p>
+    <p class="t-lead rv-f" style="max-width:56ch; margin-top:1.5rem">Aqui a gente reúne os planos e, aos poucos, as histórias: o Manchester United, o reencontro com Gustavo Barros, os filmes da Rota e o respiro da Madeira. Para vocês viajarem um pouco com a gente.</p>
   </section>
 
   <!-- FILM STRIP -->
@@ -77,6 +77,7 @@ const stops = route.filter((r) => bases.includes(r.name)).map((r) => ({ label: r
     </ol>
   </section>
 
+  <section class="wrap section new-paths"><a href={u('/futebol')}><p class="tc">o coração da viagem</p><h2 class="t-l">Da tela à arquibancada ↗</h2><p>Old Trafford, a cidade do Gustavo, Londres e os caminhos de Ted Lasso.</p></a><a href={u('/trabalhos')}><p class="tc">Rota · dois projetos</p><h2 class="t-l">A viagem também cria ↗</h2><p>Conheça as histórias da FUMI e da Sorgin que vamos ajudar a contar.</p></a><a href={u('/podcast')}><p class="tc">episódio em preparação</p><h2 class="t-l">Perto, mesmo longe ↗</h2><p>Nosso futuro podcast: uma conversa para levar vocês junto.</p></a></section>
   <!-- MAPA -->
   <section class="wrap section">
     <div class="slate-row">
@@ -93,21 +94,22 @@ const stops = route.filter((r) => bases.includes(r.name)).map((r) => ({ label: r
   <!-- KIT + TRIPULAÇÃO -->
   <section class="wrap section two">
     <a href={u('/kit')} class="two__card rv-f">
-      <Frame k="kitCamera" ratio="16" tl="EQUIPAMENTO" br="04 ITENS" />
+      <Frame k="kitCamera" ratio="16" tl="EQUIPAMENTO" br="FOTO · CINEMA · SOM" />
       <h2 class="t-m" style="margin-top:1.2rem">Elenco, com protagonista e coadjuvante.</h2>
-      <p class="muted" style="margin-top:.6rem; max-width:44ch">Sony A7V, duas G Master e uma Insta360. Cada peça entra numa cena e fica fora das outras.</p>
+      <p class="muted" style="margin-top:.6rem; max-width:44ch">Sony FX3, A7V, três G Master e a Insta360, mais os equipamentos de som, luz e apoio do Hugo.</p>
       <span class="tc lnk" style="display:inline-block; margin-top:1rem">ver o kit →</span>
     </a>
     <a href={u('/tripulacao')} class="two__card rv-f">
       <div class="frame r16 two__crew"><img src={u('/images/crew/douglas.jpg')} alt="Douglas Mendes" loading="lazy" /><img src={u('/images/crew/hugo.png')} alt="Hugo Lima" loading="lazy" /><span class="corner tl">TRIPULAÇÃO</span><span class="corner br">02 PAX</span></div>
       <h2 class="t-m" style="margin-top:1.2rem">Dois brasileiros, duas câmeras.</h2>
-      <p class="muted" style="margin-top:.6rem; max-width:44ch">A parte boa de viajar com alguém é ter uma testemunha. A parte ruim é ter uma testemunha.</p>
+      <p class="muted" style="margin-top:.6rem; max-width:44ch">Dois amigos, dois olhares. E a vontade de dividir as descobertas com quem acompanha de casa.</p>
       <span class="tc lnk" style="display:inline-block; margin-top:1rem">conhecer a tripulação →</span>
     </a>
   </section>
 </BaseLayout>
 
 <style>
+  .new-paths{display:grid;gap:2rem}.new-paths a{border-top:1px solid var(--line);padding-top:1.5rem}.new-paths h2{margin:.7rem 0}.new-paths p:last-child{color:var(--text-2)}@media(min-width:1000px){.new-paths{grid-template-columns:repeat(3,1fr)}.new-paths h2{font-size:2.2rem}}
   .hero { padding-top: 1.5rem; }
   .hero__frame { width: min(100% - 2 * var(--gutter), var(--max)); margin-inline: auto; }
   .hero__text { padding-block: 2.5rem 1rem; }

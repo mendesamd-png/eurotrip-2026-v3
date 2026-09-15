@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { u } from '../data/url';
+import { episodes } from '../data/podcast';
+import sources from '../data/podcast-sources.json';
+import { images, unsplash } from '../data/images';
+import '../styles/editorial.css';
+import '../styles/podcast.css';
+const audioUrl = (audio: string | null) => audio ? (/^https:\/\//.test(audio) ? audio : u(audio)) : null;
+const available = episodes.filter(e => e.audio).length;
+const items = episodes.map(e => ({...e, audio: audioUrl(e.audio), img: images[e.image], sources: e.sourceIds.map(id => sources[id as keyof typeof sources])}));
+---
+<BaseLayout title="Podcast da viagem" description="Uma playlist para descobrir cada lugar da Eurotrip: histórias, futebol, arte e o nosso roteiro em áudio." current={u('/podcast')}>
+ <header class="wrap editorial-intro podcast-intro"><p class="tc">Perto, mesmo longe · podcast da viagem</p><h1 class="t-hero">Cada lugar,<br/>uma conversa.</h1><p class="t-lead">Para conhecer antes de chegar. Para ouvir no caminho. Ou para viajar com a gente sem sair de casa. Uma playlist de histórias que encontram o nosso roteiro.</p><p class="playlist-summary tc">{episodes.length} episódios planejados · {available ? `${available} para ouvir` : 'áudios em preparação'}</p></header>
+ <div class="wrap podcast-layout" id="podcast-playlist">
+  <nav class="playlist" aria-label="Episódios do podcast"><p class="tc playlist-label">Escolha a próxima parada</p><ol>{episodes.map(e => <li><a class="episode-select" href={`#${e.slug}`} data-episode={e.slug}><span class="episode-index tc">{e.number}</span><span><span class="episode-city">{e.city}</span><span class="episode-name">{e.title}</span><span class="episode-state tc">{e.audio ? 'Disponível para ouvir' : 'Em preparação'}</span></span><span class="episode-arrow" aria-hidden="true">↗</span></a></li>)}</ol></nav>
+  <div class="episode-panels">
+   <p id="playlist-announcement" class="sr-only" role="status" aria-live="polite"></p>
+   {items.map((e,i) => (<article class="episode-panel" id={e.slug} data-panel={e.slug} aria-labelledby={`title-${e.slug}`}>
+    <figure class="podcast-cover"><img src={unsplash(e.img,1200,80)} alt={e.img.alt} loading={i===0?'eager':'lazy'} width="1200" height="800"/><div class="cover-shade"></div><figcaption><span class="tc">EP {e.number} / {e.country}</span><span class="cover-city">{e.city}</span><a href={u('/colophon')} class="cover-credit">Imagem de referência · créditos ↗</a></figcaption></figure>
+    <div class="podcast-body"><p class="editorial-status">{e.audio ? 'Disponível para ouvir' : 'Episódio em preparação'}</p><h2 class="t-xl" id={`title-${e.slug}`} tabindex="-1">{e.title}</h2><p class="episode-description">{e.description}</p><p class="episode-when tc">{e.when}</p>
+     {e.audio ? <div class="episode-audio"><audio controls preload="none" src={e.audio} aria-label={`Ouvir ${e.title}`}>Seu navegador não suporta áudio. <a href={e.audio}>Baixar episódio</a>.</audio><p class="editorial-source"><a href={e.audio} download>Baixar episódio ↓</a></p><p class="editorial-source">Conversa gerada com IA no NotebookLM a partir de fontes da viagem. Ouça com olhar curioso; as informações podem mudar.</p><p class="audio-error" role="status" hidden>Não foi possível carregar o áudio. Tente novamente ou use o link para baixar.</p></div> : <div class="episode-pending"><span aria-hidden="true">◌</span><div><strong>Esta conversa está ganhando voz.</strong><p>O áudio chega depois da preparação e revisão. Por enquanto, descubra o que vamos contar.</p></div></div>}
+     <section class="episode-section"><h3 class="tc">Lugares que entram na conversa</h3><ul class="episode-stops">{e.stops.map(s=><li>{s}</li>)}</ul></section>
+     <section class="episode-section"><h3 class="t-m">O fio da história</h3><ol class="episode-topics">{e.topics.map(t=><li>{t}</li>)}</ol></section>
+     <p class="episode-note">{e.note}</p>
+     <details class="episode-sources"><summary>Fontes para conhecer mais</summary><ul>{e.sources.map(s => (<li><a href={s.url} target="_blank" rel="noopener noreferrer">{s.recurso} ↗</a></li>))}</ul><p class="editorial-source">Pesquisa de 15/09/2026. No especial do jogo, o panorama esportivo será atualizado perto da partida.</p></details>
+     {e.transcript.length>0 && <details class="episode-sources"><summary>Ler a transcrição</summary><div class="prose">{e.transcript.map(p=><p>{p}</p>)}</div></details>}
+     <a class="lnk chapter-link" href={u(`/capitulo/${e.chapter}`)}>Abrir o roteiro deste destino ↗</a>
+     <nav class="episode-navigation" aria-label={`Navegar a partir do episódio ${e.number}`}>{i>0 && <a href={`#${episodes[i-1].slug}`} data-episode={episodes[i-1].slug}>← Anterior</a>}{i < episodes.length - 1 && <a class="next-episode" href={`#${episodes[i+1].slug}`} data-episode={episodes[i+1].slug}>Próximo episódio →</a>}</nav>
+    </div>
+   </article>))}
+  </div>
+ </div>
+ <aside class="wrap editorial-callout"><p class="tc">Uma viagem que também se ouve</p><h2 class="t-l">A rua dá o assunto.<br/>A gente puxa a conversa.</h2><p class="t-lead">Cada episódio liga a história do lugar ao que queremos viver ali. O especial de Old Trafford ganha uma atualização na semana do jogo; a Madeira pede tempo para escutar a paisagem.</p><div class="editorial-links"><a class="btn" href={u('/futebol')}>Futebol & Ted Lasso ↗</a><a class="btn" href={u('/trabalhos')}>Os dois trabalhos ↗</a><a class="lnk" href={u('/diario')}>Ler o diário ↗</a></div></aside>
+</BaseLayout>
+<script>
+ import '../scripts/podcast';
+</script>

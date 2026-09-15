@@ -18,3 +18,59 @@ body.reading-motion #film{height:auto!important}body.reading-motion .film-stage{
 
 html { scrollbar-width: none; } html::-webkit-scrollbar { display: none; }
 @media (max-height:540px) { body.reading-motion .scene { min-height:900px; } }
+
+/* A quiet glass surface behind the copy; the text itself stays sharp. */
+.destination-story {
+  --glass-fill: #10182038;
+  --glass-edge: #ffffff26;
+  --glass-shadow: #00000024;
+  isolation: isolate;
+  text-shadow: 0 1px 8px #00000024;
+}
+.destination-story::before {
+  content: '';
+  position: absolute;
+  inset: -22px -24px;
+  z-index: -1;
+  pointer-events: none;
+  border-radius: 24px;
+  border: 1px solid var(--glass-edge);
+  background: linear-gradient(135deg, #ffffff12, #ffffff02 48%, #ffffff08), var(--glass-fill);
+  -webkit-backdrop-filter: blur(12px) saturate(115%);
+  backdrop-filter: blur(12px) saturate(115%);
+  box-shadow: inset 0 1px 0 #ffffff24, inset 0 -1px 0 #ffffff08, 0 12px 36px var(--glass-shadow);
+}
+.destination-heading h2,
+.intro-title h1,
+.end-content h2 { text-shadow: 0 2px 24px #00000020; }
+@media(min-width:801px) {
+  .scene-framed .destination-story {
+    --glass-fill: #ffffff18;
+    --glass-edge: #ffffff65;
+    --glass-shadow: #00000009;
+    text-shadow: none;
+  }
+  .scene-framed .destination-heading h2 { text-shadow: 0 2px 18px #00000008; }
+}
+@media(max-width:800px) {
+  .destination-story::before { inset: -17px -14px; border-radius: 20px; }
+}
+@media(prefers-reduced-transparency:reduce) {
+  .destination-story { --glass-fill: #172027; }
+  .destination-story::before { -webkit-backdrop-filter: none; backdrop-filter: none; }
+}
+@media(prefers-reduced-transparency:reduce) and (min-width:801px) {
+  .scene-framed .destination-story { --glass-fill: #ededed; }
+}
+
+/* Sunlit city photographs, with shade confined to the reading areas. */
+.destination-londres .destination-image img,
+.destination-birmingham .destination-image img { filter: none; }
+.destination-londres .destination-image img { object-position: 60% 62%; }
+.destination-londres .image-shade { background: linear-gradient(180deg,#0004,transparent 35%),linear-gradient(0deg,#000b,transparent 60%),linear-gradient(270deg,#0004,transparent 45%); }
+@media(max-width:800px) {
+  .destination-londres .destination-image img { object-position: 86% 50%; }
+  .destination-birmingham .destination-image img { object-position: 53% 50%; }
+  .destination-londres .image-shade,
+  .destination-birmingham .image-shade { background: linear-gradient(180deg,#0005,transparent 34%),linear-gradient(0deg,#000d 5%,#0008 37%,transparent 65%); }
+}

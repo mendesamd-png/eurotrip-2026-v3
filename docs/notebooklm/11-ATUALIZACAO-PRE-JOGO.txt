@@ -1,0 +1,32 @@
+UNITED × BOURNEMOUTH — BLOCO A ATUALIZAR ANTES DO ÁUDIO FINAL
+
+Objetivo: separar a história permanente do retrato da semana. Sugestão editorial: refazer este bloco entre 48 e 72 horas antes do jogo e conferir novamente notícias relevantes no dia. Não há atualização automática configurada no site ou no NotebookLM.
+
+DATA E HORA DA APURAÇÃO: [preencher, com fuso]
+DATA E HORÁRIO LOCAL DO JOGO: [fonte oficial + data da consulta]
+TEMPORADA/COMPETIÇÃO: [conferir filtro 2026/27]
+UNITED: treinador; posição e pontos; últimos cinco jogos oficiais (data, adversário, competição, mando e placar); notícias relevantes de elenco.
+BOURNEMOUTH: os mesmos campos, com fontes do adversário.
+DESFALQUES: confirmado, dúvida ou ausência não confirmada; diferenciar seleção nacional, equipe de base e time feminino.
+CONTEXTO: o que os fatos mostram? O que é interpretação? Qual fonte sustenta cada conclusão?
+ESCALAÇÃO: usar a oficial apenas quando publicada. Antes disso, dizer que ainda não foi divulgada.
+
+Para CADA afirmação, preencher:
+Fato:
+URL da fonte primária:
+Data da publicação:
+Data do evento:
+Trecho de evidência / paráfrase curta:
+Status: confirmado / pendente / interpretação atribuída.
+
+FONTES DE PARTIDA
+https://www.manutd.com/en/news/listing/mens-news?page=1&type=news
+https://www.manutd.com/en/news/category/press-conference?page=0
+https://www.manutd.com/en/team-fixture-calendars
+https://www.premierleague.com/en/tables/premier-league
+https://www.afcb.co.uk/
+
+Importar artigos específicos datados, não apenas uma lista de links ou a homepage. Se uma página dinâmica não vier completa, registrar uma nota própria fiel ao conteúdo que você conferiu, com URL e data, e identificá-la como transcrição/apuração manual. Uma página sem dados não comprova uma classificação.
+
+PROMPT PARA O NOTEBOOKLM
+Revise o episódio 04 sem reescrever a história já conferida. Substitua o bloco de atualidade usando APENAS esta ficha preenchida e as fontes datadas da semana. Comece o bloco dizendo a data da apuração. Apresente os dois clubes com o mesmo cuidado, explique os termos para quem não acompanha a Premier League e não reduza a conversa a números. Se faltar qualquer campo, omita-o e sinalize a limitação. Não use tabelas da temporada passada, rumores como fatos, escalações prováveis como oficiais ou o futuro placar. Antes do áudio, mostre uma tabela de checagem no chat. Termine conectando a informação ao desejo de Douglas de viver Old Trafford de perto.

@@ -1,0 +1,52 @@
+EPISÓDIO 05 — Do outro lado da arquibancada
+Liverpool · Reino Unido · passeio possível
+Pauta preparada em 15/09/2026. Áudio ainda não gerado.
+
+PROMESSA
+Anfield, memória portuária e música. A rivalidade viaja no bolso; a vontade de conhecer vem na frente.
+
+QUANDO OUVIR
+26 out no esboço · se o bate-volta acontecer
+
+PARADAS
+- Anfield · visita possível
+- Albert Dock
+- Cavern Club
+
+PAUTA E ORDEM DA CONVERSA
+1. Anfield como encontro entre clube, bairro e gerações de torcedores.
+2. Anfield desde a fundação do Liverpool, o Albert Dock de 1846 e o Cavern que nasceu como clube de jazz.
+3. Albert Dock e Cavern Club como desejos do passeio, sem fingir que já estivemos lá.
+
+O QUE AINDA DEPENDE DE CONFIRMAÇÃO
+O bate-volta e o tour ainda não estão confirmados. A história já pode ser conhecida, mesmo que o passeio mude.
+
+FONTES A IMPORTAR
+
+[F14] Liverpool FC · Stadium Tours
+https://www.liverpoolfc.com/stadium-tours/
+Uso: Experiência oficial de Anfield. A nossa visita ainda é uma possibilidade.
+
+[F22] National Football Museum · histórias
+https://nationalfootballmuseum.com/stories/
+Uso: Pautas sobre memória, pioneiros, objetos, torcedores e o futebol na sociedade.
+
+[P19] Liverpool FC · fundação em 1892
+https://www.liverpoolfc.com/info/how-liverpool-fc-was-founded-1892
+Uso: História oficial da separação do Everton e do nascimento do Liverpool em Anfield.
+
+[P20] Cavern Club · história
+https://www.cavernclub.com/history/
+Uso: Abertura em 1957 como clube de jazz e trajetória do local. Não descrever o espaço atual como intacto desde os Beatles.
+
+[P21] Royal Albert Dock · história
+https://albertdock.com/dock-180-then-now/
+Uso: Abertura em 1846, Jesse Hartley e a arquitetura portuária.
+
+PROMPT PARA PERSONALIZAR O RESUMO EM ÁUDIO
+Crie uma conversa em português brasileiro para a série Perto, mesmo longe. Dois apresentadores curiosos, calor humano e humor leve. Eles não devem fingir ser Douglas Mendes e Hugo Lima nem inventar falas ou lembranças dos viajantes. O público inclui familiares, amigos e quem não acompanha futebol. A viagem é futura, em outubro e novembro de 2026.
+Use apenas as fontes selecionadas. Não transforme possibilidade em reserva ou plano em fato vivido. Lisboa é só conexão aérea; Ponta Delgada é na Madeira. Não narre endereços privados, códigos de reserva nem valores comerciais. Explique termos culturais e esportivos sem tom de aula. A poesia vem de um detalhe concreto, não de slogans.
+Estrutura: convite para a experiência que queremos viver; contexto histórico; passeio pelas paradas; um detalhe para observar sem câmera; despedida. Não leia uma lista de curiosidades. Diferencie o que é pauta de pesquisa do que já é fato verificado. Não use letras de músicas nem invente sons gravados pela dupla.
+Antes de gerar o áudio, mostre no chat uma tabela fato / fonte / data / confirmado ou pendente. Quando faltar evidência, omita ou explicite a lacuna. Revise nomes, geografia e mudanças de agenda. A duração é uma intenção editorial, não garantia da ferramenta. Priorize uma conversa que caiba num deslocamento curto, sem cortar contexto essencial.
+
+Concentre este episódio em Liverpool, com o título “Do outro lado da arquibancada”. Ligue cada história às paradas listadas. Encerre com uma pergunta concreta que os viajantes possam responder depois da visita.

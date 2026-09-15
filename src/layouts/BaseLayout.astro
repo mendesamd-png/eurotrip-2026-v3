@@ -18,7 +18,7 @@ interface Props {
 }
 const { title, description, image, accent = '#EDEAE3', current, noindex = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
-const ogImage = image ?? unsplash(images.areeiro, 1200);
+const ogImage = new URL(image ?? unsplash(images.areeiro, 1200), Astro.site);
 ---
 
 <!doctype html>
@@ -104,6 +104,7 @@ const ogImage = image ?? unsplash(images.areeiro, 1200);
 
       // toggle de tema
       document.querySelectorAll<HTMLButtonElement>('[data-theme-toggle]').forEach((b) => {
+        b.setAttribute('aria-pressed', String(document.documentElement.getAttribute('data-theme') === 'light'));
         b.addEventListener('click', () => {
           const html = document.documentElement;
           const light = html.getAttribute('data-theme') === 'light';

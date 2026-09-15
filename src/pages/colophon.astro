@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { images } from '../data/images';
+import { images, type Img } from '../data/images';
 import { u } from '../data/url';
-const uniq = [...new Map(Object.values(images).map((c) => [c.id, c])).values()];
+const uniq: Img[] = [...new Map(Object.values(images).map((c) => [c.id, c])).values()];
 ---
 
 <BaseLayout title="Colophon" description="Sobre o projeto, créditos das imagens e como este site foi feito." current={u('/colophon')}>
@@ -15,18 +15,18 @@ const uniq = [...new Map(Object.values(images).map((c) => [c.id, c])).values()];
     <p class="tc">o projeto</p>
     <div class="prose">
       <p>Este site é o caderno de bordo de uma viagem que começou como férias e virou dois trabalhos. É diário de campo e ensaio: um objeto editorial, com ritmo de montagem. Antes da viagem, funciona como antecipação. Durante, recebe atualizações leves. Depois, vira peça fechada com o material filmado e fotografado.</p>
-      <p>A estrutura em jornada do herói tem função. Toda viagem longa tem prólogo, provação, virada e retorno, e organizar o roteiro assim ajudou a decidir o que cortar. Lisboa, Stonehenge e o bate-volta a Paris saíram porque não tinham função dramática. San Sebastián entrou porque tinha.</p>
-      <p>Segunda versão, setembro de 2026: linguagem de sala escura. Letterbox 2.39:1, timecode, claquete, ordem do dia. Tipografia Inter Tight nos títulos, Instrument Sans no corpo, JetBrains Mono nos rótulos. Astro, CSS puro, Leaflet sobre OpenStreetMap com os tiles invertidos. Publicado no GitHub Pages.</p>
+      <p>Futebol, cinema, arte e natureza atravessam o diário. As seis bases organizam a leitura, enquanto os encontros dão sentido ao caminho. Os textos são escritos antes da viagem: visitas possíveis e diárias propostas continuam identificadas como planos.</p>
+      <p>Terceira versão, setembro de 2026: abertura cinematográfica, diário de viagem e um futuro podcast. Letterbox 2.39:1, timecode, claquete, ordem do dia. Tipografia Inter Tight nos títulos, Instrument Sans no corpo, JetBrains Mono nos rótulos. Astro, CSS puro, Leaflet sobre OpenStreetMap com os tiles invertidos. Preparado para uma publicação independente da versão anterior.</p>
       <p>A área <a class="lnk accent" href={u('/bordo')}>/bordo</a> é privada: comprovantes, códigos de reserva e telefones de anfitrião, cifrados no navegador com uma senha que só a tripulação conhece.</p>
     </div>
   </section>
 
   <section class="wrap section" style="padding-top:0">
-    <p class="tc" style="margin-bottom:1.2rem">créditos de imagem · unsplash · a substituir por material próprio</p>
+    <p class="tc" style="margin-bottom:1.2rem">créditos de imagem · referências, arquivos e trabalhos</p>
     <ul class="cred">
-      {uniq.map((c) => (<li><a class="lnk" href={`https://unsplash.com/@${c.author}`} target="_blank" rel="noopener">@{c.author}</a> <span class="muted">· {c.alt}</span></li>))}
+      {uniq.map((c) => (<li><a class="lnk" href={c.source || `https://unsplash.com/@${c.author}`} target="_blank" rel="noopener">{c.author}</a> <span class="muted">· {c.alt} · {c.credit || "Unsplash · imagem de referência"}</span>{c.license && <> · <a class="lnk" href={c.license} target="_blank" rel="noopener">Licença da fotografia</a></>}</li>))}
     </ul>
-    <p class="tc muted" style="margin-top:2rem">retratos da tripulação: acervo próprio. mapa: © openstreetmap contributors.</p>
+    <p class="tc muted" style="margin-top:2rem">Retratos da tripulação: acervo próprio. As fotografias de estádios e Richmond são registros anteriores à viagem. As licenças CC BY-SA indicadas se aplicam às respectivas fotografias e seus recortes. Imagens dos trabalhos: materiais fornecidos nas propostas FUMI e Sorgin; o crédito individual da fotografia da Sorgin ainda precisa ser confirmado. Mapa: © OpenStreetMap contributors.</p>
   </section>
 </BaseLayout>
 

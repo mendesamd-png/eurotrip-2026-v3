@@ -1,0 +1,41 @@
+EPISÓDIO 02 — A cidade que começa num abraço
+Birmingham · Reino Unido
+Pauta preparada em 15/09/2026. Áudio ainda não gerado.
+
+PROMESSA
+Gustavo Barros entra no roteiro e a cidade ganha outro ritmo. Canais, tijolos, Digbeth e a possibilidade de conhecer o Birmingham City.
+
+QUANDO OUVIR
+22–23 out · no trem ou antes do reencontro
+
+PARADAS
+- Gustavo Barros
+- Gas Street Basin
+- Digbeth
+- St Andrew’s · visita possível
+
+PAUTA E ORDEM DA CONVERSA
+1. Ler o passado da cidade nos canais e nos espaços que mudaram de uso.
+2. Como um amigo apresenta uma cidade de um jeito que nenhum mapa consegue.
+3. St Andrew’s e o futebol de bairro: conhecer a casa do Birmingham City, se der tempo.
+
+O QUE AINDA DEPENDE DE CONFIRMAÇÃO
+A estadia é curta. O encontro faz parte da viagem; o tour de estádio ainda é uma possibilidade.
+
+FONTES A IMPORTAR
+
+[P17] Visit Birmingham · passeio pelos canais
+https://visitbirmingham.com/listing/birmingham-city-virtual-canal-walk/136731101/
+Uso: Brindley Place e Gas Street Basin como fio de caminhada.
+
+[F15] Visit Birmingham · St Andrew’s
+https://visitbirmingham.com/listing/st-andrews-%40-knighthead-park-birmingham-city-football-club/141254101/
+Uso: Turismo oficial da cidade: história do estádio e acesso às informações de tours.
+
+PROMPT PARA PERSONALIZAR O RESUMO EM ÁUDIO
+Crie uma conversa em português brasileiro para a série Perto, mesmo longe. Dois apresentadores curiosos, calor humano e humor leve. Eles não devem fingir ser Douglas Mendes e Hugo Lima nem inventar falas ou lembranças dos viajantes. O público inclui familiares, amigos e quem não acompanha futebol. A viagem é futura, em outubro e novembro de 2026.
+Use apenas as fontes selecionadas. Não transforme possibilidade em reserva ou plano em fato vivido. Lisboa é só conexão aérea; Ponta Delgada é na Madeira. Não narre endereços privados, códigos de reserva nem valores comerciais. Explique termos culturais e esportivos sem tom de aula. A poesia vem de um detalhe concreto, não de slogans.
+Estrutura: convite para a experiência que queremos viver; contexto histórico; passeio pelas paradas; um detalhe para observar sem câmera; despedida. Não leia uma lista de curiosidades. Diferencie o que é pauta de pesquisa do que já é fato verificado. Não use letras de músicas nem invente sons gravados pela dupla.
+Antes de gerar o áudio, mostre no chat uma tabela fato / fonte / data / confirmado ou pendente. Quando faltar evidência, omita ou explicite a lacuna. Revise nomes, geografia e mudanças de agenda. A duração é uma intenção editorial, não garantia da ferramenta. Priorize uma conversa que caiba num deslocamento curto, sem cortar contexto essencial.
+
+Concentre este episódio em Birmingham, com o título “A cidade que começa num abraço”. Ligue cada história às paradas listadas. Encerre com uma pergunta concreta que os viajantes possam responder depois da visita.

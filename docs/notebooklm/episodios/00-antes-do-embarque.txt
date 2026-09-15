@@ -1,0 +1,48 @@
+EPISÓDIO 00 — Antes do primeiro embarque
+A travessia · Brasil → Europa
+Pauta preparada em 15/09/2026. Áudio ainda não gerado.
+
+PROMESSA
+Um estádio no coração, dois filmes no caminho e amigos que vêm com a gente pelas histórias. A abertura da nossa viagem em áudio.
+
+QUANDO OUVIR
+Para ouvir antes de arrumar a mala
+
+PARADAS
+- São Paulo → Londres
+- Seis bases
+- Dois trabalhos da Rota
+
+PAUTA E ORDEM DA CONVERSA
+1. O que aproxima futebol, cinema, arte e natureza nesta viagem.
+2. Douglas e Hugo, o reencontro com Gustavo e a vontade de dividir o caminho com quem ficou em casa.
+3. FUMI em Londres e Sorgin no País Basco: por que a câmera também vai trabalhar.
+
+O QUE AINDA DEPENDE DE CONFIRMAÇÃO
+A viagem ainda vai acontecer. Este episódio apresenta desejos e planos, sem inventar lembranças.
+
+FONTES A IMPORTAR
+
+[F01] Rota · proposta FUMI
+https://rota-fumi.netlify.app/
+Uso: Fonte do projeto, da residência já filmada e da etapa londrina proposta; contém também informações comerciais.
+
+[F02] Rota · proposta Sorgin
+https://rota-sorgin.netlify.app/
+Uso: Fonte do conceito A que faz nascer e da janela proposta; contém também informações comerciais.
+
+[F10] Manchester United · visitar Old Trafford
+https://www.manutd.com/en/club/visit-old-trafford
+Uso: Porta de entrada oficial para conhecer o estádio e a experiência de visita.
+
+[F33] UNESCO · Laurisilva of Madeira
+https://whc.unesco.org/en/list/0934/
+Uso: Fonte central sobre importância ecológica, biodiversidade e relação da floresta com a água.
+
+PROMPT PARA PERSONALIZAR O RESUMO EM ÁUDIO
+Crie uma conversa em português brasileiro para a série Perto, mesmo longe. Dois apresentadores curiosos, calor humano e humor leve. Eles não devem fingir ser Douglas Mendes e Hugo Lima nem inventar falas ou lembranças dos viajantes. O público inclui familiares, amigos e quem não acompanha futebol. A viagem é futura, em outubro e novembro de 2026.
+Use apenas as fontes selecionadas. Não transforme possibilidade em reserva ou plano em fato vivido. Lisboa é só conexão aérea; Ponta Delgada é na Madeira. Não narre endereços privados, códigos de reserva nem valores comerciais. Explique termos culturais e esportivos sem tom de aula. A poesia vem de um detalhe concreto, não de slogans.
+Estrutura: convite para a experiência que queremos viver; contexto histórico; passeio pelas paradas; um detalhe para observar sem câmera; despedida. Não leia uma lista de curiosidades. Diferencie o que é pauta de pesquisa do que já é fato verificado. Não use letras de músicas nem invente sons gravados pela dupla.
+Antes de gerar o áudio, mostre no chat uma tabela fato / fonte / data / confirmado ou pendente. Quando faltar evidência, omita ou explicite a lacuna. Revise nomes, geografia e mudanças de agenda. A duração é uma intenção editorial, não garantia da ferramenta. Priorize uma conversa que caiba num deslocamento curto, sem cortar contexto essencial.
+
+Concentre este episódio em A travessia, com o título “Antes do primeiro embarque”. Ligue cada história às paradas listadas. Encerre com uma pergunta concreta que os viajantes possam responder depois da visita.

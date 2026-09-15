@@ -1,0 +1,78 @@
+EPISÓDIO 07 — A ilha conta, a gente escuta
+Funchal & arredores · Portugal · Madeira
+Pauta preparada em 15/09/2026. Áudio ainda não gerado.
+
+PROMESSA
+Portas pintadas, um mercado cheio de vida e montanhas que guardam outro tempo. Histórias para reconhecer os lugares por onde queremos passar.
+
+QUANDO OUVIR
+31 out–3 nov · antes dos passeios
+
+PARADAS
+- Mercado dos Lavradores
+- Zona Velha e Rua de Santa Maria
+- Pico do Areeiro
+- Eira do Serrado e Curral das Freiras
+- Ponta de São Lourenço
+- Cabo Girão e Câmara de Lobos
+
+PAUTA E ORDEM DA CONVERSA
+1. O Mercado dos Lavradores, inaugurado em 1940, e a história que aparece na arquitetura e nos azulejos.
+2. Zona Velha e portas pintadas: observar arte, ruas e vida cotidiana com tempo.
+3. Eira do Serrado: a paisagem do vale e a narrativa das freiras; separar memória histórica de explicação geológica.
+4. Do Areeiro à península de São Lourenço, do Cabo Girão à pesca em Câmara de Lobos: aprender a ler a ilha.
+
+O QUE AINDA DEPENDE DE CONFIRMAÇÃO
+Funchal é a base; vários passeios ficam em outros municípios. A ordem depende do tempo e dos acessos.
+
+FONTES A IMPORTAR
+
+[P10] Visit Madeira · Mercado dos Lavradores
+https://visitmadeira.com/pt/o-que-fazer/apaixonados-por-cultura/patrimonio/monumentos-e-arquitetura/mercado-dos-lavradores/
+Uso: Inauguração em 1940, Edmundo Tavares, azulejos e abastecimento da cidade.
+
+[P15] Turismo de Portugal · guia Madeira e Porto Santo
+https://www.visitportugal.com/sites/default/files/GUIA%20_MADEIRA%20E%20_PORTO_SANTO_PT.pdf
+Uso: História e cultura: localizar Zona Velha, portas pintadas, Funchal e Câmara de Lobos. Não confirma nossa agenda.
+
+[P11] Visit Madeira · Eira do Serrado
+https://www.visitmadeira.com/pt/onde-ir/madeira/costa-sul/camara-de-lobos/miradouro-da-eira-do-serrado/
+Uso: Miradouro, maciço central e paisagem modelada pela erosão.
+
+[P12] Visit Madeira · Curral das Freiras
+https://visitmadeira.com/pt/onde-ir/madeira/costa-sul/camara-de-lobos/curral-das-freiras/
+Uso: Narrativa turística do refúgio de freiras em 1566. Atribuir à fonte; semelhança visual não significa cratera.
+
+[P13] Governo da Madeira · Eira do Serrado
+https://geodiversidade.madeira.gov.pt/geossitios/madeira/camara-de-lobos/cl01-miradouro-da-eira-do-serrado
+Uso: Referência geológica sobre formações vulcânicas e o vale.
+
+[F36] Visit Madeira · Pico do Areeiro
+https://visitmadeira.com/pt/onde-ir/madeira/cordilheira-central/pico-do-areeiro/
+Uso: Paisagem da cordilheira central. Distinguir o miradouro de um percurso pedestre completo.
+
+[F40] Visit Madeira · Ponta de São Lourenço
+https://visitmadeira.com/pt/onde-ir/madeira/costa-este/machico/ponta-de-sao-lourenco/
+Uso: Uma paisagem da costa leste para contrastar com o verde do Fanal.
+
+[P14] Governo da Madeira · Cabo Girão
+https://geodiversidade.madeira.gov.pt/index.php/geossitios/madeira/camara-de-lobos/cl02-miradouro-do-cabo-girao
+Uso: Camadas vulcânicas, arriba e fajã agrícola. Evitar rankings de altura.
+
+[P16] IFCN · conservação do lobo-marinho
+https://ifcn.madeira.gov.pt/images/Doc_Artigos/Biodiversidade/Projetos/lobomarinho/Estrategia_para_a_Conservacao_do_Lobo-marinho_na_Madeira.pdf
+Uso: Presença histórica de lobos-marinhos no arquipélago e em Câmara de Lobos. Não prometer avistamento.
+
+[F38] Visit Madeira · caminhadas
+https://visitmadeira.com/pt/o-que-fazer/exploradores-da-natureza/atividades/caminhadas/
+Uso: Consultar percursos e condições oficiais atualizadas antes de planejar trilhas.
+
+PROMPT PARA PERSONALIZAR O RESUMO EM ÁUDIO
+Crie uma conversa em português brasileiro para a série Perto, mesmo longe. Dois apresentadores curiosos, calor humano e humor leve. Eles não devem fingir ser Douglas Mendes e Hugo Lima nem inventar falas ou lembranças dos viajantes. O público inclui familiares, amigos e quem não acompanha futebol. A viagem é futura, em outubro e novembro de 2026.
+Use apenas as fontes selecionadas. Não transforme possibilidade em reserva ou plano em fato vivido. Lisboa é só conexão aérea; Ponta Delgada é na Madeira. Não narre endereços privados, códigos de reserva nem valores comerciais. Explique termos culturais e esportivos sem tom de aula. A poesia vem de um detalhe concreto, não de slogans.
+Estrutura: convite para a experiência que queremos viver; contexto histórico; passeio pelas paradas; um detalhe para observar sem câmera; despedida. Não leia uma lista de curiosidades. Diferencie o que é pauta de pesquisa do que já é fato verificado. Não use letras de músicas nem invente sons gravados pela dupla.
+Antes de gerar o áudio, mostre no chat uma tabela fato / fonte / data / confirmado ou pendente. Quando faltar evidência, omita ou explicite a lacuna. Revise nomes, geografia e mudanças de agenda. A duração é uma intenção editorial, não garantia da ferramenta. Priorize uma conversa que caiba num deslocamento curto, sem cortar contexto essencial.
+
+Concentre este episódio em Funchal & arredores, com o título “A ilha conta, a gente escuta”. Ligue cada história às paradas listadas. Encerre com uma pergunta concreta que os viajantes possam responder depois da visita.
+
+Importe também o documento 12. Use a história de cada parada e uma observação sensorial. Funchal é a base; vários passeios ficam em outros municípios. Ver Curral das Freiras do miradouro não significa descer à vila. Não tratar o vale como cratera nem prometer nuvens, clima ou trilhas abertas.

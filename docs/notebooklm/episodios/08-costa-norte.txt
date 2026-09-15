@@ -1,0 +1,62 @@
+EPISÓDIO 08 — A floresta tem outro relógio
+Costa norte da Madeira · Portugal · Madeira
+Pauta preparada em 15/09/2026. Áudio ainda não gerado.
+
+PROMESSA
+Ponta Delgada é a última base. Entre Fanal, Seixal, Porto Moniz e Santana, acompanhamos a água, a floresta e a vontade de ficar mais um pouco.
+
+QUANDO OUVIR
+3–5 nov · para desacelerar
+
+PARADAS
+- Ponta Delgada · Madeira
+- São Vicente
+- Fanal e Laurissilva
+- Seixal e Porto Moniz
+- Santana
+
+PAUTA E ORDEM DA CONVERSA
+1. O que torna a Laurissilva especial e como floresta, água e neblina se relacionam.
+2. Paisagens vulcânicas e vida na costa norte, com paradas conforme as condições locais.
+3. O Fanal como tempo de observação e o retorno como começo das histórias para compartilhar.
+
+O QUE AINDA DEPENDE DE CONFIRMAÇÃO
+Ponta Delgada aqui é na Madeira, não nos Açores. Neblina, banho e acesso às trilhas não são garantidos.
+
+FONTES A IMPORTAR
+
+[F33] UNESCO · Laurisilva of Madeira
+https://whc.unesco.org/en/list/0934/
+Uso: Fonte central sobre importância ecológica, biodiversidade e relação da floresta com a água.
+
+[F34] UNESCO · documentos da Laurissilva
+https://whc.unesco.org/en/list/934/documents
+Uso: Biblioteca de documentos técnicos. Complemento de pesquisa, não necessário ao primeiro episódio.
+
+[F35] Visit Madeira · Fanal
+https://visitmadeira.com/pt/o-que-fazer/exploradores-da-natureza/floresta-laurissilva/fanal/
+Uso: O bosque de tis e a paisagem de contemplação. Neblina não é uma condição garantida.
+
+[F37] Visit Madeira · Ponta Delgada
+https://visitmadeira.com/pt/onde-ir/madeira/costa-norte/sao-vicente/ponta-delgada/
+Uso: A localidade da Madeira que será base; não confundir com Ponta Delgada nos Açores.
+
+[F39] Visit Madeira · piscinas de Porto Moniz
+https://visitmadeira.com/pt/onde-ir/madeira/costa-norte/porto-moniz/piscinas-naturais-do-porto-moniz/
+Uso: Rochas vulcânicas e mar como contexto. Funcionamento depende das condições locais.
+
+[F38] Visit Madeira · caminhadas
+https://visitmadeira.com/pt/o-que-fazer/exploradores-da-natureza/atividades/caminhadas/
+Uso: Consultar percursos e condições oficiais atualizadas antes de planejar trilhas.
+
+[P15] Turismo de Portugal · guia Madeira e Porto Santo
+https://www.visitportugal.com/sites/default/files/GUIA%20_MADEIRA%20E%20_PORTO_SANTO_PT.pdf
+Uso: História e cultura: localizar Zona Velha, portas pintadas, Funchal e Câmara de Lobos. Não confirma nossa agenda.
+
+PROMPT PARA PERSONALIZAR O RESUMO EM ÁUDIO
+Crie uma conversa em português brasileiro para a série Perto, mesmo longe. Dois apresentadores curiosos, calor humano e humor leve. Eles não devem fingir ser Douglas Mendes e Hugo Lima nem inventar falas ou lembranças dos viajantes. O público inclui familiares, amigos e quem não acompanha futebol. A viagem é futura, em outubro e novembro de 2026.
+Use apenas as fontes selecionadas. Não transforme possibilidade em reserva ou plano em fato vivido. Lisboa é só conexão aérea; Ponta Delgada é na Madeira. Não narre endereços privados, códigos de reserva nem valores comerciais. Explique termos culturais e esportivos sem tom de aula. A poesia vem de um detalhe concreto, não de slogans.
+Estrutura: convite para a experiência que queremos viver; contexto histórico; passeio pelas paradas; um detalhe para observar sem câmera; despedida. Não leia uma lista de curiosidades. Diferencie o que é pauta de pesquisa do que já é fato verificado. Não use letras de músicas nem invente sons gravados pela dupla.
+Antes de gerar o áudio, mostre no chat uma tabela fato / fonte / data / confirmado ou pendente. Quando faltar evidência, omita ou explicite a lacuna. Revise nomes, geografia e mudanças de agenda. A duração é uma intenção editorial, não garantia da ferramenta. Priorize uma conversa que caiba num deslocamento curto, sem cortar contexto essencial.
+
+Concentre este episódio em Costa norte da Madeira, com o título “A floresta tem outro relógio”. Ligue cada história às paradas listadas. Encerre com uma pergunta concreta que os viajantes possam responder depois da visita.

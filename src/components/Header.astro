@@ -7,6 +7,9 @@ const primary = chapters.map((c) => ({ href: u(`/capitulo/${c.slug}`), label: c.
 const secondary = [
   { href: u('/diario'), label: 'diário' },
   { href: u('/jornada'), label: 'jornada' },
+  { href: u('/futebol'), label: 'futebol' },
+  { href: u('/trabalhos'), label: 'trabalhos' },
+  { href: u('/podcast'), label: 'podcast' },
   { href: u('/kit'), label: 'kit' },
   { href: u('/tripulacao'), label: 'tripulação' },
   { href: u('/bordo'), label: 'bordo' },
@@ -61,7 +64,7 @@ const secondary = [
   .hdr__mark { font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; letter-spacing: -0.02em; }
   .hdr__tc { font-size: 0.6rem; white-space: nowrap; }
   .hdr__nav { display: none; }
-  .hdr__sec { display: flex; gap: 1.4rem; }
+  .hdr__sec { display: flex; gap: 1rem; }
   .hdr__sec a { white-space: nowrap; }
   .hdr__right { position: relative; z-index: 80; display: flex; align-items: center; gap: 0.8rem; }
   .hdr__chrow { display: none; border-top: 1px solid var(--line); }
@@ -69,7 +72,7 @@ const secondary = [
   .hdr__ch a { white-space: nowrap; color: var(--text-2); font-size: 0.72rem; }
   .active { color: var(--accent) !important; }
   .active::after { transform: scaleX(1) !important; }
-  @media (min-width: 1024px) { .hdr__nav { display: flex; } .hdr__chrow { display: block; } .hdr__burger { display: none; } }
+  @media (min-width: 1200px) { .hdr__nav { display: flex; } .hdr__chrow { display: block; } .hdr__burger { display: none; } }
   .hdr__overlay { position: fixed; inset: 0; background: var(--black); z-index: 75; padding-top: 6rem; overflow: auto; }
   .hdr__big li { border-top: 1px solid var(--line); }
   .hdr__big a { display: flex; gap: 1.5rem; align-items: baseline; font-family: var(--font-display); font-weight: 650; letter-spacing: -0.04em; font-size: clamp(2.2rem, 9vw, 4rem); padding: 0.45em 0; }

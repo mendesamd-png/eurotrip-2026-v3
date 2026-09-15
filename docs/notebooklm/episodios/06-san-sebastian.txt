@@ -1,0 +1,62 @@
+EPISÓDIO 06 — Onde a arte encontra o vento
+San Sebastián · Espanha · País Basco
+Pauta preparada em 15/09/2026. Áudio ainda não gerado.
+
+PROMESSA
+Donostia, o Cantábrico e uma câmera que veio trabalhar. A Sorgin abre o caminho; a Concha, o Peine del Viento e o cinema ajudam a conhecer o lugar.
+
+QUANDO OUVIR
+28–31 out · entre as diárias
+
+PARADAS
+- Sorgin Gallery
+- La Concha e Parte Vieja
+- Monte Igueldo e Peine del Viento
+- Tabakalera
+- Bilbao · passagem
+
+PAUTA E ORDEM DA CONVERSA
+1. Donostia / San Sebastián e a identidade local: ouvir o lugar antes de resumir sua cultura.
+2. A proposta A que faz nascer, Miriam Badaró e o encontro entre arte, arquitetura e paisagem.
+3. Chillida à beira-mar e a cidade do cinema; Tabakalera como possibilidade para os intervalos.
+
+O QUE AINDA DEPENDE DE CONFIRMAÇÃO
+As diárias da Sorgin orientam a agenda. O festival é contexto cultural; não está prevista participação no evento.
+
+FONTES A IMPORTAR
+
+[F02] Rota · proposta Sorgin
+https://rota-sorgin.netlify.app/
+Uso: Fonte do conceito A que faz nascer e da janela proposta; contém também informações comerciais.
+
+[F08] Sorgin Gallery
+https://www.sorgingallery.com/
+Uso: Apresentação oficial da galeria e de suas relações entre design, arte, arquitetura e paisagem.
+
+[P18] San Sebastián Turismo · Peine del Viento
+https://sansebastianturismoa.eus/en/to-do/open-air-sculptures/the-wind-comb/
+Uso: Chillida, escultura e a relação da cidade com o mar.
+
+[F29] Tabakalera
+https://www.tabakalera.eus/en/
+Uso: Centro de cultura contemporânea de Donostia; arte, cinema, fotografia e criação.
+
+[F30] Chillida Leku
+https://www.museochillidaleku.com/
+Uso: Relação entre escultura e paisagem como referência temática, sem visita confirmada.
+
+[F31] Guggenheim Bilbao
+https://www.guggenheim-bilbao.eus/en
+Uso: Arte e arquitetura para contextualizar Bilbao, sem prometer visita ao interior no dia do voo.
+
+[F32] Festival de San Sebastián
+https://www.sansebastianfestival.com/
+Uso: Site oficial do festival. Referência cultural da cidade; não afirmar presença da dupla no evento.
+
+PROMPT PARA PERSONALIZAR O RESUMO EM ÁUDIO
+Crie uma conversa em português brasileiro para a série Perto, mesmo longe. Dois apresentadores curiosos, calor humano e humor leve. Eles não devem fingir ser Douglas Mendes e Hugo Lima nem inventar falas ou lembranças dos viajantes. O público inclui familiares, amigos e quem não acompanha futebol. A viagem é futura, em outubro e novembro de 2026.
+Use apenas as fontes selecionadas. Não transforme possibilidade em reserva ou plano em fato vivido. Lisboa é só conexão aérea; Ponta Delgada é na Madeira. Não narre endereços privados, códigos de reserva nem valores comerciais. Explique termos culturais e esportivos sem tom de aula. A poesia vem de um detalhe concreto, não de slogans.
+Estrutura: convite para a experiência que queremos viver; contexto histórico; passeio pelas paradas; um detalhe para observar sem câmera; despedida. Não leia uma lista de curiosidades. Diferencie o que é pauta de pesquisa do que já é fato verificado. Não use letras de músicas nem invente sons gravados pela dupla.
+Antes de gerar o áudio, mostre no chat uma tabela fato / fonte / data / confirmado ou pendente. Quando faltar evidência, omita ou explicite a lacuna. Revise nomes, geografia e mudanças de agenda. A duração é uma intenção editorial, não garantia da ferramenta. Priorize uma conversa que caiba num deslocamento curto, sem cortar contexto essencial.
+
+Concentre este episódio em San Sebastián, com o título “Onde a arte encontra o vento”. Ligue cada história às paradas listadas. Encerre com uma pergunta concreta que os viajantes possam responder depois da visita.

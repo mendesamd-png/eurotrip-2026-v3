@@ -74,3 +74,27 @@ html { scrollbar-width: none; } html::-webkit-scrollbar { display: none; }
   .destination-londres .image-shade,
   .destination-birmingham .image-shade { background: linear-gradient(180deg,#0005,transparent 34%),linear-gradient(0deg,#000d 5%,#0008 37%,transparent 65%); }
 }
+
+/* Reading stays inside the glass panel while the photograph remains in place. */
+.destination-reading{max-height:clamp(150px,28svh,300px);padding-right:12px;margin-top:12px}
+.destination-reading .story-text{font-size:15px;line-height:1.75}
+.destination-reading .story-lead{font-size:15px;line-height:1.7;margin-bottom:1.5rem}
+.destination-story .reading-hint{font-size:9px;line-height:1.5;margin-top:12px;opacity:.75}
+.destination-reading .story-text h4{font-size:19px}
+.destination-reading .story-text p{color:inherit}
+.destination-story h3{margin:12px 0}
+.destination-story .text-link{margin-top:12px}
+@media(max-width:800px){.destination-reading{max-height:25svh}.destination-story,.scene-framed .destination-story{bottom:120px}.destination-reading .story-text,.destination-reading .story-lead{font-size:14px;line-height:1.7}.destination-story h3{font-size:25px;margin:10px 0}.destination-story .text-link{font-size:12px}.destination-story .reading-hint{font-size:8px}}
+@media(max-width:800px) and (max-height:700px){.destination-reading{max-height:20svh}.destination-story,.scene-framed .destination-story{bottom:105px}.destination-story h3{font-size:22px;margin:8px 0}}
+@media(min-width:801px) and (max-height:760px){.destination-reading{max-height:25svh}.destination-story,.scene-framed .destination-story{bottom:110px}.destination-story h3{font-size:25px}}
+@media(min-width:801px){
+ .scene-framed .destination-heading{top:14%;max-width:39%}
+ .scene-framed .destination-heading h2{font-size:clamp(40px,5vw,72px)}
+ .scene-framed .destination-story{top:40%;bottom:145px;display:flex;flex-direction:column}
+ .scene-framed .destination-reading{flex:1;min-height:0;max-height:none}
+ .scene-framed .destination-story .text-link{align-self:flex-start;flex-shrink:0}
+}
+@media(min-width:801px) and (max-height:760px){
+ .scene-framed .destination-heading h2{font-size:min(5vw,7vh)}
+ .scene-framed .destination-story{bottom:110px}
+}

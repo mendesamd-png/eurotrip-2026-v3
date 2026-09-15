@@ -1,4 +1,5 @@
 ---
+import StoryText from '../../components/StoryText.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Frame from '../../components/Frame.astro';
 import MapView from '../../components/MapView.astro';
@@ -57,8 +58,10 @@ const stops = c.places.filter((p) => p.category === 'base' || p.category === 'tr
       <p class="tc">int. / ext. · {c.city.toUpperCase()}</p>
       <blockquote class="quote t-m rv-f">“{c.quote}”</blockquote>
     </div>
-    <div class="prose rv-f">
-      {c.paragraphs.map((p) => <p>{p}</p>)}
+    <div class="chapter-reading">
+      <div class="reading-toolbar"><p class="tc" id="reading-hint">Role dentro do texto para continuar ↓</p><button class="reading-expand" type="button" aria-expanded="false" aria-controls="chapter-story" hidden>Expandir leitura ↗</button></div>
+      <div class="reading-window" id="chapter-story" tabindex="0" role="region" aria-label={`História de ${c.title}`} aria-describedby="reading-hint"><StoryText slug={c.slug} /></div>
+      <p class="reading-caption">Caderno de uma viagem futura · outubro e novembro de 2026</p>
     </div>
   </section>
 
@@ -212,3 +215,18 @@ const stops = c.places.filter((p) => p.category === 'base' || p.category === 'tr
   .nxt__link { display: inline-block; margin-top: 0.6rem; color: var(--accent); font-weight: 650; }
   .nxt__link:hover { color: var(--text); }
 </style>
+
+<script>
+ const expand = document.querySelector<HTMLButtonElement>('.reading-expand');
+ const reader = document.querySelector<HTMLElement>('.chapter-reading');
+ if (expand && reader) {
+  expand.hidden = false;
+  expand.addEventListener('click', () => {
+   const expanded = reader.classList.toggle('is-expanded');
+   expand.setAttribute('aria-expanded', String(expanded));
+   expand.textContent = expanded ? 'Recolher leitura ↙' : 'Expandir leitura ↗';
+   const hint = reader.querySelector('#reading-hint');
+   if (hint) hint.textContent = expanded ? 'Leitura expandida' : 'Role dentro do texto para continuar ↓';
+  });
+ }
+</script>

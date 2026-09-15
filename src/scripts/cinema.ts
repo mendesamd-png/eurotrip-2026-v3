@@ -72,7 +72,7 @@ dialog.addEventListener('close',()=>document.body.style.overflow='');
 dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
 addEventListener('keydown',e=>{
   if(dialog.open||staticMode()||e.altKey||e.metaKey||e.ctrlKey)return;
-  if((e.target as HTMLElement).closest('a,button,input,textarea,select'))return;
+  if((e.target as HTMLElement).closest('a,button,input,textarea,select,.reading-window'))return;
   if(['ArrowDown','ArrowRight','PageDown','ArrowUp','ArrowLeft','PageUp','Home','End',' '].includes(e.key)){
     e.preventDefault();const n=e.key==='Home'?0:e.key==='End'?9:current+(['ArrowUp','ArrowLeft','PageUp'].includes(e.key)?-1:1);goTo(n);
   }

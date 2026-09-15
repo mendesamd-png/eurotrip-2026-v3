@@ -1,3 +1,4 @@
+import stories from './stories.json';
 import type { ImageKey } from './images';
 
 // ---------------------------------------------------------------------------
@@ -78,15 +79,11 @@ export const chapters: Chapter[] = [
     accent: '#3A3A3E',
     hero: 'prologo',
     gallery: ['prologo'],
-    lead: "Na mochila vão câmeras. Na cabeça, arquibancadas, encontros e aquele frio na barriga que não cabe na bagagem.",
-    paragraphs: [
-      "A viagem começa bem antes do embarque: num jogo que a gente quer ver de perto, numa conversa com um amigo, numa ideia de filme que encontra espaço no roteiro. Depois vêm as abas abertas. Muitas abas abertas.",
-      "Douglas e Hugo saem de São Paulo para cruzar a Inglaterra, encontrar a arte no País Basco e respirar mais devagar na Madeira. O Manchester United é uma das grandes razões para atravessar o oceano. No caminho, dois trabalhos da Rota também pedem passagem.",
-      "Este diário é para quem vai acompanhar de casa. Família, amigos, quem perguntar se já chegamos: puxem uma cadeira. A gente quer levar vocês nas histórias, nas imagens e, em breve, na conversa do nosso podcast.",
-    ],
+    lead: "Na mochila vão câmeras. Na cabeça, arquibancadas, encontros e a expectativa de começar uma nova história.",
+    paragraphs: stories['partida'].sections.flatMap(section => section.paragraphs),
     quote: "A gente atravessa o oceano. Vocês vêm nas histórias.",
     film: {
-      sentence: 'A partida é a abertura do Wenders em "Alice nas Cidades": alguém com câmera na mão tentando entender o que está fazendo tão longe de casa.',
+      sentence: 'Alice nas Cidades inspira o olhar para o percurso, as imagens e os encontros. Lost in Translation acrescenta a sensação de chegar e começar a reconhecer um lugar.',
       titles: ['Alice in den Städten (Wim Wenders, 1974)', 'Lost in Translation (Sofia Coppola, 2003)'],
     },
     places: [
@@ -118,16 +115,10 @@ export const chapters: Chapter[] = [
     hero: 'londres',
     gallery: ['londres', 'richmond', 'fumiAtelier', 'londresNoite'],
     lead: "Londres tem cinema, arte e futebol no mesmo mapa. Hugo leva o Arsenal no coração; a gente leva vontade de descobrir o resto.",
-    paragraphs: [
-      "A chegada tem cara de primeira cena: sair do metrô, olhar para o lado errado antes de atravessar e descobrir uma esquina que merece cinco minutos a mais. Londres é grande. A nossa lista também.",
-      "O futebol já entra aqui. Com Hugo torcendo pelo Arsenal, o Emirates ganha um lugar especial nos desejos de visita. Wembley tem seu próprio capítulo, e Stamford Bridge, do Chelsea, também está na lista. São possibilidades para encaixar entre os dias de trabalho, sem transformar a cidade numa maratona de catracas.",
-      "Ted Lasso dá outro caminho para essa paixão: caminhar por Richmond, reconhecer o Prince’s Head e Paved Court, perceber como um lugar real passa a morar na nossa imaginação. O estádio do fictício AFC Richmond é outra parada: Selhurst Park, casa do Crystal Palace, usado como Nelson Road na série.",
-      "Londres também é a etapa prevista para fechar uma conversa iniciada em Trancoso. No filme A Tree Doesn’t Die Twice, para a Gallery FUMI, acompanhamos o encontro entre Hugo França, Max Lamb e a madeira. A proposta reserva uma janela entre 18 e 21 de outubro para filmar com Max: uma pausa para ouvir o que ficou da experiência no Brasil. A data e o local da diária ainda precisam ser alinhados.",
-      "Entre uma gravação e outra, queremos deixar espaço para Tate, BFI, uma sessão de cinema e a cidade acontecendo pela janela. Nem todo passeio precisa render uma foto. Mas vocês conhecem a gente: alguma vai render.",
-    ],
+    paragraphs: stories['londres'].sections.flatMap(section => section.paragraphs),
     quote: "Uma cidade inteira lá fora. E tanta coisa boa para trazer para perto.",
     film: {
-      sentence: 'Londres é a Londres do Cuarón em "Children of Men": concreto úmido, gente apressada, beleza que não pede licença e um leve medo de estar atrasado para tudo.',
+      sentence: 'As referências de Londres passam pela atenção de Cuarón ao espaço urbano e pelo uso de cor e memória de Edgar Wright. Queremos observar a cidade com essa curiosidade por luz, movimento e rostos.',
       titles: ['Children of Men (Alfonso Cuarón, 2006)', 'Naked (Mike Leigh, 1993)', 'We Need to Talk About Kevin (Lynne Ramsay, 2011)', 'Last Night in Soho (Edgar Wright, 2021)'],
     },
     places: [
@@ -136,7 +127,7 @@ export const chapters: Chapter[] = [
       { name: 'BFI Southbank', category: 'cinema', blurb: 'Cinemateca britânica na beira do rio. Programação para escolher uma boa sessão quando a agenda permitir.', lat: 51.5069, lng: -0.1153 },
       { name: 'Prince Charles Cinema', category: 'cinema', blurb: 'Cinema em Leicester Square para descobrir uma sessão fora do roteiro.', lat: 51.5116, lng: -0.1301 },
       { name: 'Monmouth Coffee', category: 'café', blurb: 'Covent Garden. Caro demais e mesmo assim salva a manhã.', lat: 51.5136, lng: -0.1263, query: 'Monmouth Coffee Covent Garden' },
-      { name: 'Park Cameras', category: 'loja', blurb: 'Bond Street. Olhar lente que não vou comprar.', lat: 51.5142, lng: -0.1425, query: 'Park Cameras London' },
+      { name: 'Park Cameras', category: 'loja', blurb: 'Bond Street. Olhar lentes e conversar sobre fotografia.', lat: 51.5142, lng: -0.1425, query: 'Park Cameras London' },
       { name: 'Brick Lane', category: 'mercado', blurb: 'Domingo de leste: vintage, food hall, pôster rasgado na parede.', lat: 51.5215, lng: -0.0717 },
       { name: 'Broadway Market', category: 'mercado', blurb: 'Sábado em Hackney. Café specialty na esquina e gente carregando flores no frio.', lat: 51.5365, lng: -0.0616 },
       { name: 'Tate Modern', category: 'museu', blurb: 'Coleção permanente gratuita na antiga usina. Millennium Bridge e Bankside até Borough Market.', lat: 51.5076, lng: -0.0994 },
@@ -171,15 +162,11 @@ export const chapters: Chapter[] = [
     accent: '#6B5B4B',
     hero: 'birmingham',
     gallery: ['birmingham', 'stAndrews'],
-    lead: "Birmingham tem endereço de amigo: Gustavo Barros. O reencontro é certo no desejo; St Andrew’s pode entrar na conversa.",
-    paragraphs: [
-      "Tem cidade que a gente conhece pelo cartão-postal. Birmingham começa pelo abraço do Gustavo Barros. Visitar um amigo muda o ritmo da viagem: por um instante, estar longe também parece estar em casa.",
-      "Entre canais, tijolos e uma boa conversa, queremos descobrir um pouco da cidade que ele vive. Se a agenda permitir, vamos conhecer St Andrew’s, estádio do Birmingham City. Futebol também é isso: entender o bairro, o caminho até o campo, o time que faz parte da vida de quem mora ali.",
-      "A estadia é curta, então o roteiro precisa saber ouvir. Talvez caiba estádio, talvez um passeio por Digbeth, talvez a conversa peça mais uma rodada. O melhor plano de Birmingham é ter alguém para dividir a cidade.",
-    ],
+    lead: "Birmingham tem endereço de amigo: Gustavo Barros. Queremos colocar a conversa em dia, caminhar pelos canais e, se der tempo, conhecer St Andrew’s.",
+    paragraphs: stories['birmingham'].sections.flatMap(section => section.paragraphs),
     quote: "Às vezes, o lugar mais bonito da viagem é a mesa de um amigo.",
     film: {
-      sentence: 'Birmingham é o cinza operário de "Peaky Blinders" sem a estilização: canal, tijolo e gente que trabalha de verdade.',
+      sentence: 'Peaky Blinders entra como referência de atmosfera e de atenção ao passado industrial. No passeio, queremos descobrir a luz dos canais, as texturas dos tijolos e o cotidiano da cidade.',
       titles: ['Peaky Blinders (Steven Knight, 2013–2022)', 'Felicia\'s Journey (Atom Egoyan, 1999)'],
     },
     places: [
@@ -214,16 +201,10 @@ export const chapters: Chapter[] = [
     hero: 'oldTraffordJogo',
     gallery: ['oldTraffordJogo', 'manchester', 'oldTraffordFachada', 'liverpool'],
     lead: "Ver o Manchester United de perto é uma das grandes razões desta viagem. Old Trafford no horizonte; o coração já chegou antes.",
-    paragraphs: [
-      "Algumas viagens começam com uma passagem. Esta também começa com vontade de estar numa arquibancada. Ver o Manchester United em Old Trafford é uma das experiências que dão sentido ao caminho: ouvir o estádio, acompanhar a chegada da torcida e viver o jogo sem a distância da tela.",
-      "Queremos conhecer mais desse universo britânico em que o futebol atravessa bairros, gerações e conversas de pub. Um tour por Old Trafford e uma passagem pelo National Football Museum estão entre as ideias. As visitas precisam conversar com o calendário do clube; dia de jogo tem seu próprio ritmo.",
-      "Manchester também chega pelos ouvidos. Northern Quarter, lojas de discos, a memória da música que saiu daqui e a vontade de encontrar uma boa noite de som ao vivo. Entre tijolos e canções, a cidade oferece outras maneiras de sentir que finalmente estamos ali.",
-      "Liverpool entra como possibilidade de bate-volta, com Anfield entre os lugares que queremos conhecer. A rivalidade fica no campo; a curiosidade viaja junto. Há histórias de futebol que merecem ser escutadas mesmo do outro lado da arquibancada.",
-      "Vamos querer registrar a chegada, o entorno, os detalhes. E guardar a câmera em alguns momentos. Tem coisa que primeiro precisa virar memória; o relato para vocês vem logo depois.",
-    ],
+    paragraphs: stories['manchester'].sections.flatMap(section => section.paragraphs),
     quote: "A tela mostrou o caminho. Agora a gente quer ouvir a arquibancada.",
     film: {
-      sentence: 'Manchester é a Manchester do Anton Corbijn em "Control": preto e branco, ombros caídos, som alto por dentro e uma cidade que não pede desculpas pelo barulho que produz.',
+      sentence: 'Control e 24 Hour Party People entram como referências para olhar a relação entre música, pessoas e cidade. Looking for Eric aproxima esse universo da presença do futebol na vida cotidiana.',
       titles: ['Control (Anton Corbijn, 2007)', '24 Hour Party People (Michael Winterbottom, 2002)', 'This Is England (Shane Meadows, 2006)', 'Looking for Eric (Ken Loach, 2009)'],
     },
     places: [
@@ -247,7 +228,7 @@ export const chapters: Chapter[] = [
       { title: 'Love Will Tear Us Apart', artist: 'Joy Division', reason: 'Antes de qualquer outra coisa, é Joy Division.' },
       { title: 'Bigmouth Strikes Again', artist: 'The Smiths', reason: 'Manchester que começou nessas mesmas esquinas.' },
       { title: 'Cigarettes & Alcohol', artist: 'Oasis', reason: 'Tijolo, pub e domingo de ressaca.' },
-      { title: 'Voodoo Ray', artist: 'A Guy Called Gerald', reason: 'Factory Records e a noite que não pede desculpa.' },
+      { title: 'Voodoo Ray', artist: 'A Guy Called Gerald', reason: 'Uma referência para escutar a noite de Manchester.' },
       { title: 'I Am the Resurrection', artist: 'The Stone Roses', reason: 'Pós-jogo, caminhada longa de volta do estádio.' },
     ],
     center: { lat: 53.475, lng: -2.26, zoom: 12 },
@@ -270,15 +251,10 @@ export const chapters: Chapter[] = [
     hero: 'sorginCampo',
     gallery: ['sorginCampo', 'sanSebastian', 'sanSebastianRua'],
     lead: "No País Basco, a câmera encontra a Sorgin Gallery. Arte, conversa e o Cantábrico atravessando a janela.",
-    paragraphs: [
-      "San Sebastián recebe a parte da viagem em que a Rota entra em cena. A que faz nascer é a proposta para a Sorgin Gallery, com Miriam Badaró: olhar para uma galeria como quem conhece uma pessoa, descobrindo os gestos e as escolhas que dão vida ao lugar.",
-      "A ideia é deixar a voz de Miriam conduzir um encontro entre obras, casa, luz e paisagem. Douglas na fotografia, Hugo na direção; a atenção dividida entre o espaço inteiro e aquele detalhe que quase passa despercebido. A janela de produção proposta vai de 28 a 31 de outubro, com a organização das diárias ainda em alinhamento.",
-      "Os dois trabalhos conversam entre si. Da madeira transformada por Hugo França e Max Lamb ao olhar que reúne arte e design na Sorgin, há um mesmo interesse pelo fazer, pelas relações e pelo tempo das coisas.",
-      "Fora do set, queremos conhecer Donostia aos poucos: o mar da Concha, a Parte Vieja, a presença do cinema e da arte na cidade. Se sobrar uma boa luz depois do trabalho, ótimo. Se sobrar só fome, os pintxos também merecem atenção.",
-    ],
+    paragraphs: stories['san-sebastian'].sections.flatMap(section => section.paragraphs),
     quote: "Olhar uma obra. Escutar uma pessoa. Deixar o lugar contar o resto.",
     film: {
-      sentence: 'San Sebastián é o Donostia de "Ocho apellidos vascos" sem a comédia e com a luz de "Handia": mar verde-escuro, montanha na cidade e o festival que fez todo cineasta querer estar aqui em setembro.',
+      sentence: 'Handia e Loreak inspiram a atenção aos gestos, à paisagem e ao tempo de observar. São referências para chegar ao País Basco com curiosidade pelo cinema e pelas histórias do lugar.',
       titles: ['Handia (Aitor Arregi, Jon Garaño, 2017)', 'Loreak (Garaño, Goenaga, 2014)', 'Mientras dure la guerra (Alejandro Amenábar, 2019)'],
     },
     places: [
@@ -317,12 +293,7 @@ export const chapters: Chapter[] = [
     hero: 'areeiro',
     gallery: ['areeiro', 'funchal', 'saoLourenco', 'areeiroEstrada'],
     lead: "Depois das arquibancadas e dos sets, a Madeira muda o volume. Montanha, mar e tempo para simplesmente olhar.",
-    paragraphs: [
-      "A chegada à Madeira abre espaço para outro ritmo. Funchal será a primeira base na ilha: sair para caminhar, encontrar o mar e descobrir que uma pausa também pode ser parte importante do roteiro.",
-      "Pico do Areeiro, Ponta de São Lourenço e Câmara de Lobos estão entre as vontades. A ordem vai depender do tempo, das condições de acesso e das pernas. A natureza não recebeu a nossa planilha — e a gente aceita negociar.",
-      "A Insta360 continua na companhia, junto das Sony e das lentes. Queremos fazer imagens, claro, mas também caminhar sem procurar o próximo enquadramento a cada passo. Às vezes, o plano mais bonito é ficar um pouco parado.",
-      "Depois de tanta coisa vista e ouvida, a ilha é um convite para prestar atenção ao que fala baixo. Se a foto não conseguir explicar tudo, a gente tenta contar para vocês.",
-    ],
+    paragraphs: stories['funchal'].sections.flatMap(section => section.paragraphs),
     quote: "Uma pausa também é um jeito de seguir viagem.",
     film: {
       sentence: 'Madeira tem a tensão geológica de "Aguirre", do Herzog, e o silêncio florestal dos filmes do Apichatpong: luz mineral, vegetação de outra era e um clima que muda antes de você terminar a frase.',
@@ -366,15 +337,10 @@ export const chapters: Chapter[] = [
     hero: 'fanal',
     gallery: ['fanal', 'portoMoniz', 'portoMonizOndas'],
     lead: "Na costa norte da Madeira, o roteiro desacelera. O mar continua; a vontade de dividir tudo com vocês também.",
-    paragraphs: [
-      "Ponta Delgada, na Madeira, é a última base desta história. A costa norte traz o verde, a pedra e o Atlântico para mais perto. É hora de trocar a pressa de conhecer pelo prazer de ficar um pouco.",
-      "O Fanal está entre os lugares que mais queremos encontrar: árvores antigas, caminhos e a possibilidade de neblina, se o tempo resolver colaborar. Com ou sem ela, a vontade é a mesma: olhar com calma para uma paisagem que não precisa de direção.",
-      "Porto Moniz, Seixal e Santana completam as ideias para esses dias, conforme o tempo e os acessos. Algumas imagens vão para a câmera; outras ficam naquele lugar da memória que a gente visita sem precisar abrir uma pasta.",
-      "Na volta ao Brasil, começa outra parte da viagem: rever o material, escolher histórias, contar os bastidores. Este caderno fica como uma mesa aberta. A gente chega com as lembranças; vocês entram com as perguntas.",
-    ],
+    paragraphs: stories['ponta-delgada'].sections.flatMap(section => section.paragraphs),
     quote: "A gente volta para casa. A viagem continua nas conversas.",
     film: {
-      sentence: 'O norte é o Herzog de "Coração de Cristal" e o Malick de "A Árvore da Vida": natureza que não sabe que está sendo filmada.',
+      sentence: 'Coração de Cristal e A Árvore da Vida inspiram a atenção ao tempo, à luz e à presença da paisagem. Queremos observar o norte da Madeira com espaço para o silêncio.',
       titles: ['Herz aus Glas (Werner Herzog, 1976)', 'The Tree of Life (Terrence Malick, 2011)', 'Nostalghia (Andrei Tarkovsky, 1983)'],
     },
     places: [
@@ -424,7 +390,7 @@ export const days: Day[] = [
   { n: 17, date: '2026-11-02', weekday: 'seg', chapter: 'funchal', city: 'Madeira', intensity: 'médio', title: 'São Lourenço · Cabo Girão', morning: 'Mercado dos Lavradores.', afternoon: 'Ponta de São Lourenço na luz lateral. Plano aberto da península.', night: 'Cabo Girão ao pôr do sol. Peixe em Câmara de Lobos.', status: 'esboço' },
   { n: 18, date: '2026-11-03', weekday: 'ter', chapter: 'ponta-delgada', city: 'Funchal → Ponta Delgada', intensity: 'médio', title: 'Travessia para o norte', morning: 'Check-out às 11:00. Túneis até São Vicente.', afternoon: 'Check-in às 15:00 na Beco House. Seixal, 15 min.', night: 'Jantar em São Vicente. Ver a previsão de neblina.', status: 'esboço' },
   { n: 19, date: '2026-11-04', weekday: 'qua', chapter: 'ponta-delgada', city: 'Costa norte', intensity: 'pesado', title: '🎬 Fanal', morning: 'Fanal cedo. Esperar a neblina. Planos longos no tripé.', afternoon: 'Porto Moniz, piscinas vulcânicas.', night: 'Santana. Última noite.', status: 'esboço' },
-  { n: 20, date: '2026-11-05', weekday: 'qui', chapter: 'ponta-delgada', city: 'Madeira → São Paulo', intensity: 'trânsito', title: 'Volta', morning: 'Check-out 11:00. Santana se não deu tempo na véspera.', afternoon: 'Aeroporto às 15:00, devolver o carro até 16:00. TP1692 FNC 18:10 → LIS.', night: 'TP87 LIS → GRU. Pouso na manhã de sexta.', fixed: '✈️ TAP · 18:10', status: 'confirmado' },
+  { n: 20, date: '2026-11-05', weekday: 'qui', chapter: 'ponta-delgada', city: 'Madeira → São Paulo', intensity: 'trânsito', title: 'Volta', morning: 'Check-out 11:00. Santana, conforme o tempo disponível.', afternoon: 'Aeroporto às 15:00, devolver o carro até 16:00. TP1692 FNC 18:10 → LIS.', night: 'TP87 LIS → GRU. Pouso na manhã de sexta.', fixed: '✈️ TAP · 18:10', status: 'confirmado' },
 ];
 
 // ---------------------------------------------------------------------------

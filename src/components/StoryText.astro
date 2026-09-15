@@ -1,0 +1,14 @@
+---
+import stories from '../data/stories.json';
+import '../styles/reading.css';
+const { slug, compact = false } = Astro.props;
+const story = stories[slug as keyof typeof stories];
+const Heading = compact ? 'h4' : 'h3';
+---
+<div class="story-text">
+ {story.sections.map(section => <section class="story-section">
+  <Heading>{section.title}</Heading>
+  {section.paragraphs.map(paragraph => <p>{paragraph}</p>)}
+  {section.sources.length > 0 && <p class="story-sources">Para conhecer mais: {section.sources.map((source, index) => <><a href={source.url} target="_blank" rel="noopener noreferrer">{source.label} ↗</a>{index < section.sources.length - 1 && <span> · </span>}</>)}</p>}
+ </section>)}
+</div>

@@ -102,3 +102,23 @@ html { scrollbar-width: none; } html::-webkit-scrollbar { display: none; }
 #route-plane{color:#c5221b;pointer-events:none;filter:drop-shadow(0 2px 3px #0002)}
 #route-plane path{fill:currentColor;stroke:#e8e8e8;stroke-width:1.4;stroke-linejoin:round}
 #route-draw{stroke:#c5221b}
+
+/* Departure timecode remains visible throughout the opening. */
+.film-brand { display: flex; flex-direction: column; gap: 2px; }
+.film-timecode { font-size: 10px; letter-spacing: .02em; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.intro-countdown { display: flex; flex-direction: column; gap: 5px; }
+.intro-timecode { font-size: clamp(20px, 2.4vw, 34px); letter-spacing: -.03em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.countdown-key { font-size: 9px; opacity: .75; }
+@media(max-width:800px) {
+  .film-timecode { font-size: 9px; }
+  .intro-countdown > span:first-child { font-size: 9px; }
+  .intro-timecode { font-size: 21px; }
+  .countdown-key { font-size: 8px; }
+}
+@media(max-height:650px) and (min-height:541px) {
+  .intro-top { top: 88px; }
+  .intro-countdown { gap: 2px; }
+  .intro-countdown > span:first-child { font-size: 9px; }
+  .intro-timecode { font-size: 20px; }
+  .countdown-key { font-size: 7px; }
+}

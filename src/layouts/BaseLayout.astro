@@ -82,9 +82,7 @@ const ogImage = new URL(image ?? unsplash(images.areeiro, 1200), Astro.site);
       const T0 = Date.parse('2026-10-16T23:50:00-03:00');
       const pad = (n: number, w = 2) => String(n).padStart(w, '0');
       const tcEls = document.querySelectorAll<HTMLElement>('[data-countdown-tc]');
-      const bigEls = document.querySelectorAll<HTMLElement>('[data-countdown]');
       const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-      let last = -1;
       const tick = () => {
         const now = Date.now();
         const diff = T0 - now;
@@ -93,12 +91,7 @@ const ogImage = new URL(image ?? unsplash(images.areeiro, 1200), Astro.site);
         const d = Math.floor(abs / 86400000), h = Math.floor(abs / 3600000) % 24, mi = Math.floor(abs / 60000) % 60, sec = Math.floor(abs / 1000) % 60;
         const ff = Math.floor((abs % 1000) / 1000 * 24);
         tcEls.forEach((el) => { el.textContent = `${neg ? 'TC +' : 'TC -'}${pad(d)}:${pad(h)}:${pad(mi)}:${pad(sec)}:${pad(ff)}`; });
-        const s = Math.floor(abs / 1000);
-        if (s !== last) {
-          last = s;
-          bigEls.forEach((el) => { el.innerHTML = `${neg ? '+' : ''}${d}<span class="u">d</span>${pad(h)}<span class="u">h</span>${pad(mi)}<span class="u">m</span>${pad(sec)}<span class="u">s</span>`; });
-        }
-        setTimeout(tick, reduced ? 1000 : 100);
+        setTimeout(tick, reduced ? 1000 : 1000 / 24);
       };
       tick();
 

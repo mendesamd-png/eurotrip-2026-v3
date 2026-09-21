@@ -25,7 +25,8 @@ const stops = route.filter((r) => bases.includes(r.name)).map((r) => ({ label: r
       <p class="t-lead hero__lead">Futebol, cinema, arte e natureza. Seis bases, dois trabalhos e um monte de histórias para dividir com família e amigos. Outubro e novembro de 2026.</p>
       <div class="hero__count">
         <p class="tc"><span class="rec"></span>contagem regressiva · embarque GRU · 16/10 · 23:50</p>
-        <p class="t-xl count" data-countdown>--<span class="u">d</span>--<span class="u">h</span>--<span class="u">m</span>--<span class="u">s</span></p>
+        <p class="count" data-countdown-tc role="timer" aria-live="off" aria-describedby="countdown-format">TC -00:00:00:00:00</p>
+        <p class="tc muted" id="countdown-format">dias : horas : minutos : segundos : quadros · 24 fps</p>
       </div>
     </div>
   </section>
@@ -118,7 +119,7 @@ const stops = route.filter((r) => bases.includes(r.name)).map((r) => ({ label: r
   .hero__l3 { text-align: right; }
   .hero__lead { max-width: 54ch; margin-top: 2rem; }
   .hero__count { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 0.6rem; }
-  .hero__count .count { font-size: clamp(2.2rem, 6vw, 6rem); }
+  .hero__count .count { font-family: var(--font-mono); font-size: clamp(1rem, 6vw, 6rem); font-weight: 500; letter-spacing: -0.04em; line-height: 1.15; white-space: nowrap; }
 
   .slate { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding-block: 1.6rem; }
   .slate__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.2rem 1rem; margin: 0; }

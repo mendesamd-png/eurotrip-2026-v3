@@ -1,6 +1,7 @@
 import type { ImageKey } from './images';
 // Each chapter starts with its established cover photograph.
 export const galleries: Record<string, ImageKey[]> = {
+  paris: ['parisSacreCoeur', 'parisAlexandre', 'parisCafe', 'parisEiffel', 'parisSeine', 'parisEiffelBaixo'],
  londres: ['londres','richmond','galleryEmirates','galleryChelsea','galleryWembley','galleryBridge'],
  birmingham: ['birmingham','stAndrews','galleryLibrary','galleryGasstreet','galleryVictoria','galleryDigbeth'],
  manchester: ['oldTraffordJogo','manchester','oldTraffordFachada','oldTrafford','galleryMcrlibrary','galleryCastlefield'],

@@ -1,4 +1,5 @@
 import stories from './stories.json';
+import placeNotes from './place-notes.json';
 import type { ImageKey } from './images';
 
 // ---------------------------------------------------------------------------
@@ -14,6 +15,9 @@ export type Place = {
   lat: number;
   lng: number;
   query?: string; // consulta para o Google Maps quando o nome sozinho não basta
+  history?: string; // história do lugar, pesquisada
+  access?: string; // como chegar a partir da base
+  source?: string; // fonte principal da pesquisa
 };
 
 export type Chapter = {
@@ -123,7 +127,7 @@ export const chapters: Chapter[] = [
     },
     places: [
       { name: 'Base · Westminster, Page Street', category: 'base', blurb: 'Cinco noites a dez minutos a pé do Tâmisa. Tate Britain na esquina, Pimlico e St James\'s Park no raio de caminhada.', lat: 51.4925, lng: -0.131, query: 'Page Street, London SW1P 4EX' },
-      { name: 'Gallery FUMI', category: 'trabalho', blurb: 'Referência do projeto em Londres. A janela proposta com Max Lamb é 18–21/10; data e local da diária a alinhar.', lat: 51.5093, lng: -0.143, query: 'Gallery FUMI, 2-3 Hay Hill, London' },
+      { name: 'Gallery FUMI', category: 'trabalho', blurb: 'Trabalho da viagem em Londres. Gravação em 20/10, das 10h às 13h, com Max Lamb. Endereço da pauta a confirmar.', lat: 51.5093, lng: -0.143, query: 'Gallery FUMI, 2-3 Hay Hill, London' },
       { name: 'BFI Southbank', category: 'cinema', blurb: 'Cinemateca britânica na beira do rio. Programação para escolher uma boa sessão quando a agenda permitir.', lat: 51.5069, lng: -0.1153 },
       { name: 'Prince Charles Cinema', category: 'cinema', blurb: 'Cinema em Leicester Square para descobrir uma sessão fora do roteiro.', lat: 51.5116, lng: -0.1301 },
       { name: 'Monmouth Coffee', category: 'café', blurb: 'Covent Garden. Caro demais e mesmo assim salva a manhã.', lat: 51.5136, lng: -0.1263, query: 'Monmouth Coffee Covent Garden' },
@@ -155,9 +159,9 @@ export const chapters: Chapter[] = [
     city: 'Birmingham',
     country: 'Reino Unido',
     flag: '🇬🇧',
-    dates: '22 → 23 out',
-    nights: 1,
-    base: 'Casa do Gustavo Barros',
+    dates: '18 out · bate e volta',
+    nights: 0,
+    base: 'Casa do Gustavo Barros, New Street',
     transport: 'Trem Euston → New Street',
     accent: '#6B5B4B',
     hero: 'birmingham',
@@ -170,11 +174,10 @@ export const chapters: Chapter[] = [
       titles: ['Peaky Blinders (Steven Knight, 2013–2022)', 'Felicia\'s Journey (Atom Egoyan, 1999)'],
     },
     places: [
-      { name: 'Birmingham New Street', category: 'aeroporto', blurb: 'Chegada de trem vinda de Euston, ~1h25. Saída no dia seguinte para Manchester Piccadilly, ~1h30.', lat: 52.4778, lng: -1.8985, query: 'Birmingham New Street station' },
+      { name: 'Birmingham New Street', category: 'aeroporto', blurb: 'Chegada do trem de Euston às 10h02. A volta para Londres sai daqui às 21h06.', lat: 52.4778, lng: -1.8985, query: 'Birmingham New Street station' },
       { name: 'Digbeth', category: 'mirante', blurb: 'Custard Factory, grafite, tijolo industrial. A parte da cidade que filma bem.', lat: 52.4757, lng: -1.8848, query: 'Digbeth Custard Factory Birmingham' },
       { name: 'Gas Street Basin', category: 'mirante', blurb: 'Canais, narrowboats e pub na beira da água. Luz de fim de tarde.', lat: 52.4776, lng: -1.9101, query: 'Gas Street Basin Birmingham' },
       { name: 'Library of Birmingham', category: 'museu', blurb: 'Terraço gratuito com vista da cidade. A fachada de anéis vale o plano aberto.', lat: 52.4797, lng: -1.9077 },
-      { name: 'O2 Institute Birmingham', category: 'venue', blurb: 'Onde estão os ingressos de 25/10 da tour da TDWP. Conflita com o jogo. Ver Manchester.', lat: 52.4738, lng: -1.8856, query: 'O2 Institute Birmingham' },
     ],
     keywords: ['CANAL', 'DIGBETH', 'GUSTAVO', 'SOFÁ', 'ENCOMENDAS', 'TIJOLO', 'NEW STREET'],
     soundtrack: [
@@ -182,6 +185,51 @@ export const chapters: Chapter[] = [
       { title: 'Ghost Town', artist: 'The Specials', reason: 'Coventry fica ao lado, o clima é o mesmo.' },
     ],
     center: { lat: 52.478, lng: -1.9, zoom: 13 },
+    next: 'paris',
+  },
+  {
+    slug: 'paris',
+    act: 'Ato I',
+    beat: 'A estrada',
+    number: '02b',
+    title: 'Paris',
+    city: 'Paris',
+    country: 'França',
+    flag: '🇫🇷',
+    dates: '22 → 24 out',
+    nights: 2,
+    base: 'Mercure Montparnasse',
+    transport: 'Eurostar · Metrô · avião de Beauvais',
+    accent: '#2E4A6B',
+    hero: 'parisSacreCoeur',
+    gallery: ['parisSacreCoeur', 'parisAlexandre', 'parisCafe', 'parisEiffel', 'parisSeine', 'parisEiffelBaixo'],
+    lead: 'Paris entra no meio da viagem. Duas noites, uma diária de trabalho com a Miriam na feira Design Miami/Paris e um dia livre para caminhar.',
+    paragraphs: [
+      'A chegada é pelo Eurostar de St Pancras, às 07h01, com parada na Gare du Nord às 10h29. O hotel fica em Montparnasse, a poucos passos da estação.',
+      'No dia 23 a diária é com a Miriam, na feira Design Miami/Paris, na Rue de l’Université. O resto do dia fica livre para o que der vontade: Montmartre, as margens do Sena e um café sem pressa.',
+      'Na manhã de 24, o trajeto é cedo até o aeroporto de Beauvais, para o voo das 10h15 até Manchester.',
+    ],
+    quote: 'Paris, de cabeça para baixo, numa feira que cabe na cidade.',
+    film: {
+      sentence: 'Paris entra como lembrança de luz e rua. Amélie traz as cores de Montmartre e Before Sunset traz a conversa que anda pela margem do rio.',
+      titles: ['Amélie (Jean-Pierre Jeunet, 2001)', 'Before Sunset (Richard Linklater, 2004)'],
+    },
+    places: [
+      { name: 'Mercure Montparnasse', category: 'base', blurb: 'Hotel de duas noites, a poucos passos da Gare Montparnasse. Check-in a partir das 16h.', lat: 48.8416, lng: 2.3218, query: 'Mercure Paris Gare Montparnasse TGV' },
+      { name: 'Gare du Nord', category: 'aeroporto', blurb: 'Chegada do Eurostar às 10h29, vinda de St Pancras.', lat: 48.8809, lng: 2.3553, query: 'Gare du Nord, Paris' },
+      { name: 'Design Miami/Paris', category: 'trabalho', blurb: 'Diária com a Miriam em 23/10. Rue de l’Université, 75007.', lat: 48.8585, lng: 2.3252, query: 'Design Miami/ Paris, Rue de l\'Université, 75007 Paris' },
+      { name: 'Sacré-Cœur', category: 'mirante', blurb: 'Vista de Paris a partir de Montmartre. Chegar cedo para a luz e para a fila.', lat: 48.8867, lng: 2.3431, query: 'Basilique du Sacré-Cœur' },
+      { name: 'Shakespeare and Company', category: 'loja', blurb: 'Livraria à margem do Sena, em frente à Notre-Dame.', lat: 48.8526, lng: 2.3471, query: 'Shakespeare and Company, Paris' },
+      { name: 'Canal Saint-Martin', category: 'café', blurb: 'Canal com pontes e cafés no fim da tarde. Bom para uma pausa longa.', lat: 48.8716, lng: 2.3650, query: 'Canal Saint-Martin, Paris' },
+      { name: 'Musée d’Orsay', category: 'museu', blurb: 'Museu na antiga estação, com a fachada de relógio. Ingresso pago, conferir a data.', lat: 48.8600, lng: 2.3266, query: 'Musée d’Orsay' },
+      { name: 'Jardin du Luxembourg', category: 'mirante', blurb: 'Parque gratuito, bom para respirar entre um compromisso e outro.', lat: 48.8462, lng: 2.3372, query: 'Jardin du Luxembourg, Paris' },
+      { name: 'Aeroporto de Beauvais', category: 'aeroporto', blurb: 'Voo de 24/10 às 10h15 para Manchester. Chegar bem cedo, pelo transfer.', lat: 49.4544, lng: 2.1128, query: 'Beauvais-Tillé Airport' },
+    ],
+    keywords: ['EUROSTAR', 'MONTPARNASSE', 'FEIRA', 'MONTMARTRE', 'SENA', 'CAFÉ', 'LIVRARIA', 'BEAUVAIS'],
+    soundtrack: [
+      { title: 'La Vie en Rose', artist: 'Édith Piaf', reason: 'A canção que todo mundo associa a Paris, do jeito antigo.' },
+    ],
+    center: { lat: 48.8566, lng: 2.3522, zoom: 12 },
     next: 'manchester',
   },
   {
@@ -193,8 +241,8 @@ export const chapters: Chapter[] = [
     city: 'Manchester',
     country: 'Reino Unido',
     flag: '🇬🇧',
-    dates: '23 → 28 out',
-    nights: 5,
+    dates: '24 → 28 out',
+    nights: 4,
     base: 'Hulme, City Road',
     transport: 'A pé + Metrolink',
     accent: '#A8442C',
@@ -363,6 +411,21 @@ export const chapters: Chapter[] = [
   },
 ];
 
+
+// Notas pesquisadas (história, como chegar, fonte) e lugares novos, vindos de place-notes.json
+type PlaceNote = Partial<Place> & { match?: string; isNew?: boolean };
+for (const c of chapters) {
+  const notes = ((placeNotes as Record<string, PlaceNote[]>)[c.slug] ?? []);
+  for (const n of notes) {
+    if (n.match) {
+      const target = c.places.find((p) => p.name === n.match);
+      if (target) { target.history = n.history; target.access = n.access; target.source = n.source; }
+    } else if (n.isNew && n.name && !c.places.some((p) => p.name === n.name)) {
+      c.places.push({ name: n.name, category: n.category ?? 'mirante', blurb: n.blurb ?? '', lat: n.lat ?? c.center.lat, lng: n.lng ?? c.center.lng, query: n.query, history: n.history, access: n.access, source: n.source });
+    }
+  }
+}
+
 export const chapterBySlug = (slug: string) => chapters.find((c) => c.slug === slug);
 
 // ---------------------------------------------------------------------------
@@ -372,24 +435,24 @@ export const chapterBySlug = (slug: string) => chapters.find((c) => c.slug === s
 export const days: Day[] = [
   { n: 0, date: '2026-10-16', weekday: 'sex', chapter: 'partida', city: 'São Paulo', intensity: 'trânsito', title: 'Embarque', afternoon: 'Conferir o kit, os documentos e as regras da bagagem de cada trecho.', night: 'GRU 23:50, LATAM LA 8084. Reservar tempo para os procedimentos de embarque.', fixed: '23:50 · LA 8084', status: 'confirmado' },
   { n: 1, date: '2026-10-17', weekday: 'sáb', chapter: 'londres', city: 'Londres', intensity: 'leve', title: 'Chegada', morning: 'Ainda sobre o Atlântico.', afternoon: 'Pouso em Heathrow às 15:05. Elizabeth line. Check-in em Westminster a partir das 15:00.', night: 'Caminhada sem câmera pelo Tâmisa. Jantar cedo. Jet lag manda.', status: 'esboço' },
-  { n: 2, date: '2026-10-18', weekday: 'dom', chapter: 'londres', city: 'Londres', intensity: 'médio', title: 'Brick Lane · janela FUMI', morning: 'Brick Lane, Columbia Road Flower Market.', afternoon: 'Reconhecimento na Gallery FUMI, Mayfair. Luz, tomadas, planta.', night: 'Soho. Prince Charles Cinema se houver sessão.', fixed: 'janela de gravação FUMI 18 a 21/10', status: 'esboço' },
-  { n: 3, date: '2026-10-19', weekday: 'seg', chapter: 'londres', city: 'Londres', intensity: 'pesado', title: '🎬 Gallery FUMI', morning: 'Montagem. Meia diária com Max Lamb, data provável.', afternoon: 'Entrevista e planos de detalhe das peças de Hugo França.', night: 'Backup duplo dos cartões. Pub perto da base.', fixed: '🎬 gravação com Max Lamb (provável)', status: 'esboço' },
-  { n: 4, date: '2026-10-20', weekday: 'ter', chapter: 'londres', city: 'Londres', intensity: 'médio', title: 'Southbank', morning: 'Tate Modern, Millennium Bridge, Borough Market.', afternoon: 'BFI Southbank. Complementos da FUMI se necessário.', night: 'Ronnie Scott\'s, se houver ingresso.', status: 'esboço' },
-  { n: 5, date: '2026-10-21', weekday: 'qua', chapter: 'londres', city: 'Londres', intensity: 'médio', title: 'Richmond ou estádio · a combinar', morning: 'Possível passeio pelas locações de Ted Lasso em Richmond, se a diária FUMI permitir.', afternoon: 'Alternativa ao passeio por Richmond: escolher uma visita entre Emirates, Wembley ou Stamford Bridge, conforme agenda e reservas.', night: 'Jantar e passeio perto da base. Os outros estádios ficam como possibilidades, sem compromisso de visitar todos.', status: 'esboço' },
-  { n: 6, date: '2026-10-22', weekday: 'qui', chapter: 'birmingham', city: 'Birmingham', intensity: 'trânsito', title: 'Euston → New Street', morning: 'Check-out. Trem Euston → Birmingham New Street, ~1h25.', afternoon: 'Visitar Gustavo Barros. Possível passeio por Digbeth ou St Andrew’s, conforme a agenda.', night: 'Pub nos canais.', fixed: 'trem a comprar', status: 'esboço' },
-  { n: 7, date: '2026-10-23', weekday: 'sex', chapter: 'manchester', city: 'Manchester', intensity: 'trânsito', title: 'New Street → Piccadilly', morning: 'Trem Birmingham → Manchester Piccadilly, ~1h30.', afternoon: 'Check-in em Hulme. Northern Quarter, Afflecks, Vinyl Exchange.', night: 'Mackie Mayor.', fixed: 'trem a comprar', status: 'esboço' },
-  { n: 8, date: '2026-10-24', weekday: 'sáb', chapter: 'manchester', city: 'Manchester', intensity: 'pesado', title: 'Tour + show', morning: 'Possível tour de Old Trafford; consultar disponibilidade e ingresso.', afternoon: 'National Football Museum. Stevenson Square.', night: 'New Century Hall: The Devil Wears Prada + Novelists.', fixed: '🎸 TDWP · New Century Hall · a confirmar compra', status: 'esboço' },
+  { n: 2, date: '2026-10-18', weekday: 'dom', chapter: 'birmingham', city: 'Birmingham', intensity: 'médio', title: 'Bate e volta · Birmingham', morning: 'Trem Euston → New Street, 08:06, chegada às 10:02. Visita ao Gustavo Barros e retirada das compras.', afternoon: 'Estádio de Villa Park ou St Andrew’s, de fora. Almoço no Jewellery Quarter.', night: 'Jantar em Digbeth. Trem de volta às 21:06, chegada a Euston às 23:38.', fixed: '🚆 trem 08:06 · confirmado', status: 'confirmado' },
+  { n: 3, date: '2026-10-19', weekday: 'seg', chapter: 'londres', city: 'Londres', intensity: 'leve', title: 'Richmond · Ted Lasso', morning: 'Richmond Green, Paved Court e o pub da série, The Prince’s Head.', afternoon: 'Almoço no The Green. Tarde livre, com o Natural History Museum ou o V&A, ambos gratuitos.', night: 'Jantar perto da base.', status: 'esboço' },
+  { n: 4, date: '2026-10-20', weekday: 'ter', chapter: 'londres', city: 'Londres', intensity: 'pesado', title: '🎬 Gallery FUMI', morning: 'Gravação na Gallery FUMI, das 10h às 13h, com Max Lamb.', afternoon: 'Tate Modern e Science Museum, ambos gratuitos.', night: 'Backup dos cartões. Pub perto da base.', fixed: '🎬 FUMI · 10h às 13h', status: 'confirmado' },
+  { n: 5, date: '2026-10-21', weekday: 'qua', chapter: 'londres', city: 'Londres', intensity: 'médio', title: 'Estádios e Abbey Road', morning: 'Wembley, com tour de estádio, se houver horário.', afternoon: 'Abbey Road (foto na faixa de pedestres). Emirates e Tottenham, de fora ou com tour.', night: 'Camden Market.', status: 'esboço' },
+  { n: 6, date: '2026-10-22', weekday: 'qui', chapter: 'londres', city: 'Londres → Paris', intensity: 'trânsito', title: 'Eurostar para Paris', morning: 'Check-out de Page Street. Eurostar de St Pancras às 07:01.', afternoon: 'Chegada à Gare du Nord às 10:29. Check-in no Mercure Montparnasse a partir das 16:00.', night: 'Primeira noite em Paris.', fixed: '🚆 Eurostar 07:01 · confirmado', status: 'confirmado' },
+  { n: 7, date: '2026-10-23', weekday: 'sex', chapter: 'londres', city: 'Paris', intensity: 'médio', title: 'Diária na feira', morning: 'Trabalho à parte com a Miriam, na feira Design Miami/Paris, Rue de l’Université, 75007.', afternoon: 'Turismo livre pela cidade.', night: 'Jantar livre.', fixed: '🎬 diária com a Miriam', status: 'confirmado' },
+  { n: 8, date: '2026-10-24', weekday: 'sáb', chapter: 'manchester', city: 'Paris → Manchester', intensity: 'pesado', title: 'Beauvais → Manchester', morning: 'Transfer cedo para Beauvais. Voo FR 3723, 10:15 → 10:35.', afternoon: 'Check-in em Hulme. Northern Quarter, Afflecks, Vinyl Exchange.', night: 'New Century Hall: The Devil Wears Prada + Novelists.', fixed: '🎸 TDWP · New Century Hall · 19h', status: 'confirmado' },
   { n: 9, date: '2026-10-25', weekday: 'dom', chapter: 'manchester', city: 'Manchester', intensity: 'pesado', title: '⚽ Old Trafford', morning: 'Caminhar até o estádio com a multidão. Filmar de longe.', afternoon: 'MU x Bournemouth, 14:00, \'92 Suite. A partida fica para o olho.', night: 'Castle Hotel. Ou o que sobrar de voz.', fixed: '⚽ 14:00 · MU x Bournemouth', status: 'confirmado' },
-  { n: 10, date: '2026-10-26', weekday: 'seg', chapter: 'manchester', city: 'Liverpool', intensity: 'médio', title: 'Liverpool · possível bate-volta', morning: 'Trem para Liverpool. Possível visita a Anfield, a combinar com os horários do tour.', afternoon: 'Albert Dock, Tate Liverpool. Bold Street.', night: 'Cavern Club. Volta a Manchester.', status: 'esboço' },
-  { n: 11, date: '2026-10-27', weekday: 'ter', chapter: 'manchester', city: 'Manchester', intensity: 'leve', title: 'Respiro', morning: 'Whitworth Gallery e o parque.', afternoon: 'Salford Quays, MediaCity. Arrumar as malas: 23 kg despachados na KLM.', night: 'This & That. Última pint.', status: 'esboço' },
+  { n: 10, date: '2026-10-26', weekday: 'seg', chapter: 'manchester', city: 'Liverpool', intensity: 'médio', title: 'Liverpool · bate-volta', morning: 'Trem às 10:00 de Deansgate, chegada a Lime Street às 10:53. Passar em frente ao Anfield, sem tour.', afternoon: 'Albert Dock, Tate Liverpool. Bold Street.', night: 'Cavern Club. Trem de volta às 21:03.', status: 'confirmado' },
+  { n: 11, date: '2026-10-27', weekday: 'ter', chapter: 'manchester', city: 'Manchester', intensity: 'leve', title: 'Old Trafford e Red Café', morning: 'Old Trafford Tour & Museum. Chegada às 10:00, tour às 10:30.', afternoon: 'Almoço no Red Café às 12:00. Salford Quays, MediaCity. Arrumar as malas.', night: 'This & That. Última pint.', fixed: '🏟️ tour 10:30 · Red Café 12:00', status: 'confirmado' },
   { n: 12, date: '2026-10-28', weekday: 'qua', chapter: 'san-sebastian', city: 'Bilbao → San Sebastián', intensity: 'trânsito', title: 'MAN → AMS → BIO', morning: 'KL1032 MAN 10:55 → AMS 13:15.', afternoon: 'KL1525 AMS 14:25 → BIO 16:30. Carro. AP-8 até Donostia, ~1h.', night: 'Casa da Miriam. Pintxos na Parte Vieja.', fixed: '✈️ KLM · manhã inteira', status: 'confirmado' },
   { n: 13, date: '2026-10-29', weekday: 'qui', chapter: 'san-sebastian', city: 'San Sebastián', intensity: 'pesado', title: '🎬 Sorgin Gallery', morning: 'Gravação. Banco de imagens.', afternoon: 'Gravação. Retratos da Miriam.', night: 'Concha ao entardecer.', fixed: '🎬 Sorgin · 28 a 31/10', status: 'esboço' },
   { n: 14, date: '2026-10-30', weekday: 'sex', chapter: 'san-sebastian', city: 'San Sebastián', intensity: 'pesado', title: '🎬 Sorgin Gallery · Igueldo', morning: 'Gravação. Complementos.', afternoon: 'Monte Igueldo, Peine del Viento.', night: 'Tabakalera. Backup.', fixed: '🎬 Sorgin', status: 'esboço' },
   { n: 15, date: '2026-10-31', weekday: 'sáb', chapter: 'funchal', city: 'Bilbao → Funchal', intensity: 'trânsito', title: 'BIO → LIS → FNC', morning: 'Sair de Donostia às 8:00. Guggenheim pela fachada. Devolver carro até 10:30. Check-in fecha 11:40.', afternoon: 'TP1063 BIO 12:25 → LIS 13:05. TP1691 LIS 15:20 → FNC 17:10. Carro no aeroporto.', night: 'Check-in em São Martinho. Câmara de Lobos para jantar.', fixed: '✈️ TAP · check-in fecha 11:40', status: 'confirmado' },
-  { n: 16, date: '2026-11-01', weekday: 'dom', chapter: 'funchal', city: 'Madeira', intensity: 'pesado', title: 'Pico do Areeiro', morning: 'Sair às 4:30. Nascer do sol acima das nuvens. Percurso apenas se aberto e com condições adequadas; conferir informação oficial antes de sair.', afternoon: 'Descer. Eira do Serrado. Almoço tardio.', night: 'Zona Velha, poncha na Venda Velha.', status: 'esboço' },
-  { n: 17, date: '2026-11-02', weekday: 'seg', chapter: 'funchal', city: 'Madeira', intensity: 'médio', title: 'São Lourenço · Cabo Girão', morning: 'Mercado dos Lavradores.', afternoon: 'Ponta de São Lourenço na luz lateral. Plano aberto da península.', night: 'Cabo Girão ao pôr do sol. Peixe em Câmara de Lobos.', status: 'esboço' },
-  { n: 18, date: '2026-11-03', weekday: 'ter', chapter: 'ponta-delgada', city: 'Funchal → Ponta Delgada', intensity: 'médio', title: 'Travessia para o norte', morning: 'Check-out às 11:00. Túneis até São Vicente.', afternoon: 'Check-in às 15:00 na Beco House. Seixal, 15 min.', night: 'Jantar em São Vicente. Ver a previsão de neblina.', status: 'esboço' },
-  { n: 19, date: '2026-11-04', weekday: 'qua', chapter: 'ponta-delgada', city: 'Costa norte', intensity: 'pesado', title: '🎬 Fanal', morning: 'Fanal cedo. Esperar a neblina. Planos longos no tripé.', afternoon: 'Porto Moniz, piscinas vulcânicas.', night: 'Santana. Última noite.', status: 'esboço' },
+  { n: 16, date: '2026-11-01', weekday: 'dom', chapter: 'funchal', city: 'Madeira', intensity: 'pesado', title: 'Pico Ruivo ao pôr do sol', morning: 'Feriado. O Museu CR7 está fechado. Dia livre, com a Zona Velha.', afternoon: 'Vereda do Pico Ruivo (PR1.2), saída da Achada do Teixeira às 16:00, para ver o pôr do sol.', night: 'Descida com lanterna de cabeça. Poncha na Venda Velha.', fixed: '🥾 PR1.2 · 16:00 · reserva feita', status: 'confirmado' },
+  { n: 17, date: '2026-11-02', weekday: 'seg', chapter: 'funchal', city: 'Madeira', intensity: 'pesado', title: 'Areeiro, Balcões e São Lourenço', morning: 'Vereda do Areeiro (PR1), entrada às 08:00 até o Miradouro da Pedra Rija. Reserva feita.', afternoon: 'Vereda dos Balcões (PR11), entrada às 10:30, a conferir o trajeto. Ponta de São Lourenço (PR8), entrada às 15:00, na luz lateral.', night: 'Cabo Girão ao pôr do sol. Peixe em Câmara de Lobos.', fixed: '🥾 PR1 · 08:00 · PR11 · 10:30 · PR8 · 15:00', status: 'confirmado' },
+  { n: 18, date: '2026-11-03', weekday: 'ter', chapter: 'ponta-delgada', city: 'Funchal → Ponta Delgada', intensity: 'médio', title: 'Museu CR7 e travessia para o norte', morning: 'Check-out em Funchal às 11:00. Museu CR7 às 11:15, aberto de terça.', afternoon: 'Check-in em Ponta Delgada às 15:00, Beco House. Seixal, 15 min.', night: 'Jantar em São Vicente. Ver a previsão de neblina.', fixed: '🏛️ Museu CR7 · 11:15', status: 'confirmado' },
+  { n: 19, date: '2026-11-04', weekday: 'qua', chapter: 'ponta-delgada', city: 'Costa norte', intensity: 'pesado', title: '🎬 Fanal e 25 Fontes', morning: 'Fanal cedo, para esperar a neblina. Planos longos no tripé.', afternoon: 'Levada das 25 Fontes (PR6), entrada às 10:30, a conferir o trajeto. Porto Moniz, piscinas vulcânicas.', night: 'Santana. Última noite.', fixed: '🥾 PR6 · 10:30', status: 'esboço' },
   { n: 20, date: '2026-11-05', weekday: 'qui', chapter: 'ponta-delgada', city: 'Madeira → São Paulo', intensity: 'trânsito', title: 'Volta', morning: 'Check-out 11:00. Santana, conforme o tempo disponível.', afternoon: 'Aeroporto às 15:00, devolver o carro até 16:00. TP1692 FNC 18:10 → LIS.', night: 'TP87 LIS → GRU. Pouso na manhã de sexta.', fixed: '✈️ TAP · 18:10', status: 'confirmado' },
 ];
 
@@ -400,6 +463,7 @@ export const days: Day[] = [
 export const route: { name: string; lat: number; lng: number; chapter: string; mode: 'avião' | 'trem' | 'carro' | 'base' }[] = [
   { name: 'São Paulo', lat: -23.4356, lng: -46.4731, chapter: 'partida', mode: 'avião' },
   { name: 'Londres', lat: 51.4925, lng: -0.131, chapter: 'londres', mode: 'base' },
+  { name: 'Paris', lat: 48.8566, lng: 2.3522, chapter: 'paris', mode: 'base' },
   { name: 'Birmingham', lat: 52.4797, lng: -1.9028, chapter: 'birmingham', mode: 'trem' },
   { name: 'Manchester', lat: 53.4685, lng: -2.253, chapter: 'manchester', mode: 'trem' },
   { name: 'Amsterdã', lat: 52.3105, lng: 4.7683, chapter: 'san-sebastian', mode: 'avião' },

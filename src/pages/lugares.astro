@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MapView from '../components/MapView.astro';
+import { chapters, route } from '../data/trip';
+import { u } from '../data/url';
+
+const bases = ['Londres', 'Birmingham', 'Paris', 'Manchester', 'San Sebastián', 'Funchal', 'Ponta Delgada'];
+const markers = chapters.flatMap((c) => c.places.map((p) => ({ name: p.name, lat: p.lat, lng: p.lng, blurb: p.blurb, kind: p.category === 'base' ? 'base' as const : 'lugar' as const, chapter: c.title, slug: c.slug })));
+const stops = route.filter((r) => bases.includes(r.name)).map((r) => ({ label: r.name, lat: r.lat, lng: r.lng, zoom: 12, slug: r.name }));
+---
+
+<BaseLayout title="Lugares da viagem" description="Os lugares que queremos conhecer em cada cidade da viagem, num mapa que percorre a rota." current={u('/lugares')}>
+  <section class="wrap" style="padding-top:2rem">
+    <h1 class="t-hero">Os lugares<span class="accent">.</span></h1>
+    <p class="t-lead">Cada cidade com os lugares que queremos conhecer. Percorra a rota ou escolha uma base.</p>
+  </section>
+  <section class="wrap" style="padding-bottom:3rem">
+    <MapView id="mapa-lugares" markers={markers} route={route} center={{ lat: 48.5, lng: 2, zoom: 5 }} animate stops={stops} />
+  </section>
+</BaseLayout>

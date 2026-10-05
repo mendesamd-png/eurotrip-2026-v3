@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { trilhas } from '../data/trilhas';
+import { images, unsplash } from '../data/images';
+import { u } from '../data/url';
+---
+
+<BaseLayout title="Trilhas da Madeira" description="As cinco trilhas reservadas na Madeira, com fotos, história e como chegar." current={u('/trilhas')}>
+  <section class="wrap" style="padding-top:2rem">
+    <h1 class="t-hero">Trilhas<span class="accent">.</span></h1>
+    <p class="t-lead">Cinco trilhas reservadas pelo SIMplifica. Todas exigem reserva. Antes de sair, confira as condições no portal oficial da Madeira.</p>
+  </section>
+  <section class="wrap" style="padding-bottom:3rem;display:grid;gap:2rem">
+    {trilhas.map((t) => (
+      <article style="display:grid;gap:1rem">
+        <img src={unsplash(images[t.foto], 1200)} alt={images[t.foto].alt} loading="lazy" style="width:100%;aspect-ratio:16/9;object-fit:cover" />
+        <p class="tc">{t.codigo} · {t.dificuldade}</p>
+        <h2 class="t-l">{t.nome}</h2>
+        <p><strong>Início:</strong> {t.inicio}</p>
+        <p><strong>Percurso:</strong> {t.ida} · {t.duracao}</p>
+        <p>{t.historia}</p>
+        <p><strong>Como chegar:</strong> {t.chegada}</p>
+        <p><strong>Reserva:</strong> {t.reserva}</p>
+        {t.alerta && <p class="tc">{t.alerta}</p>}
+        <p class="tc">Foto: {images[t.foto].credit}</p>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

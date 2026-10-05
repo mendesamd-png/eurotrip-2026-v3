@@ -319,5 +319,19 @@
         "sources": []
       }
     ]
+  },
+  "paris": {
+    "sections": [
+      {
+        "title": "A parada no meio do caminho",
+        "paragraphs": [
+          "Paris entra na viagem como uma parada curta entre Londres e Manchester. São duas noites, uma diária de trabalho com a Miriam na feira Design Miami/Paris e um dia livre para caminhar.",
+          "A chegada é pelo Eurostar de St Pancras, às 07h01, com parada na Gare du Nord às 10h29. O hotel fica em Montparnasse, perto da estação.",
+          "No dia 23 a diária é com a Miriam, na Rue de l’Université. O resto do dia fica livre para Montmartre, as margens do Sena e um café sem pressa.",
+          "Na manhã de 24, o trajeto é cedo até o aeroporto de Beauvais, para o voo das 10h15 até Manchester."
+        ],
+        "sources": []
+      }
+    ]
   }
 }

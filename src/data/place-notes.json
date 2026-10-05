@@ -1,0 +1,1024 @@
+{
+ "birmingham": [
+  {
+   "history": "A estação abriu em 1854 e foi reconstruída nos anos 1960. A reforma mais recente terminou em setembro de 2015, com o átrio novo e o shopping Grand Central em cima das plataformas.",
+   "access": "Ponto de chegada do trem direto de London Euston, viagem de cerca de 1h20 a 1h30. Bilhete de trem comprado com antecedência sai mais barato.",
+   "source": "https://en.wikipedia.org/wiki/Birmingham_New_Street_railway_station",
+   "match": "Birmingham New Street"
+  },
+  {
+   "history": "Antigo bairro industrial de Birmingham, cortado por viadutos ferroviários de tijolo. A Custard Factory, antiga fábrica do creme Bird's, virou polo criativo nos anos 1990 e puxou a ocupação por estúdios, bares, arte de rua e casas de show.",
+   "access": "Caminhada de cerca de 15 minutos a partir de New Street, passando pelo Bullring e descendo a Digbeth High Street. Circulação livre, sem ingresso.",
+   "source": "https://en.wikipedia.org/wiki/Digbeth",
+   "match": "Digbeth"
+  },
+  {
+   "history": "Bacia de canais do fim do século XVIII, no encontro do Birmingham Canal com o Worcester and Birmingham Canal. Uma barreira física, a Worcester Bar, separava as duas companhias e obrigava a baldear a carga, até a abertura de uma eclusa em 1815.",
+   "access": "Caminhada de cerca de 12 minutos a partir de New Street, ou tram da West Midlands Metro de Grand Central até Brindleyplace. Acesso livre pelas margens do canal.",
+   "source": "https://en.wikipedia.org/wiki/Gas_Street_Basin",
+   "match": "Gas Street Basin"
+  },
+  {
+   "history": "Projetada pelo escritório holandês Mecanoo, abriu em 3 de setembro de 2013 em cerimônia com Malala Yousafzai. A fachada de anéis metálicos remete à tradição joalheira e industrial da cidade, e o topo guarda a Shakespeare Memorial Room, sala vitoriana transferida da biblioteca antiga.",
+   "access": "Caminhada de cerca de 10 minutos a partir de New Street, ou tram de Grand Central até a parada Library. Entrada gratuita, inclusive nos terraços.",
+   "source": "https://en.wikipedia.org/wiki/Library_of_Birmingham",
+   "match": "Library of Birmingham"
+  },
+  {
+   "history": "Casa do Aston Villa desde 1897, é um dos estádios mais antigos em uso na Inglaterra. Recebeu jogos da Copa do Mundo de 1966 e da Euro 1996, além de dezenas de semifinais da FA Cup.",
+   "access": "Trem de New Street até Witton, cerca de 10 minutos, e mais cerca de 5 minutos a pé. Tour do estádio e jogos exigem ingresso comprado com antecedência no site do clube.",
+   "source": "https://www.avfc.co.uk/",
+   "name": "Villa Park (Aston Villa)",
+   "category": "estádio",
+   "blurb": "Estádio histórico do futebol inglês, com a fachada de tijolos da Holte End.",
+   "lat": 52.5092,
+   "lng": -1.8848,
+   "query": "Villa Park, Birmingham",
+   "isNew": true
+  },
+  {
+   "history": "Estádio do Birmingham City desde a inauguração, em 26 de dezembro de 1906. Fica em Bordesley, a leste do centro, e foi reconstruído em etapas a partir dos anos 1990.",
+   "access": "Caminhada de cerca de 30 minutos a partir de New Street, passando por Digbeth, ou cerca de 10 minutos de táxi ou ônibus. Dá para ver por fora sem ingresso; jogos exigem ingresso.",
+   "source": "https://en.wikipedia.org/wiki/St_Andrew%27s_(stadium)",
+   "name": "St Andrew's (Birmingham City)",
+   "category": "estádio",
+   "blurb": "O estádio do rival local do Aston Villa, a uma caminhada de Digbeth.",
+   "lat": 52.4757,
+   "lng": -1.8682,
+   "query": "St Andrew's Stadium, Birmingham City FC",
+   "isNew": true
+  },
+  {
+   "history": "Bairro que concentra oficinas de joalheria desde o século XVIII e ainda reúne centenas de joalheiros e ourives. O relógio Chamberlain Clock, no centro do bairro, é de 1903. O Museum of the Jewellery Quarter funciona na antiga fábrica Smith & Pepper, que fechou em 1981 com tudo dentro.",
+   "access": "Tram da West Midlands Metro de Grand Central, na porta de New Street, até a parada Jewellery Quarter, cerca de 10 minutos. A pé são cerca de 25 minutos; o museu tem ingresso e visita guiada.",
+   "source": "https://en.wikipedia.org/wiki/Jewellery_Quarter",
+   "name": "Jewellery Quarter",
+   "category": "loja",
+   "blurb": "Bairro de oficinas e fábricas vitorianas onde a joalheria inglesa ainda é feita à mão.",
+   "lat": 52.4877,
+   "lng": -1.9124,
+   "query": "Chamberlain Clock, Jewellery Quarter, Birmingham",
+   "isNew": true
+  },
+  {
+   "history": "A ponte da Broad Street sobre o canal foi rebatizada em 2019 em homenagem ao Black Sabbath, banda formada em Birmingham em 1968. O banco de aço com os rostos de Ozzy, Tony, Geezer e Bill foi apresentado em fevereiro de 2019 e depois instalado na ponte. Após a morte de Ozzy Osbourne, em julho de 2025, o local virou ponto de homenagem dos fãs.",
+   "access": "Caminhada de cerca de 12 minutos a partir de New Street, ou tram de Grand Central até Brindleyplace. Fica na calçada, acesso livre a qualquer hora.",
+   "source": "https://itv.com/news/central/2019-02-11/black-sabbath-heavy-metal-bench-unveiled",
+   "name": "Black Sabbath Bridge (Broad Street)",
+   "category": "mirante",
+   "blurb": "Foto obrigatória no banco de metal em homenagem à banda que criou o heavy metal na cidade.",
+   "lat": 52.4772,
+   "lng": -1.911,
+   "query": "Black Sabbath Bridge, Broad Street, Birmingham",
+   "isNew": true
+  },
+  {
+   "history": "O Bull Ring é ponto de mercado desde a Idade Média. O shopping atual abriu em setembro de 2003, no lugar do centro comercial dos anos 1960. A Selfridges, projetada pelo escritório Future Systems, é coberta por cerca de 15 mil discos de alumínio.",
+   "access": "Colado à estação: cerca de 3 minutos a pé a partir da saída de New Street. Entrada livre.",
+   "source": "https://en.wikipedia.org/wiki/Bullring",
+   "name": "Bullring e Selfridges",
+   "category": "loja",
+   "blurb": "A fachada de discos de alumínio da Selfridges é o cartão-postal moderno de Birmingham.",
+   "lat": 52.4777,
+   "lng": -1.894,
+   "query": "Selfridges Birmingham, Bullring",
+   "isNew": true
+  }
+ ],
+ "paris": [
+  {
+   "history": "A primeira estação abriu em 1846 e logo ficou pequena. O prédio atual, projetado por Jacques Ignace Hittorff, foi construído entre 1861 e 1865, com estátuas na fachada que representam as cidades servidas pela linha. É o terminal do Eurostar para Londres.",
+   "access": "Metrô linha 4 direto de Montparnasse-Bienvenüe até Gare du Nord, cerca de 25 minutos. Para o Eurostar, chegar com a antecedência indicada no bilhete por causa do controle de passaporte.",
+   "source": "https://en.wikipedia.org/wiki/Gare_du_Nord",
+   "match": "Gare du Nord"
+  },
+  {
+   "history": "A feira de design colecionável estreou em Paris em outubro de 2023 e chega à quarta edição de 20 a 25 de outubro de 2026. O endereço é o Hôtel de Maisons, palacete do século XVIII na Rue de l'Université, 51, também conhecido como Hôtel de Pozzo di Borgo, onde Karl Lagerfeld morou.",
+   "access": "Metrô linha 12 de Montparnasse-Bienvenüe até Rue du Bac ou Solférino, cerca de 15 minutos contando a caminhada. Precisa de ingresso, vendido no site da feira.",
+   "source": "https://designmiami.com/",
+   "match": "Design Miami/Paris"
+  },
+  {
+   "history": "A basílica foi decidida depois da derrota francesa na guerra de 1870. A pedra fundamental é de 1875, o projeto é de Paul Abadie, e a obra terminou em 1914, com consagração em 1919. Fica no ponto mais alto de Paris.",
+   "access": "Metrô linha 12 direto de Montparnasse-Bienvenüe até Abbesses, cerca de 25 minutos, depois funicular ou escadaria. A entrada na basílica é gratuita; a subida à cúpula é paga.",
+   "source": "https://www.sacre-coeur-montmartre.com/",
+   "match": "Sacré-Cœur"
+  },
+  {
+   "history": "George Whitman abriu a livraria em 1951 com o nome Le Mistral. Em 1964 ela passou a se chamar Shakespeare and Company, em homenagem à livraria de Sylvia Beach, que funcionou de 1919 a 1941 e publicou o Ulysses de James Joyce.",
+   "access": "Metrô linha 4 de Montparnasse-Bienvenüe até Saint-Michel, cerca de 10 minutos, e mais cerca de 5 minutos a pé. Entrada gratuita, com fila na porta nos horários de pico.",
+   "source": "https://shakespeareandcompany.com/",
+   "match": "Shakespeare and Company"
+  },
+  {
+   "history": "Napoleão mandou abrir o canal em 1802 para levar água potável e mercadorias a Paris. Ele foi inaugurado em 1825 e tem cerca de 4,5 km, parte deles em trecho subterrâneo, com eclusas e passarelas de ferro.",
+   "access": "Metrô linha 4 de Montparnasse-Bienvenüe até Gare de l'Est, cerca de 20 minutos, e mais cerca de 8 minutos a pé até as margens. Passeio livre.",
+   "source": "https://en.wikipedia.org/wiki/Canal_Saint-Martin",
+   "match": "Canal Saint-Martin"
+  },
+  {
+   "history": "O prédio nasceu como estação de trem, a Gare d'Orsay, projetada por Victor Laloux para a Exposição Universal de 1900. Virou museu em dezembro de 1986 e guarda a maior coleção de pintura impressionista e pós-impressionista do mundo.",
+   "access": "Metrô linha 12 de Montparnasse-Bienvenüe até Solférino, cerca de 10 minutos, e mais cerca de 5 minutos a pé. Ingresso com horário marcado pelo site; fecha às segundas.",
+   "source": "https://www.musee-orsay.fr/",
+   "match": "Musée d’Orsay"
+  },
+  {
+   "history": "O jardim foi criado a partir de 1612 por Maria de Médici, junto com o Palácio do Luxemburgo. O palácio hoje é a sede do Senado francês, que também cuida do jardim.",
+   "access": "Caminhada de cerca de 20 minutos a partir do hotel. Entrada gratuita, com horário de fechamento que acompanha o pôr do sol.",
+   "source": "https://en.wikipedia.org/wiki/Jardin_du_Luxembourg",
+   "match": "Jardin du Luxembourg"
+  },
+  {
+   "history": "Fica em Tillé, a cerca de 80 km ao norte de Paris. Recebe voos comerciais desde 1956 e cresceu com as companhias de baixo custo, com a Ryanair operando ali desde 1997.",
+   "access": "Metrô linha 6 de Montparnasse-Bienvenüe até Charles de Gaulle-Étoile e linha 1 até Porte Maillot, cerca de 30 minutos. De lá sai a navette oficial Aérobus (Boulevard Pershing, 22-24), cerca de 1h15 a 1h30 até o terminal; comprar o bilhete online e sair de Paris pelo menos 3 horas antes do voo.",
+   "source": "https://www.aeroportparisbeauvais.com/",
+   "match": "Aeroporto de Beauvais"
+  },
+  {
+   "history": "Construída pela empresa de Gustave Eiffel para a Exposição Universal de 1889, foi inaugurada em 31 de março daquele ano. Deveria ser desmontada depois de 20 anos e foi salva pelo uso como antena de rádio. Mede 330 metros.",
+   "access": "Metrô linha 6 direto de Montparnasse-Bienvenüe até Bir-Hakeim, cerca de 10 minutos, e mais cerca de 10 minutos a pé; para a vista do Trocadéro, seguir na mesma linha até a estação Trocadéro. Para subir, comprar ingresso com horário no site oficial com antecedência.",
+   "source": "https://www.toureiffel.paris/",
+   "name": "Torre Eiffel (Champ de Mars / Trocadéro)",
+   "category": "mirante",
+   "blurb": "O símbolo de Paris, com a melhor foto a partir da esplanada do Trocadéro.",
+   "lat": 48.8584,
+   "lng": 2.2945,
+   "query": "Tour Eiffel, Champ de Mars, Paris",
+   "isNew": true
+  },
+  {
+   "history": "Começou como fortaleza erguida por Filipe Augusto por volta de 1190 e depois foi palácio real. Abriu como museu em 10 de agosto de 1793, durante a Revolução. A pirâmide de vidro de I. M. Pei é de 1989.",
+   "access": "Metrô linha 12 de Montparnasse-Bienvenüe até Concorde e linha 1 até Palais Royal-Musée du Louvre, cerca de 25 minutos. Ingresso com horário marcado pelo site oficial; fecha às terças.",
+   "source": "https://www.louvre.fr/",
+   "name": "Museu do Louvre",
+   "category": "museu",
+   "blurb": "O maior museu do mundo, casa da Mona Lisa e da Vitória de Samotrácia.",
+   "lat": 48.8606,
+   "lng": 2.3376,
+   "query": "Musée du Louvre, Paris",
+   "isNew": true
+  },
+  {
+   "history": "A construção começou em 1163 e atravessou quase dois séculos. O incêndio de 15 de abril de 2019 destruiu o telhado e a flecha, e a catedral reabriu restaurada em 8 de dezembro de 2024. As torres voltaram a receber visitantes em setembro de 2025.",
+   "access": "Metrô linha 4 de Montparnasse-Bienvenüe até Cité, cerca de 12 minutos, e mais cerca de 5 minutos a pé. A entrada é gratuita, com reserva gratuita de horário no site oficial para evitar fila; a subida às torres é paga.",
+   "source": "https://www.notredamedeparis.fr/",
+   "name": "Notre-Dame de Paris",
+   "category": "museu",
+   "blurb": "Ver o interior restaurado e claro como nunca depois do incêndio de 2019.",
+   "lat": 48.853,
+   "lng": 2.3499,
+   "query": "Cathédrale Notre-Dame de Paris",
+   "isNew": true
+  },
+  {
+   "history": "Napoleão encomendou o arco em 1806, depois da vitória em Austerlitz, e a obra só foi inaugurada em 1836. Desde 1921 o túmulo do Soldado Desconhecido fica sob o arco, com a chama acesa desde 1923.",
+   "access": "Metrô linha 6 direto de Montparnasse-Bienvenüe até Charles de Gaulle-Étoile, cerca de 20 minutos; o acesso ao arco é pela passagem subterrânea. Ver por baixo é gratuito; o terraço precisa de ingresso.",
+   "source": "https://www.paris-arc-de-triomphe.fr/",
+   "name": "Arco do Triunfo",
+   "category": "mirante",
+   "blurb": "Do terraço se vê a Champs-Élysées de um lado e a Torre Eiffel do outro.",
+   "lat": 48.8738,
+   "lng": 2.295,
+   "query": "Arc de Triomphe, Place Charles de Gaulle, Paris",
+   "isNew": true
+  },
+  {
+   "history": "A praça era o centro da antiga vila de Montmartre, anexada a Paris em 1860. No começo do século XX o bairro abrigou pintores como Picasso e Utrillo, e a praça segue ocupada por retratistas e pintores de rua.",
+   "access": "Metrô linha 12 direto de Montparnasse-Bienvenüe até Abbesses, cerca de 25 minutos, e mais cerca de 8 minutos de subida a pé. Acesso livre, a poucos passos do Sacré-Cœur.",
+   "source": "https://en.wikipedia.org/wiki/Place_du_Tertre",
+   "name": "Montmartre · Place du Tertre",
+   "category": "mercado",
+   "blurb": "Praça dos pintores no alto de Montmartre, boa para combinar com o Sacré-Cœur.",
+   "lat": 48.8865,
+   "lng": 2.3408,
+   "query": "Place du Tertre, Montmartre, Paris",
+   "isNew": true
+  }
+ ],
+ "londres": [
+  {
+   "history": "A galeria foi fundada em 2008 por Sam Pratt e Valerio Capo, vindos do mercado financeiro e do marketing, para mostrar design de peça única e edição limitada. Passou nove anos em Shoreditch antes de se mudar para Mayfair, onde ocupa dois andares em Hay Hill. O foco é em trabalho manual, com técnicas como entalhe, vidro soprado, marchetaria e laca.",
+   "access": "Estação Green Park (Victoria line, duas paradas a partir de Pimlico) e mais cerca de 5 minutos a pé, cerca de 15 minutos no total. Entrada gratuita; confirme o horário no site antes de ir.",
+   "source": "https://galleryfumi.com/about",
+   "match": "Gallery FUMI"
+  },
+  {
+   "history": "Nasceu como National Film Theatre em 1951, no Telecinema do Festival of Britain. Em 1957 passou para o endereço atual, sob a Waterloo Bridge, abrindo na primeira edição do BFI London Film Festival. Foi relançado como BFI Southbank em 14 de março de 2007 e é o único cinema do Reino Unido licenciado para exibir película de nitrato ao público.",
+   "access": "Estação Waterloo (Jubilee line, uma parada a partir de Westminster), cerca de 15 minutos no total; a pé pela Westminster Bridge leva cerca de 25 minutos. As sessões têm ingresso, vale comprar antes no site.",
+   "source": "https://en.wikipedia.org/wiki/BFI_Southbank",
+   "match": "BFI Southbank"
+  },
+  {
+   "history": "O prédio foi construído entre 1961 e 1962 e abriu em 26 de dezembro de 1962 como teatro. Em abril de 1991 virou cinema de repertório, formato que mantém até hoje, e em 2008 o balcão foi convertido em segunda sala. Em 2025 uma disputa de aluguel com o proprietário gerou uma petição com mais de 160 mil assinaturas, e em 9 de maio de 2025 o Westminster City Council declarou o cinema Asset of Community Value.",
+   "access": "Estação Leicester Square (Piccadilly e Northern lines): de Pimlico, Victoria line até Green Park e Piccadilly line por duas paradas, cerca de 20 minutos. Sessões com ingresso, as mais concorridas esgotam, então compre antes no site.",
+   "source": "https://en.wikipedia.org/wiki/Prince_Charles_Cinema",
+   "match": "Prince Charles Cinema"
+  },
+  {
+   "history": "A Monmouth começou a torrar e vender café em 1978, no número 27 da Monmouth Street, em Covent Garden. A loja original segue no mesmo endereço e a empresa compra grãos direto de fazendas e cooperativas.",
+   "access": "Estação Covent Garden (Piccadilly line): de Pimlico, Victoria line até Green Park e Piccadilly line por três paradas, cerca de 20 minutos e mais 5 a pé. Sem reserva, a fila costuma ser na calçada.",
+   "source": "https://www.monmouthcoffee.co.uk/about-us/",
+   "match": "Monmouth Coffee"
+  },
+  {
+   "history": "A Park Cameras foi fundada em 1971 em Burgess Hill, West Sussex, como negócio familiar que começou com 500 libras em estoque usado. A loja de Londres abriu em novembro de 2013 na Rathbone Place, em Fitzrovia, ao lado da Oxford Street.",
+   "access": "Estação Tottenham Court Road (Central, Northern e Elizabeth lines) fica a cerca de 5 minutos a pé; de Pimlico, dá para ir direto pela Victoria line até Oxford Circus e andar cerca de 10 minutos, cerca de 20 minutos no total. Sem reserva.",
+   "source": "https://www.parkcameras.com/about-us",
+   "match": "Park Cameras"
+  },
+  {
+   "history": "O nome vem da fabricação de tijolos e telhas que começou ali no século 15. A rua recebeu tecelões huguenotes franceses no século 17, judeus asquenazes no século 19 e a comunidade de Bangladesh no fim do século 20. A mesquita Brick Lane Jamme Masjid resume essa história: foi erguida em 1742 como capela huguenote, virou capela metodista em 1819, sinagoga em 1898 e mesquita em 1976.",
+   "access": "Estação Aldgate East (District line, direto de St James's Park), cerca de 20 minutos e mais 5 a pé; Shoreditch High Street (Overground) atende a ponta norte. Rua aberta, sem ingresso; o mercado maior é aos domingos.",
+   "source": "https://en.wikipedia.org/wiki/Brick_Lane",
+   "match": "Brick Lane"
+  },
+  {
+   "history": "O mercado de rua foi estabelecido em 1883, e um relatório do London County Council de 1893 registrava 35 barracas. Depois de um longo declínio no fim do século 20, foi relançado como mercado de comida aos sábados em 8 de maio de 2004. Hoje funciona aos sábados e domingos com mais de 150 barracas.",
+   "access": "Estação London Fields (Overground, Weaver line, saindo de Liverpool Street): de St James's Park, Circle line até Liverpool Street e troca para o Overground, cerca de 45 minutos no total. Sem ingresso; a rua fecha para carros no horário do mercado.",
+   "source": "https://en.wikipedia.org/wiki/Broadway_Market,_London",
+   "match": "Broadway Market"
+  },
+  {
+   "history": "Ocupa a antiga Bankside Power Station, projetada por Sir Giles Gilbert Scott, o mesmo arquiteto da Battersea Power Station. A conversão foi do escritório Herzog & de Meuron, escolhido em 1995, e o museu foi aberto pela rainha em 11 de maio de 2000. A ampliação Switch House recebeu o nome de Blavatnik Building em 2017.",
+   "access": "Estação Blackfriars (District e Circle lines, direto de St James's Park) e cerca de 10 minutos a pé pela margem sul, cerca de 25 minutos no total; Southwark (Jubilee line, de Westminster) é a alternativa. Acervo gratuito, exposições temporárias com ingresso.",
+   "source": "https://en.wikipedia.org/wiki/Tate_Modern",
+   "match": "Tate Modern"
+  },
+  {
+   "history": "Abriu em 21 de julho de 1897 como National Gallery of British Art, no terreno da antiga prisão de Millbank, financiada por Sir Henry Tate. Adotou oficialmente o nome Tate Gallery em 1932 e passou a se chamar Tate Britain em março de 2000. Guarda o grande conjunto de obras que J. M. W. Turner deixou para a nação, exposto na Clore Gallery.",
+   "access": "Fica no próprio bairro da base: cerca de 5 a 10 minutos a pé de Page Street; a estação mais próxima é Pimlico (Victoria line). Acervo gratuito, exposições temporárias com ingresso.",
+   "source": "https://en.wikipedia.org/wiki/Tate_Britain",
+   "match": "Tate Britain"
+  },
+  {
+   "history": "O clube abriu em 30 de outubro de 1959 num porão do número 39 da Gerrard Street, criado pelos saxofonistas Ronnie Scott e Pete King. Em 1965 mudou para o endereço atual, no 47 da Frith Street. Jimi Hendrix fez ali sua última apresentação pública, em 1970.",
+   "access": "Estações Leicester Square (Piccadilly e Northern lines) ou Tottenham Court Road, as duas a cerca de 5 a 8 minutos a pé; de Pimlico, Victoria line até Green Park e Piccadilly line até Leicester Square, cerca de 25 minutos no total. Precisa de ingresso com reserva antecipada no site.",
+   "source": "https://en.wikipedia.org/wiki/Ronnie_Scott%27s_Jazz_Club",
+   "match": "Ronnie Scott's"
+  },
+  {
+   "history": "É um galpão industrial vitoriano que pertenceu a George Gibson Bussey, fabricante de artigos esportivos, incluindo tacos de críquete. Em 2009 uma campanha de moradores liderada pelo grupo Peckham Vision impediu que a área virasse garagem de bondes, e em 2011 o prédio passou a integrar a área de conservação de Peckham. Hoje faz parte do Copeland Park, com bares, galeria, estúdios e casa de shows.",
+   "access": "Estação Peckham Rye (trens a partir de London Victoria, a uma parada de Pimlico), cerca de 30 minutos no total; a entrada fica num beco da Rye Lane, a cerca de 3 minutos da estação. Eventos e shows têm ingresso próprio.",
+   "source": "https://londontheinside.com/location/copeland-park/",
+   "match": "Bussey Building"
+  },
+  {
+   "history": "O gramado de cerca de 5 hectares recebeu torneios de justa na época em que os reis ingleses viviam em Richmond. A referência mais antiga a críquete ali é de maio de 1666, numa carta de Sir Robert Paston, e o jogo segue sendo disputado no local. Em 1625, Charles I levou a corte para Richmond para fugir da peste em Londres.",
+   "access": "Estação Richmond (District line, ramal Richmond, direto de St James's Park), cerca de 35 minutos e mais 5 a 10 a pé. Área pública, sem ingresso.",
+   "source": "https://en.wikipedia.org/wiki/Richmond_Green",
+   "name": "Richmond Green",
+   "category": "mirante",
+   "blurb": "É o gramado onde Ted Lasso se passa, cercado de casas georgianas e com críquete jogado desde o século 17.",
+   "lat": 51.462,
+   "lng": -0.3075,
+   "query": "Richmond Green, Richmond, London TW9",
+   "isNew": true
+  },
+  {
+   "history": "É uma das vielas de pedestres que ligam o Richmond Green à George Street, a rua principal. As casas dos números 29 a 32 são tombadas (Grade II), e uma delas funcionou como Auster's Coffee House no começo do século 18. Em Ted Lasso, a fachada do apartamento do Ted é a porta 11A.",
+   "access": "Estação Richmond (District line, ramal Richmond, direto de St James's Park), cerca de 35 minutos e mais 5 a pé. Rua aberta, sem ingresso.",
+   "source": "https://www.richmond.gov.uk/richmond_green_brewers_lane_to_paved_court",
+   "name": "Paved Court (Richmond)",
+   "category": "loja",
+   "blurb": "Viela de pedestres com lojinhas independentes onde fica a porta do apartamento do Ted Lasso.",
+   "lat": 51.4609,
+   "lng": -0.3064,
+   "query": "Paved Court, Richmond TW9 1LZ",
+   "isNew": true
+  },
+  {
+   "history": "O pub vem do século 18 e se chamava The Duke's Head, em homenagem ao 2º Duque de Ormonde; o nome atual já aparecia em 1778. O prédio foi provavelmente reconstruído por volta de 1900 e hoje é operado pela cervejaria Fuller's. Em Ted Lasso, só a fachada foi usada como The Crown & Anchor; o interior foi gravado em estúdio.",
+   "access": "Estação Richmond (District line, ramal Richmond, direto de St James's Park), cerca de 35 minutos e mais 5 a pé, na esquina do Green com a Paved Court. Sem reserva obrigatória, mas enche por causa da série.",
+   "source": "https://en.wikipedia.org/wiki/The_Prince%27s_Head",
+   "name": "The Prince's Head",
+   "category": "pub",
+   "blurb": "É o pub da torcida do AFC Richmond em Ted Lasso, na beira do gramado.",
+   "lat": 51.461,
+   "lng": -0.3066,
+   "query": "The Prince's Head, 28 The Green, Richmond TW9 1LX",
+   "isNew": true
+  },
+  {
+   "history": "O Wembley original funcionou de 1923 a 2000 e começou a ser demolido em 2002. O estádio atual, projetado por Foster and Partners e HOK Sport, foi inaugurado com a final da FA Cup em 19 de maio de 2007. Tem 90 mil lugares e um arco de 133 metros que sustenta a cobertura norte.",
+   "access": "Estação Wembley Park (Jubilee line, direto de Westminster), cerca de 25 minutos e mais 10 a pé pela Olympic Way. Entrar só com ingresso de jogo, show ou tour reservado no site.",
+   "source": "https://en.wikipedia.org/wiki/Wembley_Stadium",
+   "name": "Wembley Stadium",
+   "category": "estádio",
+   "blurb": "É a casa da seleção inglesa e das finais de copa, com 90 mil lugares e o arco que se vê de longe.",
+   "lat": 51.556,
+   "lng": -0.2796,
+   "query": "Wembley Stadium, London HA9 0WS",
+   "isNew": true
+  },
+  {
+   "history": "O Arsenal inaugurou o estádio em 22 de julho de 2006, depois de 93 anos em Highbury. A capacidade é de 60.704 lugares. O antigo Highbury virou o condomínio Highbury Square.",
+   "access": "Estação Arsenal (Piccadilly line): de Pimlico, Victoria line até Finsbury Park e uma parada de Piccadilly line, cerca de 30 minutos; outra opção é descer em Highbury & Islington (Victoria line, direto) e andar cerca de 10 a 15 minutos. Jogo e tour pedem ingresso comprado antes.",
+   "source": "https://en.wikipedia.org/wiki/Emirates_Stadium",
+   "name": "Emirates Stadium",
+   "category": "estádio",
+   "blurb": "Casa do Arsenal desde 2006, com tour do estádio e museu do clube.",
+   "lat": 51.5549,
+   "lng": -0.1084,
+   "query": "Emirates Stadium, Hornsey Road, London N7 7AJ",
+   "isNew": true
+  },
+  {
+   "history": "Foi inaugurado em 3 de abril de 2019, num jogo contra o Crystal Palace, no lugar do White Hart Lane, casa do Tottenham desde 1899. Tem 62.850 lugares, o maior estádio de clube de Londres. O gramado é retrátil e dividido em três partes, com um campo sintético embaixo para jogos da NFL e shows.",
+   "access": "Estação White Hart Lane (Overground, Weaver line): de Pimlico, Victoria line direto até Seven Sisters e troca para o Overground por duas paradas, cerca de 45 minutos no total. Jogo e tour pedem ingresso comprado antes.",
+   "source": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_Stadium",
+   "name": "Tottenham Hotspur Stadium",
+   "category": "estádio",
+   "blurb": "É o estádio de clube mais moderno de Londres, com gramado retrátil e tour completo.",
+   "lat": 51.6043,
+   "lng": -0.0664,
+   "query": "Tottenham Hotspur Stadium, 782 High Road, London N17 0BX",
+   "isNew": true
+  },
+  {
+   "history": "O estádio abriu em 1877 como sede do London Athletic Club, que ficou ali até 1904. Em 1905 os irmãos Mears assumiram o terreno e fundaram o Chelsea para ocupá-lo. Hoje tem 40.044 lugares.",
+   "access": "Estação Fulham Broadway (District line, ramal Wimbledon; de St James's Park, pegue o trem para Wimbledon ou troque em Earl's Court), cerca de 20 minutos e mais 5 a pé. Jogo e tour pedem ingresso comprado antes.",
+   "source": "https://en.wikipedia.org/wiki/Stamford_Bridge_(stadium)",
+   "name": "Stamford Bridge",
+   "category": "estádio",
+   "blurb": "Casa do Chelsea desde a fundação do clube, em 1905, a poucos minutos do metrô.",
+   "lat": 51.4817,
+   "lng": -0.191,
+   "query": "Stamford Bridge, Fulham Road, London SW6 1HS",
+   "isNew": true
+  },
+  {
+   "history": "O chalé original foi construído em 1780 por William Craven, 6º Barão Craven, e destruído por um incêndio em maio de 1888. O Fulham joga no terreno desde 1896. A arquibancada Johnny Haynes Stand, de 1905, obra de Archibald Leitch, e o Pavilion são tombados (Grade II).",
+   "access": "Estação Putney Bridge (District line, ramal Wimbledon; de St James's Park, pegue o trem para Wimbledon ou troque em Earl's Court), cerca de 25 minutos e mais cerca de 15 a pé pelo Bishop's Park. Jogo pede ingresso comprado antes.",
+   "source": "https://en.wikipedia.org/wiki/Craven_Cottage",
+   "name": "Craven Cottage",
+   "category": "estádio",
+   "blurb": "Estádio à beira do Tâmisa com arquibancada tombada de 1905, o mais charmoso da Premier League.",
+   "lat": 51.4749,
+   "lng": -0.2217,
+   "query": "Craven Cottage, Stevenage Road, London SW6 6HH",
+   "isNew": true
+  },
+  {
+   "history": "Foi inaugurado em 30 de agosto de 1924, com projeto de Archibald Leitch, num antigo terreno de olaria, e é a casa do Crystal Palace desde então. Recebeu dois jogos da Olimpíada de 1948 e tem 25.194 lugares. Serviu de locação para o estádio do AFC Richmond em Ted Lasso.",
+   "access": "Estação Selhurst (trens a partir de London Victoria, a uma parada de Pimlico), cerca de 25 minutos de trem e mais cerca de 10 a 15 a pé; Norwood Junction e Thornton Heath também atendem. Jogo pede ingresso comprado antes.",
+   "source": "https://en.wikipedia.org/wiki/Selhurst_Park",
+   "name": "Selhurst Park",
+   "category": "estádio",
+   "blurb": "Casa do Crystal Palace e o estádio que aparece como Nelson Road em Ted Lasso.",
+   "lat": 51.3983,
+   "lng": -0.0855,
+   "query": "Selhurst Park, Holmesdale Road, London SE25 6PU",
+   "isNew": true
+  },
+  {
+   "history": "O estúdio foi aberto pela Gramophone Company em 12 de novembro de 1931. Os Beatles gravaram ali e batizaram o disco de 1969 com o nome da rua, com a foto de capa feita por Iain Macmillan na faixa de pedestres em frente. O prédio foi tombado (Grade II) em fevereiro de 2010 e a faixa recebeu o mesmo status em dezembro de 2010.",
+   "access": "Estação St John's Wood (Jubilee line, direto de Westminster), cerca de 10 minutos e mais cerca de 5 a 10 a pé. A faixa é rua aberta e gratuita, com trânsito de verdade; o estúdio não abre para visita, só a loja ao lado.",
+   "source": "https://en.wikipedia.org/wiki/Abbey_Road_Studios",
+   "name": "Abbey Road Studios (faixa de pedestres)",
+   "category": "venue",
+   "blurb": "É a faixa de pedestres da capa de Abbey Road, dos Beatles, em frente ao estúdio onde o disco foi gravado.",
+   "lat": 51.5321,
+   "lng": -0.1773,
+   "query": "Abbey Road Crossing, 3 Abbey Road, London NW8 9AY",
+   "isNew": true
+  },
+  {
+   "history": "Começou em 30 de março de 1974 como uma pequena feira de artesanato aos domingos, perto do Camden Lock. Cresceu até virar um conjunto de mercados com mais de mil barracas, lojas, bares e cafés. Sofreu incêndios em 2008, 2014 e 2017.",
+   "access": "Estação Camden Town (Northern line): de Pimlico, Victoria line até Euston e Northern line por duas paradas, cerca de 25 minutos e mais 5 a pé. Sem ingresso, aberto todos os dias.",
+   "source": "https://en.wikipedia.org/wiki/Camden_Market",
+   "name": "Camden Market",
+   "category": "mercado",
+   "blurb": "Conjunto de mercados à beira do canal, com comida de rua, roupa vintage e discos.",
+   "lat": 51.5414,
+   "lng": -0.146,
+   "query": "Camden Market, Camden Lock Place, London NW1 8AF",
+   "isNew": true
+  },
+  {
+   "history": "Foi criado por lei do Parlamento em 7 de junho de 1753, a partir da coleção do médico Sir Hans Sloane, e abriu ao público em 15 de janeiro de 1759, na Montagu House. O Great Court, pátio coberto projetado por Foster and Partners, abriu em dezembro de 2000.",
+   "access": "Estação Tottenham Court Road (Central, Northern e Elizabeth lines): de Pimlico, Victoria line até Oxford Circus e uma parada de Central line, cerca de 25 minutos com a caminhada. Entrada gratuita; vale reservar horário no site para evitar a fila.",
+   "source": "https://en.wikipedia.org/wiki/British_Museum",
+   "name": "British Museum",
+   "category": "museu",
+   "blurb": "Museu gratuito com a Pedra de Roseta e os mármores do Partenon, entre milhões de peças.",
+   "lat": 51.5194,
+   "lng": -0.127,
+   "query": "British Museum, Great Russell Street, London WC1B 3DG",
+   "isNew": true
+  },
+  {
+   "history": "O prédio de Alfred Waterhouse abriu em 18 de abril de 1881 como departamento de história natural do British Museum. Só se tornou museu independente com o British Museum Act de 1963. Desde 2017, o esqueleto de uma baleia azul ocupa o salão central, no lugar do diplodoco Dippy.",
+   "access": "Estação South Kensington (District e Circle lines, direto de St James's Park, três paradas), cerca de 10 minutos e mais 5 a pé pelo túnel de pedestres. Entrada gratuita; vale reservar o ingresso gratuito no site.",
+   "source": "https://en.wikipedia.org/wiki/Natural_History_Museum,_London",
+   "name": "Natural History Museum",
+   "category": "museu",
+   "blurb": "Museu gratuito num prédio vitoriano de 1881, com a baleia azul suspensa no salão central.",
+   "lat": 51.4967,
+   "lng": -0.1764,
+   "query": "Natural History Museum, Cromwell Road, London SW7 5BD",
+   "isNew": true
+  },
+  {
+   "history": "Foi fundado em 1852 como Museum of Manufactures e se mudou para South Kensington em 1857. Ganhou o nome atual em 17 de maio de 1899, quando a rainha Victoria lançou a pedra fundamental da nova fachada. É dedicado a arte decorativa e design.",
+   "access": "Estação South Kensington (District e Circle lines, direto de St James's Park, três paradas), cerca de 10 minutos e mais 5 a pé pelo túnel de pedestres. Entrada gratuita, exposições temporárias com ingresso.",
+   "source": "https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum",
+   "name": "Victoria and Albert Museum",
+   "category": "museu",
+   "blurb": "Museu gratuito de design, moda e artes decorativas, um dos maiores do mundo no tema.",
+   "lat": 51.4966,
+   "lng": -0.1722,
+   "query": "Victoria and Albert Museum, Cromwell Road, London SW7 2RL",
+   "isNew": true
+  },
+  {
+   "history": "Tem origem em 1857, como parte do South Kensington Museum, e passou a existir como instituição independente em 26 de junho de 1909. Guarda o módulo de comando da Apollo 10, que orbitou a Lua 31 vezes em 1969, e a locomotiva Puffing Billy.",
+   "access": "Estação South Kensington (District e Circle lines, direto de St James's Park, três paradas), cerca de 10 minutos e mais cerca de 5 a 8 a pé pelo túnel de pedestres. Entrada gratuita; vale reservar o ingresso gratuito no site.",
+   "source": "https://en.wikipedia.org/wiki/Science_Museum,_London",
+   "name": "Science Museum",
+   "category": "museu",
+   "blurb": "Museu gratuito com a cápsula da Apollo 10 e galerias interativas de ciência e tecnologia.",
+   "lat": 51.4978,
+   "lng": -0.1745,
+   "query": "Science Museum, Exhibition Road, London SW7 2DD",
+   "isNew": true
+  },
+  {
+   "history": "Ocupa os três andares do topo do 20 Fenchurch Street, prédio de 160 metros projetado por Rafael Viñoly e concluído em 2014, apelidado de Walkie-Talkie pelo formato. O jardim abriu ao público em janeiro de 2015.",
+   "access": "Estação Monument (District e Circle lines, direto de St James's Park), cerca de 15 minutos e mais 5 a pé. A entrada é gratuita com ingresso reservado no site oficial, liberado semanalmente com até três semanas de antecedência; o site diz aceitar visitantes sem reserva, sem garantia de entrada, e avisa que a capacidade está reduzida por causa de um elevador fora de serviço.",
+   "source": "https://skygarden.london/plan-your-visit/",
+   "name": "Sky Garden",
+   "category": "mirante",
+   "blurb": "Mirante gratuito no topo do Walkie-Talkie, com vista para o Tâmisa, a Tower Bridge e o Shard.",
+   "lat": 51.5113,
+   "lng": -0.0836,
+   "query": "Sky Garden, 1 Sky Garden Walk, London EC3M 8AF",
+   "isNew": true
+  }
+ ],
+ "manchester": [
+  {
+   "history": "Casa do Manchester United desde 19 de fevereiro de 1910, com projeto original do arquiteto Archibald Leitch. O estádio foi bombardeado em 1941, na Segunda Guerra, e o clube só voltou a jogar ali em 1949. Em 6 de fevereiro de 2008, nos 50 anos do desastre aéreo de Munique, o túnel sob a arquibancada sul passou a se chamar Munich Tunnel.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até Old Trafford (linha Altrincham) ou Wharfside (linha Trafford Park), cerca de 10 min, mais cerca de 5 a 10 min a pé. O tour do estádio e o museu exigem ingresso comprado com antecedência.",
+   "source": "https://en.wikipedia.org/wiki/Old_Trafford",
+   "match": "Old Trafford"
+  },
+  {
+   "history": "Salão construído em 1963 dentro do complexo da Co-operative, ao lado da CIS Tower. Nos anos 1960 e 1970 funcionou como salão de baile e casa de shows e recebeu nomes como Jimi Hendrix, The Kinks e The Who. Reabriu no verão de 2022, depois de uma restauração que recuperou a pista de dança com molas e o teto original, agora com casa de shows e praça de alimentação.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até Victoria ou Shudehill, cerca de 8 a 10 min, mais cerca de 5 min a pé. A praça de alimentação tem entrada livre e os shows exigem ingresso.",
+   "source": "https://www.manchestersfinest.com/places/new-century/",
+   "match": "New Century Hall"
+  },
+  {
+   "history": "O prédio é o antigo Smithfield Market Hall, projetado por Isaac Holden e inaugurado em 1858, tombado como Grade II em 1973. Ficou fechado e abandonado por décadas até reabrir em 2017 como praça de alimentação. O nome homenageia Ivie Mackie, prefeito de Manchester no século XIX.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até Shudehill, cerca de 8 a 10 min, mais cerca de 5 min a pé. Entrada livre, sem reserva.",
+   "source": "https://en.wikipedia.org/wiki/Smithfield_Market_Hall",
+   "match": "Mackie Mayor"
+  },
+  {
+   "history": "O prédio abrigou a loja de departamentos Affleck & Brown, que nasceu como loja de tecidos nos anos 1860 e fechou em 1973. Em 1982, James e Elaine Walsh abriram ali o Affleck's Palace, um mercado coberto de bancas independentes alugadas por semana. O mercado fechou em 31 de março de 2008 e reabriu no dia seguinte, sob nova gestão, com o nome Afflecks.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até Market Street ou Piccadilly Gardens, cerca de 6 a 8 min, mais cerca de 5 min a pé. Entrada livre.",
+   "source": "https://en.wikipedia.org/wiki/Afflecks",
+   "match": "Afflecks"
+  },
+  {
+   "history": "Loja de discos e CDs usados aberta em Manchester em 1988, hoje no número 18 da Oldham Street, com dois andares. Abriu quando o Northern Quarter ainda era uma área degradada, na mesma rua onde a Factory Records instalou o bar Dry.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até Piccadilly Gardens ou Market Street, cerca de 6 a 8 min, mais cerca de 3 a 5 min a pé.",
+   "source": "https://www.vinylexchange.co.uk/pages/about-us",
+   "match": "Vinyl Exchange"
+  },
+  {
+   "history": "A praça foi traçada na década de 1780 por William Stevenson, que comprou o terreno de Sir Ashton Lever e planejou um bairro residencial de classe média. O plano residencial não vingou e, no começo do século XIX, a área já estava tomada por armazéns e fábricas de algodão. Hoje é um dos pontos centrais do Northern Quarter.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até Piccadilly Gardens, cerca de 6 a 8 min, mais cerca de 5 min a pé. Espaço público, sem ingresso.",
+   "source": "https://www.manchestersfinest.com/articles/stevenson-square-from-18th-century-waste-land-to-northern-quarter/",
+   "match": "Stevenson Square"
+  },
+  {
+   "history": "O pub abriu em 1776 com o nome The Crown and Sceptre e só passou a se chamar Castle Hotel no fim do século XIX. O balcão curvo de cerâmica esmaltada colorida é considerado pela CAMRA de importância histórica nacional. Em 1979 o pub foi cenário de uma entrevista de John Peel com Ian Curtis, do Joy Division, e desde o começo dos anos 1990 funciona também como casa de shows.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até Piccadilly Gardens ou Market Street, cerca de 6 a 8 min, mais cerca de 7 min a pé pela Oldham Street. Entrada livre no pub e ingresso para os shows na sala dos fundos.",
+   "source": "https://en.wikipedia.org/wiki/Castle_Hotel,_Manchester",
+   "match": "Castle Hotel"
+  },
+  {
+   "history": "Cantina familiar de curry que funciona na Soap Street desde 1984 e é apontada como o berço do \"rice and three\", o prato de arroz com três curries à escolha. Esse tipo de cantina surgiu para alimentar os trabalhadores dos armazéns têxteis da região.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até Shudehill ou Market Street, cerca de 8 min, mais cerca de 5 min a pé. Sem reserva, serviço de balcão.",
+   "source": "https://www.manchestersfinest.com/places/this-and-that/",
+   "match": "This & That"
+  },
+  {
+   "history": "O museu nacional do futebol inglês abriu em 2001 em Preston, junto ao estádio Deepdale. Em 2012 mudou para o edifício Urbis, no centro de Manchester, onde está até hoje.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até Exchange Square ou Victoria, cerca de 8 min, mais cerca de 3 min a pé. A entrada é paga para visitantes de fora de Manchester e vale comprar o ingresso pelo site.",
+   "source": "https://en.wikipedia.org/wiki/National_Football_Museum",
+   "match": "National Football Museum"
+  },
+  {
+   "history": "A área ocupa as antigas Manchester Docks, o porto do Manchester Ship Canal, inaugurado em 1894 e fechado em 1982. A reurbanização trouxe o centro cultural The Lowry, aberto em 2000, e o Imperial War Museum North, aberto em 2002. A BBC começou a se mudar para a MediaCityUK em 2011.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até MediaCityUK (linha Eccles via MediaCityUK), cerca de 15 min. Área pública, sem ingresso.",
+   "source": "https://en.wikipedia.org/wiki/Salford_Quays",
+   "match": "Salford Quays / MediaCity"
+  },
+  {
+   "history": "A estátua de bronze de George Best, Denis Law e Bobby Charlton é obra do escultor Philip Jackson e foi inaugurada em 29 de maio de 2008, exatos 40 anos depois do primeiro título europeu do United. O Munich Tunnel, sob a arquibancada sul, recebeu esse nome em 6 de fevereiro de 2008, nos 50 anos do desastre aéreo de Munique de 1958, e guarda o memorial às vítimas.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até Old Trafford (linha Altrincham) ou Wharfside (linha Trafford Park), cerca de 10 min, mais cerca de 5 a 10 min a pé. A estátua e o túnel ficam na área externa do estádio, sem ingresso, com acesso limitado em dia de jogo.",
+   "source": "https://en.wikipedia.org/wiki/United_Trinity",
+   "name": "Estátua United Trinity e Munich Tunnel",
+   "category": "estádio",
+   "blurb": "Os dois memoriais mais fortes do United ficam do lado de fora do estádio e dá para ver sem pagar tour.",
+   "lat": 53.4632,
+   "lng": -2.2893,
+   "query": "United Trinity statue, Sir Matt Busby Way, Old Trafford, Manchester M16 0RA",
+   "isNew": true
+  },
+  {
+   "history": "Hotel temático de futebol aberto em 2015 em frente a Old Trafford, criado pela Class of '92 do United: Gary Neville, Phil Neville, Ryan Giggs, Paul Scholes e Nicky Butt. Tem 133 quartos, o restaurante Cafe Football e um campo de futebol society no terraço.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até Old Trafford (linha Altrincham) ou Wharfside (linha Trafford Park), cerca de 10 min, mais cerca de 5 a 10 min a pé. Vale reservar mesa no Cafe Football, principalmente em dia de jogo.",
+   "source": "https://en.wikipedia.org/wiki/Hotel_Football",
+   "name": "Hotel Football",
+   "category": "restaurante",
+   "blurb": "Parada para comer ou beber olhando para Old Trafford, no hotel dos ídolos da Class of '92.",
+   "lat": 53.4619,
+   "lng": -2.2887,
+   "query": "Hotel Football, 99 Sir Matt Busby Way, Manchester M16 0SZ",
+   "isNew": true
+  },
+  {
+   "history": "O clube foi fundado em 1903 e inaugurado oficialmente em 30 de janeiro de 1904 por Robert Baden-Powell, que depois criaria o movimento escoteiro. No inverno de 1985, Stephen Wright fotografou os Smiths diante da fachada, e a imagem foi usada no encarte interno do álbum The Queen Is Dead. Desde 2004 o clube mantém a Smiths Room, uma sala coberta de fotos e recados de fãs do mundo todo.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até Exchange Quay (linha Eccles), cerca de 8 min, mais cerca de 10 min a pé. O clube abre para visitantes às quartas e aos sábados, das 11h às 14h, com entrada gratuita; a fachada pode ser vista a qualquer hora.",
+   "source": "https://salfordladsclub.org.uk/visit/",
+   "name": "Salford Lads Club",
+   "category": "museu",
+   "blurb": "A fachada mais fotografada da história dos Smiths, com uma sala inteira dedicada à banda.",
+   "lat": 53.4763,
+   "lng": -2.2749,
+   "query": "Salford Lads Club, St Ignatius Walk, Salford M5 3RX",
+   "isNew": true
+  },
+  {
+   "history": "A Haçienda abriu em 21 de maio de 1982 num antigo armazém de construtor de iates, idealizada por Rob Gretton e bancada pela Factory Records, pelo New Order e por Tony Wilson. No catálogo da Factory ela levava o número FAC 51 e virou o centro da cena Madchester no fim dos anos 1980. A casa fechou em 28 de junho de 1997, o prédio foi demolido em 2002 e no lugar há um edifício de apartamentos que mantém o nome.",
+   "access": "Caminhada de cerca de 10 a 15 min a partir da base, em direção à estação Deansgate; o prédio fica na esquina com a Albion Street. É um edifício residencial, só dá para ver por fora.",
+   "source": "https://en.wikipedia.org/wiki/The_Ha%C3%A7ienda",
+   "name": "Local da antiga Haçienda",
+   "category": "venue",
+   "blurb": "O endereço onde a Factory Records e o New Order criaram a boate mais famosa de Manchester.",
+   "lat": 53.4743,
+   "lng": -2.2476,
+   "query": "The Haçienda Apartments, 11-13 Whitworth Street West, Manchester M1 5DD",
+   "isNew": true
+  },
+  {
+   "history": "Em 6 de janeiro de 1979, um sábado de neve, o fotógrafo Kevin Cummins retratou o Joy Division sobre esta passarela de pedestres que cruza a Princess Parkway, em Hulme. A imagem virou o retrato mais conhecido da banda, e a passarela passou a ser chamada de ponte do Joy Division.",
+   "access": "Caminhada de cerca de 10 a 15 min a partir da base, dentro do próprio bairro de Hulme. Passarela pública, sem ingresso.",
+   "source": "https://www.nme.com/?p=1418947",
+   "name": "Epping Walk Bridge",
+   "category": "mirante",
+   "blurb": "Fica a poucos minutos da base e é o cenário da foto mais famosa do Joy Division.",
+   "lat": 53.4649,
+   "lng": -2.247,
+   "query": "Epping Walk Bridge, Princess Road, Hulme, Manchester M15",
+   "isNew": true
+  },
+  {
+   "history": "Pete Howard abriu a loja em 1977, começando com 700 LPs da própria coleção, e em 1983 levou o negócio para o endereço atual, na Fog Lane. Noel e Liam Gallagher eram clientes no fim dos anos 1980, antes do Oasis, e o dono aparece como \"Mr Sifter\" na letra de \"Shakermaker\", segundo single do álbum Definitely Maybe, de 1994.",
+   "access": "Trem da estação Manchester Piccadilly até Burnage, cerca de 12 min; a loja fica ao lado da estação. Para chegar a Piccadilly, tram de Deansgate-Castlefield, cerca de 8 min. Confirme o horário de funcionamento antes de ir.",
+   "source": "https://www.atlasobscura.com/places/sifters-record-store",
+   "name": "Sifters Records",
+   "category": "loja",
+   "blurb": "A loja de discos onde os irmãos Gallagher compravam vinil e que entrou na letra de \"Shakermaker\".",
+   "lat": 53.4209,
+   "lng": -2.2155,
+   "query": "Sifters Records, 177 Fog Lane, Manchester M20 6FJ",
+   "isNew": true
+  },
+  {
+   "history": "O museu ocupa a antiga estação Liverpool Road, terminal em Manchester da ferrovia Liverpool and Manchester Railway, inaugurada em 1830. O Power Hall, galeria das grandes máquinas a vapor, reabriu em 17 de outubro de 2025 depois de uma longa restauração.",
+   "access": "Caminhada de cerca de 15 a 20 min a partir da base, passando por Castlefield. A entrada é gratuita e o museu pede reserva do ingresso gratuito pelo site; algumas áreas ainda passam por obras, então confira o que está aberto.",
+   "source": "https://www.museumsassociation.org/museums-journal/news/2025/10/manchesters-power-hall-reopens-after-major-repairs/",
+   "name": "Science and Industry Museum",
+   "category": "museu",
+   "blurb": "Conta a Revolução Industrial dentro da estação de 1830 onde ela ganhou trilhos, a uma caminhada da base.",
+   "lat": 53.4771,
+   "lng": -2.2553,
+   "query": "Science and Industry Museum, Liverpool Road, Manchester M3 4JP",
+   "isNew": true
+  },
+  {
+   "history": "Museu da University of Manchester instalado num prédio neogótico projetado por Alfred Waterhouse, com cerca de 4,5 milhões de objetos de ciências naturais e culturas humanas. Reabriu em 18 de fevereiro de 2023 depois de uma reforma de 15 milhões de libras, com a South Asia Gallery e a galeria de cultura chinesa Lee Kai Hung.",
+   "access": "Caminhada de cerca de 25 min a partir da base, atravessando Hulme até a Oxford Road, ou ônibus pela Oxford Road a partir do centro. Entrada gratuita.",
+   "source": "https://en.wikipedia.org/wiki/Manchester_Museum",
+   "name": "Manchester Museum",
+   "category": "museu",
+   "blurb": "Museu gratuito e renovado em 2023, com dinossauros, Egito e a primeira galeria permanente do sul da Ásia no Reino Unido.",
+   "lat": 53.4664,
+   "lng": -2.2342,
+   "query": "Manchester Museum, Oxford Road, Manchester M13 9PL",
+   "isNew": true
+  },
+  {
+   "history": "Museu nacional da história da democracia e dos trabalhadores no Reino Unido. Abriu em 1994 na Pump House, uma antiga estação de bombeamento hidráulico na Bridge Street, e reabriu em 13 de fevereiro de 2010 depois de uma reforma de 12,5 milhões de libras que acrescentou um anexo de quatro andares.",
+   "access": "Caminhada de cerca de 25 min a partir da base, ou cerca de 15 min a partir da estação Deansgate, em direção a Spinningfields. Confira no site os dias de abertura e a política de entrada.",
+   "source": "https://en.wikipedia.org/wiki/People%27s_History_Museum",
+   "name": "People's History Museum",
+   "category": "museu",
+   "blurb": "Mostra a Manchester das greves, do voto e dos sindicatos, o pano de fundo social da cidade.",
+   "lat": 53.4813,
+   "lng": -2.2527,
+   "query": "People's History Museum, Left Bank, Spinningfields, Manchester M3 3ER",
+   "isNew": true
+  },
+  {
+   "history": "Enriqueta Rylands fundou a biblioteca em memória do marido, John Rylands, e encomendou o projeto neogótico ao arquiteto Basil Champneys. A construção levou dez anos e o prédio abriu ao público em 1º de janeiro de 1900. Em 15 de maio de 2025 foram inauguradas duas galerias novas, resultado do projeto de reforma Next Chapter.",
+   "access": "Caminhada de cerca de 20 min a partir da base, ou cerca de 10 min a partir da estação Deansgate, seguindo pela própria Deansgate. Entrada gratuita.",
+   "source": "https://www.library.manchester.ac.uk/rylands/about/our-history",
+   "name": "John Rylands Library",
+   "category": "museu",
+   "blurb": "Biblioteca neogótica com cara de catedral, gratuita e no meio do caminho pela Deansgate.",
+   "lat": 53.4803,
+   "lng": -2.2488,
+   "query": "John Rylands Library, 150 Deansgate, Manchester M3 3EH",
+   "isNew": true
+  },
+  {
+   "history": "A loja abriu em 1978 na região de Piccadilly Plaza e cresceu nos anos 1980 com o pós-punk, vendendo rock, indie e música alternativa. Em 1997 mudou para o endereço atual, no número 53 da Oldham Street, no Northern Quarter.",
+   "access": "Tram Metrolink de Deansgate-Castlefield até Piccadilly Gardens ou Market Street, cerca de 6 a 8 min, mais cerca de 5 min a pé pela Oldham Street.",
+   "source": "https://www.recordstoreday.co.uk/shops/piccadilly-records",
+   "name": "Piccadilly Records",
+   "category": "loja",
+   "blurb": "Loja de discos independente mais conhecida da cidade, a poucos passos da Vinyl Exchange.",
+   "lat": 53.4833,
+   "lng": -2.2353,
+   "query": "Piccadilly Records, 53 Oldham Street, Manchester M1 1JR",
+   "isNew": true
+  },
+  {
+   "history": "Anfield foi inaugurado em 1884 e seu primeiro inquilino foi o Everton, que jogou ali até 1892. Naquele ano o Everton se mudou para Goodison Park e John Houlding fundou o Liverpool FC, que ocupa o estádio desde então.",
+   "access": "Ônibus 17 a partir de Queen Square ou 26 a partir de Liverpool ONE, cerca de 20 min; Queen Square fica a cerca de 5 min a pé de Lime Street. O tour do estádio exige reserva pelo site do clube.",
+   "source": "https://en.wikipedia.org/wiki/Anfield",
+   "match": "Liverpool · Anfield"
+  },
+  {
+   "history": "Conjunto de docas e armazéns projetado por Jesse Hartley e inaugurado em 1846 pelo príncipe Albert. Depois de décadas de abandono, foi restaurado e reaberto em 1988, e em 2018 recebeu o título de Royal Albert Dock.",
+   "access": "Caminhada de cerca de 20 min a partir de Lime Street, descendo em direção ao rio Mersey. Área pública, sem ingresso.",
+   "source": "https://en.wikipedia.org/wiki/Royal_Albert_Dock,_Liverpool",
+   "match": "Liverpool · Albert Dock"
+  },
+  {
+   "history": "O Cavern abriu em 16 de janeiro de 1957 como clube de jazz, num porão da Mathew Street. Os Beatles tocaram ali pela primeira vez em 9 de fevereiro de 1961 e somaram 292 apresentações na casa. O clube original fechou em 1973 e foi aterrado durante as obras do Merseyrail; a casa reabriu em 1984.",
+   "access": "Caminhada de cerca de 10 min a partir de Lime Street. Há música ao vivo todos os dias e a entrada pode ser cobrada na porta conforme o horário.",
+   "source": "https://en.wikipedia.org/wiki/The_Cavern_Club",
+   "match": "Liverpool · Cavern Club"
+  },
+  {
+   "history": "A exposição abriu em 1º de maio de 1990 no Albert Dock, criada pelo casal Mike e Bernadette Byrne; Bernadette frequentava o Cavern e namorou George Harrison no começo dos anos 1960. É apresentada como a maior exposição permanente do mundo sobre os Beatles, com cenários reconstruídos e objetos originais.",
+   "access": "Caminhada de cerca de 20 a 25 min a partir de Lime Street, até o Royal Albert Dock. Ingresso pago, com compra antecipada pelo site recomendada.",
+   "source": "https://beatlesstory.com/about-us/",
+   "name": "Liverpool · The Beatles Story",
+   "category": "museu",
+   "blurb": "A história dos Beatles contada do começo ao fim, com réplicas do Cavern e objetos originais.",
+   "lat": 53.3993,
+   "lng": -2.9921,
+   "query": "The Beatles Story, Britannia Vaults, Royal Albert Dock, Liverpool L3 4AD",
+   "isNew": true
+  },
+  {
+   "history": "Rua residencial no sul de Liverpool, a cerca de quatro milhas do centro, que deu nome à música de Paul McCartney lançada pelos Beatles em fevereiro de 1967, em single duplo com \"Strawberry Fields Forever\". Pontos citados na letra, como o abrigo no meio da rotatória e a barbearia, ainda podem ser vistos.",
+   "access": "Ônibus 86 a partir de Queen Square ou Liverpool ONE, cerca de 25 a 30 min, com parada no cruzamento de Smithdown Place. Rua pública, sem ingresso.",
+   "source": "https://en.wikipedia.org/wiki/Penny_Lane,_Liverpool",
+   "name": "Liverpool · Penny Lane",
+   "category": "mirante",
+   "blurb": "Dá para ver a placa, a barbearia e a rotatória que Paul McCartney colocou na música.",
+   "lat": 53.387,
+   "lng": -2.9197,
+   "query": "Penny Lane, Liverpool L18",
+   "isNew": true
+  },
+  {
+   "history": "O Exército da Salvação abriu ali um lar para crianças em 7 de julho de 1936, que funcionou até 2005. John Lennon cresceu no bairro de Woolton, e o lugar inspirou \"Strawberry Fields Forever\", de 1967. O centro de visitantes atual abriu ao público em 14 de setembro de 2019 e financia um programa de capacitação para jovens com deficiência de aprendizagem.",
+   "access": "Ônibus 76 a partir do centro de Liverpool até a parada Menlove Avenue/Beaconsfield Road, cerca de 30 a 40 min, mais uma caminhada curta. A exposição é paga e vale reservar pelo site.",
+   "source": "https://strawberryfield.salvationarmy.org.uk/plan-your-visit",
+   "name": "Liverpool · Strawberry Field",
+   "category": "museu",
+   "blurb": "O portão vermelho e o jardim que inspiraram John Lennon, hoje com exposição e café.",
+   "lat": 53.3806,
+   "lng": -2.8816,
+   "query": "Strawberry Field, Beaconsfield Road, Woolton, Liverpool L25 6EJ",
+   "isNew": true
+  },
+  {
+   "history": "As quatro figuras de bronze, obra do escultor Andy Edwards, foram doadas à cidade pelo Cavern Club. A estátua foi inaugurada em 4 de dezembro de 2015, com a presença de Julia Baird, irmã de John Lennon.",
+   "access": "Caminhada de cerca de 15 a 20 min a partir de Lime Street, em direção ao rio Mersey. Espaço público, sem ingresso.",
+   "source": "https://en.wikipedia.org/wiki/The_Beatles_Statue",
+   "name": "Liverpool · Estátua dos Beatles no Pier Head",
+   "category": "mirante",
+   "blurb": "A foto clássica de Liverpool: os quatro Beatles em bronze caminhando à beira do Mersey.",
+   "lat": 53.4044,
+   "lng": -2.9965,
+   "query": "The Beatles Statue, Pier Head, Liverpool L3 1BY",
+   "isNew": true
+  },
+  {
+   "history": "O museu abriu em 2011 num prédio novo em Mann Island, no Pier Head, projetado pelo escritório 3XN, e substituiu o antigo Museum of Liverpool Life. Faz parte do grupo National Museums Liverpool e conta a história da cidade e de sua gente.",
+   "access": "Caminhada de cerca de 15 a 20 min a partir de Lime Street, em direção ao Pier Head. Entrada gratuita.",
+   "source": "https://en.wikipedia.org/wiki/Museum_of_Liverpool",
+   "name": "Liverpool · Museum of Liverpool",
+   "category": "museu",
+   "blurb": "Museu gratuito ao lado da estátua dos Beatles, bom para entender a cidade em uma hora.",
+   "lat": 53.4031,
+   "lng": -2.9953,
+   "query": "Museum of Liverpool, Pier Head, Mann Island, Liverpool L3 1DG",
+   "isNew": true
+  },
+  {
+   "history": "Rua estreita do centro onde fica o Cavern Club, aberto em 1957 e palco de 292 apresentações dos Beatles entre 1961 e 1963. O clube original foi fechado em 1973 e aterrado nas obras do Merseyrail, e a casa reabriu na mesma rua em 1984.",
+   "access": "Caminhada de cerca de 10 min a partir de Lime Street. Rua pública, sem ingresso.",
+   "source": "https://en.wikipedia.org/wiki/The_Cavern_Club",
+   "name": "Liverpool · Mathew Street",
+   "category": "mirante",
+   "blurb": "A rua do Cavern, com bares, estátuas e a atmosfera do começo dos Beatles.",
+   "lat": 53.4063,
+   "lng": -2.9876,
+   "query": "Mathew Street, Liverpool L2 6RE",
+   "isNew": true
+  }
+ ],
+ "san-sebastian": [
+  {
+   "history": "O aeroporto fica em Loiu, ao norte de Bilbao. O terminal atual foi desenhado por Santiago Calatrava e inaugurado em 2000, e a forma branca com asas abertas rendeu o apelido de La Paloma.",
+   "access": "Do centro de San Sebastián são cerca de 100 km pela AP-8 (pedagiada), em cerca de 1h10. As locadoras ficam no próprio terminal, com estacionamento ao lado.",
+   "source": "https://en.wikipedia.org/wiki/Bilbao_Airport",
+   "match": "Aeroporto de Bilbao (BIO)"
+  },
+  {
+   "history": "A baía virou destino de verão da realeza espanhola no século XIX, depois que a rainha Isabel II passou a tomar banhos de mar ali em 1845. O Palácio de Miramar, residência de verão da rainha Maria Cristina, foi concluído em 1893, e a balaustrada branca do calçadão é de 1916.",
+   "access": "Fica no centro e o melhor é ir a pé. De carro, use os estacionamentos subterrâneos pagos da região, como o de La Concha.",
+   "source": "https://en.wikipedia.org/wiki/La_Concha_(San_Sebasti%C3%A1n)",
+   "match": "Praia da Concha"
+  },
+  {
+   "history": "O funicular que sobe o monte funciona desde 1912 e é o mais antigo do País Basco. No topo fica um parque de diversões da mesma época, com a vista mais conhecida da baía da Concha.",
+   "access": "De carro são cerca de 10 minutos pelo Paseo de Igueldo, com cobrança de entrada no recinto e estacionamento no topo. Outra opção é deixar o carro em Ondarreta e subir de funicular.",
+   "source": "https://en.wikipedia.org/wiki/Igueldo_funicular",
+   "match": "Monte Igueldo"
+  },
+  {
+   "history": "O bairro antigo foi quase todo destruído no incêndio de 31 de agosto de 1813, durante o cerco das tropas anglo-portuguesas, e reconstruído nas décadas seguintes. A Plaza de la Constitución já serviu de praça de touros, e por isso as varandas ainda têm números. Hoje concentra os bares de pintxos da cidade.",
+   "access": "Área de pedestres. Deixe o carro em um estacionamento subterrâneo pago ao lado, como o do Boulevard ou o da Bretxa, e siga a pé.",
+   "source": "https://en.wikipedia.org/wiki/Parte_Vieja_(San_Sebasti%C3%A1n)",
+   "match": "Parte Vieja"
+  },
+  {
+   "history": "O prédio foi a fábrica de tabaco de San Sebastián de 1913 a 2003. Depois de uma grande reforma, reabriu em 2015 como centro internacional de cultura contemporânea, com exposições, cinema e um terraço com vista para a cidade.",
+   "access": "Fica ao lado da estação de trem, a cerca de 15 minutos a pé do centro. De carro, use o estacionamento pago da estação ou da região de Egia. A entrada no prédio é gratuita.",
+   "source": "https://en.wikipedia.org/wiki/Tabakalera",
+   "match": "Tabakalera"
+  },
+  {
+   "history": "O conjunto de três esculturas de aço de Eduardo Chillida foi instalado em 1977 nas rochas no fim da praia de Ondarreta. A praça ao redor é do arquiteto Luis Peña Ganchegui e tem aberturas no chão por onde o mar sopra ar e água nos dias de ondas fortes.",
+   "access": "Fica no extremo oeste da baía, a cerca de 10 minutos de carro do centro. Estacione na zona de Ondarreta (pago na rua) e caminhe até o fim do calçadão. Acesso livre.",
+   "source": "https://en.wikipedia.org/wiki/Peine_del_Viento",
+   "match": "Peine del Viento"
+  },
+  {
+   "history": "O museu projetado por Frank Gehry foi inaugurado em outubro de 1997 na margem da ria de Bilbao, em uma antiga zona portuária e industrial. O prédio revestido de titânio virou símbolo da renovação da cidade. Na entrada fica o Puppy, o cachorro de flores de Jeff Koons.",
+   "access": "De San Sebastián são cerca de 100 km pela AP-8 (pedagiada), em cerca de 1h10. Há estacionamentos subterrâneos pagos perto do museu. Vale comprar o ingresso com horário no site oficial.",
+   "source": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao",
+   "match": "Guggenheim Bilbao"
+  },
+  {
+   "history": "O monte foi a fortaleza da cidade por séculos, e o Castillo de la Mota, no topo, tem origem no século XII. Foi palco do cerco de 1813 e guarda o Cemitério dos Ingleses. A estátua do Sagrado Coração que domina a baía foi colocada em 1950.",
+   "access": "A subida é só a pé, por caminhos que saem da Parte Vieja e do Paseo Nuevo, em cerca de 20 minutos. Deixe o carro em um estacionamento subterrâneo do Boulevard. A entrada é gratuita.",
+   "source": "https://en.wikipedia.org/wiki/Urgull",
+   "name": "Monte Urgull",
+   "category": "mirante",
+   "blurb": "Subida a pé pela antiga fortaleza com vista aberta da baía da Concha e da Parte Vieja.",
+   "lat": 43.3255,
+   "lng": -1.988,
+   "query": "Monte Urgull, Donostia-San Sebastián",
+   "isNew": true
+  },
+  {
+   "history": "O estádio foi inaugurado em 1993, quando a Real Sociedad deixou o antigo campo de Atotxa. Uma reforma concluída em 2019 retirou a pista de atletismo e aproximou as arquibancadas do gramado, e no mesmo ano o estádio passou a se chamar Reale Arena por contrato de patrocínio.",
+   "access": "Fica no bairro de Amara, a cerca de 10 minutos de carro do centro, com estacionamento pago no complexo esportivo de Anoeta. Ingressos de jogos são vendidos no site da Real Sociedad.",
+   "source": "https://en.wikipedia.org/wiki/Anoeta_Stadium",
+   "name": "Estádio Anoeta (Reale Arena)",
+   "category": "estádio",
+   "blurb": "Casa da Real Sociedad, com as arquibancadas coladas no gramado desde a reforma de 2019.",
+   "lat": 43.3014,
+   "lng": -1.9737,
+   "query": "Reale Arena, Estadio de Anoeta, Donostia-San Sebastián",
+   "isNew": true
+  },
+  {
+   "history": "O mercado é de 1870, projeto de Antonio Cortázar, e foi ampliado por José de Goicoa em 1898. O nome vem da brecha aberta na muralha da cidade, por onde as tropas anglo-portuguesas entraram em 31 de agosto de 1813. Hoje as bancas de peixe ficam no subsolo e os produtores rurais vendem do lado de fora.",
+   "access": "Fica na entrada da Parte Vieja, junto ao Boulevard, e o melhor é chegar a pé. De carro, há estacionamento subterrâneo pago no próprio mercado. Entrada livre, com mais movimento pela manhã.",
+   "source": "https://www.directoalpaladar.com/viajes/mercado-de-la-bretxa-en-san-sebastian-donostia",
+   "name": "Mercado de la Bretxa",
+   "category": "mercado",
+   "blurb": "É onde os cozinheiros da cidade compram peixe e verduras, ao lado dos bares de pintxos.",
+   "lat": 43.3229,
+   "lng": -1.9828,
+   "query": "Mercado de la Bretxa, Donostia-San Sebastián",
+   "isNew": true
+  }
+ ],
+ "funchal": [
+  {
+   "history": "O aeroporto foi inaugurado em 1964 em Santa Cruz e ganhou em 2000 a extensão de pista apoiada em pilares sobre o mar. Em 29 de março de 2017 passou a se chamar Aeroporto da Madeira Cristiano Ronaldo, em cerimônia com o jogador. O busto de bronze apresentado nesse dia, feito pelo madeirense Emanuel Santos, virou piada mundial pela falta de semelhança e foi trocado por outro em junho de 2018.",
+   "access": "Da base em São Martinho são cerca de 25 minutos pela via rápida VR1 no sentido leste. As locadoras ficam no terminal e nos arredores, com estacionamento pago em frente.",
+   "source": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo_International_Airport",
+   "match": "Aeroporto da Madeira (FNC)"
+  },
+  {
+   "history": "Com 1.818 metros, é o terceiro pico mais alto da Madeira e o mais alto aonde se chega de carro. Do cume parte a PR1, a vereda que liga ao Pico Ruivo, reaberta sem restrições de calendário em 26 de junho de 2026, com circulação em sentido único.",
+   "access": "Da base são cerca de 45 minutos subindo pelo Monte e pelo Poiso (ER103 e ER202), com estacionamento pago perto do cume. Para caminhar na PR1 a reserva é obrigatória no portal SIMplifica desde 2026 (4,50 euros o trecho de ida e volta no Areeiro, 10,50 euros a travessia até o Pico Ruivo).",
+   "source": "https://www.dnoticias.pt/2026/5/31/493857-vereda-do-pico-do-areeiro-reabre-a-26-de-junho/",
+   "match": "Pico do Areeiro"
+  },
+  {
+   "history": "É a península no extremo leste da ilha, seca e sem árvores, bem diferente do resto da Madeira. A área é reserva natural desde 1982 e é percorrida pela vereda PR8, que sai da Baía d'Abra.",
+   "access": "Da base são cerca de 40 minutos pela VR1 até o Caniçal e depois pela ER109 até o estacionamento da Baía d'Abra, no fim da estrada. Reserva obrigatória no portal SIMplifica desde 2026 (simplifica.madeira.gov.pt), com escolha de horário e taxa de 4,50 euros por pessoa.",
+   "source": "https://en.wikipedia.org/wiki/Ponta_de_S%C3%A3o_Louren%C3%A7o",
+   "match": "Ponta de São Lourenço"
+  },
+  {
+   "history": "A falésia tem cerca de 580 metros de altura e está entre as mais altas da Europa. O miradouro ganhou em 2012 uma plataforma suspensa com piso de vidro. Lá embaixo ficam as fajãs, pequenas áreas de cultivo à beira-mar.",
+   "access": "Da base são cerca de 20 minutos pela VR1 no sentido oeste, com saída sinalizada para o Cabo Girão. Há estacionamento junto ao miradouro e cobrança de entrada para visitantes.",
+   "source": "https://en.wikipedia.org/wiki/Cabo_Gir%C3%A3o",
+   "match": "Cabo Girão"
+  },
+  {
+   "history": "A vila de pescadores foi um dos primeiros pontos de povoamento da ilha, por volta de 1420, e deve o nome aos lobos-marinhos que João Gonçalves Zarco encontrou na baía. Winston Churchill pintou o porto em janeiro de 1950, e o ponto onde ele montou o cavalete hoje é um miradouro com o nome dele.",
+   "access": "Da base são cerca de 10 minutos pela VR1 no sentido oeste. Há estacionamento pago coberto no centro da vila, a poucos passos da baía.",
+   "source": "https://en.wikipedia.org/wiki/C%C3%A2mara_de_Lobos",
+   "match": "Câmara de Lobos"
+  },
+  {
+   "history": "O mercado foi inaugurado em 24 de novembro de 1940, com projeto do arquiteto Edmundo Tavares. A fachada e o interior têm painéis de azulejos com cenas regionais. É o principal mercado de frutas, flores e peixe do Funchal, com a praça do peixe-espada preto no piso inferior.",
+   "access": "Da base são cerca de 15 minutos de carro até o centro. Use um dos estacionamentos pagos da região da Avenida do Mar e do Almirante Reis e siga a pé. Entrada livre, fechado aos domingos.",
+   "source": "https://en.wikipedia.org/wiki/Mercado_dos_Lavradores",
+   "match": "Mercado dos Lavradores"
+  },
+  {
+   "history": "A Rua de Santa Maria é uma das mais antigas do Funchal, aberta no século XV, no núcleo onde a cidade começou. A partir da década de 2010 o projeto Arte de Portas Abertas levou artistas a pintar as portas das casas, e a rua se encheu de restaurantes e bares.",
+   "access": "Da base são cerca de 15 minutos de carro. A rua é de pedestres, então estacione no Almirante Reis ou perto do Mercado dos Lavradores e caminhe.",
+   "source": "https://visit.funchal.pt/item/__trashed-179/?lang=en",
+   "match": "Zona Velha · Rua de Santa Maria"
+  },
+  {
+   "history": "O bar recria o ambiente das antigas vendas madeirenses do início do século XX, que eram ao mesmo tempo mercearia, taberna e ponto de encontro do bairro. A decoração usa móveis e objetos da época, e a casa serve poncha feita na hora com fruta fresca e aguardente de cana.",
+   "access": "Fica na Rua de Santa Maria 170, na Zona Velha, a cerca de 15 minutos de carro da base. Estacione no Almirante Reis e siga a pé. Abre a partir das 16h e não exige reserva.",
+   "source": "https://visitmadeira.com/en/what-to-do/experiencing-the-city-of-funchal/entertainment/nightlife/bars-and-night-clubs/venda-velha/",
+   "match": "Venda Velha"
+  },
+  {
+   "history": "O miradouro fica a cerca de 1.095 metros de altitude e olha de cima para o Curral das Freiras, vila encaixada em um vale cercado de montanhas. O nome da vila vem das freiras do Convento de Santa Clara, que se refugiaram ali em 1566 durante um ataque de corsários franceses ao Funchal.",
+   "access": "Da base são cerca de 30 minutos subindo pela ER107 no sentido do Curral das Freiras, com desvio sinalizado antes do túnel. O estacionamento é gratuito e o miradouro fica a poucos minutos a pé.",
+   "source": "https://en.wikipedia.org/wiki/Curral_das_Freiras",
+   "match": "Eira do Serrado"
+  },
+  {
+   "history": "O museu foi inaugurado em 15 de dezembro de 2013 e mudou em 2016 para o espaço atual, de 1.400 metros quadrados, embaixo do hotel Pestana CR7, na Praça do Mar. Reúne mais de 150 troféus da carreira de Cristiano Ronaldo, incluindo Bolas de Ouro e Chuteiras de Ouro.",
+   "access": "Da base são cerca de 10 minutos de carro até o porto do Funchal, com estacionamentos pagos na Avenida Sá Carneiro e arredores. Abre de segunda a sábado a partir das 10h (o fechamento aparece como 17h ou 18h conforme a fonte) e fecha aos domingos e feriados. O ingresso custa cerca de 5 euros e é comprado na hora.",
+   "source": "https://visit.funchal.pt/item/museu-cr7/?lang=en",
+   "name": "Museu CR7",
+   "category": "museu",
+   "blurb": "Todos os troféus do Cristiano Ronaldo em um só lugar, na cidade onde ele nasceu.",
+   "lat": 32.6453,
+   "lng": -16.914,
+   "query": "Museu CR7, Praça do Mar, Avenida Sá Carneiro 27, Funchal",
+   "isNew": true
+  },
+  {
+   "history": "A estátua de bronze é obra do escultor madeirense Ricardo Velosa e foi inaugurada em dezembro de 2014 na frente marítima do Funchal. Em março de 2016 foi deslocada alguns metros, para a frente do novo museu e do hotel Pestana CR7.",
+   "access": "Fica na calçada em frente ao Museu CR7, a cerca de 10 minutos de carro da base. Use os estacionamentos pagos da Avenida Sá Carneiro. Acesso livre a qualquer hora.",
+   "source": "https://en.wikipedia.org/wiki/Museu_CR7",
+   "name": "Estátua de Cristiano Ronaldo",
+   "category": "mirante",
+   "blurb": "Parada rápida para a foto clássica com o CR7 de bronze, de frente para o porto.",
+   "lat": 32.6451,
+   "lng": -16.9138,
+   "query": "Estátua de Cristiano Ronaldo, Praça do Mar, Funchal",
+   "isNew": true
+  },
+  {
+   "history": "Cristiano Ronaldo nasceu em 5 de fevereiro de 1985 e cresceu na Quinta Falcão, zona humilde da freguesia de Santo António, na parte alta do Funchal. A casa da família foi demolida e hoje há um mural com a imagem dele ainda criança. Ele começou a jogar aos sete anos no CF Andorinha, clube do bairro onde o pai trabalhava como roupeiro.",
+   "access": "Da base são cerca de 10 minutos de carro subindo no sentido de Santo António. É um bairro residencial de ruas íngremes e estreitas, com poucas vagas na rua. Não há ingresso nem estrutura de visita.",
+   "source": "https://english.ahram.org.eg/News/223034.aspx",
+   "name": "Bairro de Santo António",
+   "category": "base",
+   "blurb": "É o bairro de morro onde o CR7 nasceu, cresceu e deu os primeiros chutes no Andorinha.",
+   "lat": 32.6689,
+   "lng": -16.9437,
+   "query": "Quinta Falcão, Santo António, Funchal",
+   "isNew": true
+  },
+  {
+   "history": "É a casa do Club Sport Marítimo, fundado em 1910 e maior clube da Madeira. O estádio ocupa o lugar do antigo Estádio dos Barreiros, aberto em 1957, e foi reconstruído por fases, com a obra concluída em 2016.",
+   "access": "Fica em São Martinho, a cerca de 5 minutos de carro da base ou a uma caminhada curta. Em dias de jogo as vagas na rua somem cedo. Ingressos são vendidos pelo clube.",
+   "source": "https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Mar%C3%ADtimo",
+   "name": "Estádio do Marítimo",
+   "category": "estádio",
+   "blurb": "Estádio encaixado na encosta, com vista para o mar, a poucos minutos da base.",
+   "lat": 32.6456,
+   "lng": -16.9283,
+   "query": "Estádio do Marítimo, Rua Dr. Pita, Funchal",
+   "isNew": true
+  },
+  {
+   "history": "O Pico Ruivo é o ponto mais alto da Madeira, com 1.862 metros. A PR1.2 é o caminho mais curto até o cume: sai do estacionamento da Achada do Teixeira e tem cerca de 2,8 km por sentido, passando pelo abrigo do Pico Ruivo.",
+   "access": "Da base são cerca de 1h15 de carro até Santana e depois pela ER218 até o estacionamento da Achada do Teixeira, no fim da estrada. Reserva obrigatória no portal SIMplifica desde 2026 (simplifica.madeira.gov.pt), com escolha de horário e taxa de 4,50 euros por pessoa.",
+   "source": "https://visitmadeira.com/pt/blog/visit-madeira/tudo-o-que-precisas-de-saber-para-caminhar-na-madeira-em-2026/",
+   "name": "Pico Ruivo · Achada do Teixeira",
+   "category": "trilha",
+   "blurb": "O jeito mais curto de pisar no ponto mais alto da ilha, acima das nuvens em dia bom.",
+   "lat": 32.765,
+   "lng": -16.92,
+   "query": "Achada do Teixeira, Santana, Madeira",
+   "isNew": true
+  },
+  {
+   "history": "Ribeiro Frio fica dentro da floresta Laurissilva, classificada como Patrimônio Mundial pela UNESCO em 1999, e tem um viveiro de trutas. A PR11 segue a Levada da Serra do Faial por cerca de 1,5 km, quase plana, até o Miradouro dos Balcões, de onde se veem o vale e, com tempo limpo, o Pico do Areeiro e o Pico Ruivo.",
+   "access": "Da base são cerca de 40 minutos pela ER103, passando pelo Monte e pelo Poiso. As vagas ficam na beira da estrada em Ribeiro Frio e são poucas. Reserva obrigatória no portal SIMplifica desde 2026 (simplifica.madeira.gov.pt), com escolha de horário e taxa de 4,50 euros por pessoa.",
+   "source": "https://visitmadeira.com/pt/blog/visit-madeira/tudo-o-que-precisas-de-saber-para-caminhar-na-madeira-em-2026/",
+   "name": "Ribeiro Frio · Miradouro dos Balcões (PR11)",
+   "category": "trilha",
+   "blurb": "Caminhada plana e curta na Laurissilva que termina em um dos melhores mirantes da ilha.",
+   "lat": 32.7353,
+   "lng": -16.8866,
+   "query": "Vereda dos Balcões PR11, Ribeiro Frio, Madeira",
+   "isNew": true
+  },
+  {
+   "history": "O teleférico liga a Zona Velha ao Monte desde novembro de 2000, em uma viagem de cerca de 15 minutos. Ficou fechado para obras de janeiro a abril de 2026 e reabriu com 44 cabines, cinco delas com piso de vidro. A descida tradicional do Monte é nos carros de cesto, trenós de vime conduzidos por dois carreiros, usados desde o século XIX.",
+   "access": "A estação de baixo fica no Jardim do Almirante Reis, a cerca de 15 minutos de carro da base, com estacionamento pago ao lado. O bilhete custa 16 euros só ida ou 22 euros ida e volta (26 e 32 euros na cabine de piso de vidro). Os carros de cesto são pagos à parte no Monte e não funcionam aos domingos.",
+   "source": "https://www.dnoticias.pt/2026/3/31/486754-teleferico-do-funchal-reinventa-se-e-torna-se-o-unico-em-portugal-com-piso-de-vidro/",
+   "name": "Teleférico do Funchal e Monte",
+   "category": "mirante",
+   "blurb": "Sobe de teleférico com vista da baía e desce de trenó de vime pelas ruas do Monte.",
+   "lat": 32.6478,
+   "lng": -16.9027,
+   "query": "Teleférico do Funchal, Jardim do Almirante Reis",
+   "isNew": true
+  }
+ ],
+ "ponta-delgada": [
+  {
+   "history": "O Fanal é uma área de Laurissilva no planalto acima do Porto Moniz, conhecida pelos tis centenários de troncos retorcidos que aparecem no meio da neblina. A floresta Laurissilva da Madeira é Patrimônio Mundial da UNESCO desde 1999.",
+   "access": "De Ponta Delgada são cerca de 50 minutos: via expressa até a Ribeira da Janela e subida pela ER209 até o Posto Florestal, onde fica o estacionamento. O IFCN definiu em 2026 um limite diário de visitantes com registro prévio no portal SIMplifica, e as trilhas PR13 e PR14 que passam ali exigem reserva obrigatória no SIMplifica desde 2026.",
+   "source": "https://thisismadeiraisland.com/news/the-future-of-fanal-new-rules-boardwalks-and-probable-fees-for-madeiras-iconic-laurel-forest/",
+   "match": "Fanal"
+  },
+  {
+   "history": "O Seixal é uma freguesia do concelho do Porto Moniz espremida entre o mar e encostas cobertas de vinhedos. As piscinas naturais se formaram em rocha vulcânica à beira-mar, e ao lado fica a praia de areia preta do porto.",
+   "access": "De Ponta Delgada são cerca de 20 minutos pela via expressa, passando por São Vicente no sentido do Porto Moniz. Há estacionamento perto do porto e das piscinas. Acesso livre.",
+   "source": "https://en.wikipedia.org/wiki/Seixal_(Porto_Moniz)",
+   "match": "Seixal · piscinas naturais"
+  },
+  {
+   "history": "A vila fica na ponta noroeste da ilha e leva o nome de Francisco Moniz, um dos primeiros povoadores do lugar, no século XVI. É conhecida pelas piscinas naturais de lava preta enchidas pelo mar. O Forte de São João Baptista, de 1730, hoje abriga o Aquário da Madeira.",
+   "access": "De Ponta Delgada são cerca de 30 minutos pela via expressa no sentido oeste, passando por São Vicente e Seixal. Há estacionamento pago junto às piscinas, que cobram entrada.",
+   "source": "https://en.wikipedia.org/wiki/Porto_Moniz",
+   "match": "Porto Moniz"
+  },
+  {
+   "history": "Santana é conhecida pelas casas típicas triangulares, de madeira colorida e telhado de colmo, que eram a moradia tradicional dos agricultores da região. O concelho inteiro foi classificado como Reserva da Biosfera pela UNESCO em 2011.",
+   "access": "De Ponta Delgada são cerca de 35 minutos no sentido leste, passando por Boaventura e São Jorge, em estrada com muitas curvas e túneis. As casas típicas ficam no centro, ao lado da Câmara Municipal, com estacionamento por perto e visita gratuita.",
+   "source": "https://en.wikipedia.org/wiki/Santana,_Madeira",
+   "match": "Santana"
+  },
+  {
+   "history": "A vila fica um pouco recuada do mar, no fundo de um vale profundo da costa norte. Na foz da ribeira está a Capelinha do Calhau, construída em 1692 dentro de um rochedo de basalto. É a sede do concelho ao qual pertence Ponta Delgada.",
+   "access": "De Ponta Delgada são cerca de 10 minutos pela estrada da costa no sentido oeste. Há estacionamento no centro da vila e na orla.",
+   "source": "https://en.wikipedia.org/wiki/S%C3%A3o_Vicente,_Madeira",
+   "match": "São Vicente"
+  },
+  {
+   "history": "A PR6 sai do Rabaçal, no planalto do Paul da Serra, e segue uma levada aberta no século XIX até uma lagoa alimentada por várias nascentes que escorrem pela rocha. Tem cerca de 4,5 km por sentido e é uma das caminhadas mais procuradas da ilha.",
+   "access": "De Ponta Delgada são cerca de 50 minutos: São Vicente, subida até a Encumeada e ER110 pelo Paul da Serra até o estacionamento do Rabaçal, na beira da estrada. Reserva obrigatória no portal SIMplifica desde 2026 (simplifica.madeira.gov.pt), com escolha de horário e taxa de 4,50 euros por pessoa.",
+   "source": "https://visitmadeira.com/pt/blog/visit-madeira/tudo-o-que-precisas-de-saber-para-caminhar-na-madeira-em-2026/",
+   "match": "Levada das 25 Fontes"
+  },
+  {
+   "history": "O miradouro fica no traçado antigo da ER101, a estrada escavada na falésia que ligava São Vicente ao Seixal antes dos túneis. Dali se vê a cascata onde a Ribeira de João Delgado despenca da falésia direto no mar, com um desenho que lembra um véu de noiva.",
+   "access": "De Ponta Delgada são cerca de 15 minutos pela via expressa no sentido do Seixal, com saída sinalizada entre São Vicente e Seixal. Há um estacionamento pequeno e gratuito no local, que lota no meio do dia. Acesso livre.",
+   "source": "https://visitmadeira.com/pt/onde-ir/madeira/costa-norte/porto-moniz/miradouro-do-veu-da-noiva/",
+   "name": "Miradouro do Véu da Noiva",
+   "category": "mirante",
+   "blurb": "Uma cachoeira que cai da falésia direto no Atlântico, vista de um mirante à beira da estrada.",
+   "lat": 32.8156,
+   "lng": -17.0935,
+   "query": "Miradouro do Véu da Noiva, Seixal, Madeira",
+   "isNew": true
+  },
+  {
+   "history": "Os tubos de lava se formaram em uma erupção há cerca de 890 mil anos e foram abertos ao público em 1996, entre as primeiras grutas vulcânicas visitáveis de Portugal. Ao lado funcionava o Centro do Vulcanismo, com exposição sobre a formação da ilha.",
+   "access": "As grutas estão fechadas desde março de 2020 e continuavam fechadas em agosto de 2026, sem data de reabertura anunciada, então não conte com a visita. Ficam a cerca de 10 minutos de Ponta Delgada, na entrada da vila de São Vicente.",
+   "source": "https://www.dnoticias.pt/2026/8/25/503379-nova-administracao-da-naturnorte-ja-trabalha-na-reabertura-das-grutas-de-sao-vicente/",
+   "name": "Grutas de São Vicente",
+   "category": "museu",
+   "blurb": "Tubos de lava de 890 mil anos, mas só valem a parada se reabrirem até a viagem.",
+   "lat": 32.793,
+   "lng": -17.041,
+   "query": "Grutas e Centro do Vulcanismo de São Vicente, Madeira",
+   "isNew": true
+  }
+ ]
+}

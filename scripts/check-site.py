@@ -46,7 +46,7 @@ def resolve(path):
     return target
 
 pages={p:Page(p) for p in DIST.rglob('*.html')}
-assert len(pages)>=17, 'Missing generated pages'
+assert len(pages)>=19, 'Missing generated pages'
 errors=[]; checked=0
 for file,page in pages.items():
     errors.extend(f'{file.relative_to(DIST)}: {x}' for x in page.errors)

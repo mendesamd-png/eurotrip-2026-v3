@@ -8,7 +8,7 @@ import { legs } from '../data/transfers';
 import { u, accentOf } from '../data/url';
 
 const allPlaces = chapters.flatMap((c) => c.places.map((p) => ({ name: p.name, lat: p.lat, lng: p.lng, blurb: p.blurb, kind: p.category === 'base' ? 'base' : p.category === 'trabalho' ? 'trabalho' : 'lugar', chapter: c.title, href: mapsSearch(p) } as const)));
-const bases = ['Londres', 'Birmingham', 'Manchester', 'San Sebastián', 'Funchal', 'Ponta Delgada'];
+const bases = ['Londres', 'Birmingham', 'Paris', 'Manchester', 'San Sebastián', 'Funchal', 'Ponta Delgada'];
 const stops = route.filter((r) => bases.includes(r.name)).map((r) => ({ label: r.name, lat: r.lat, lng: r.lng, zoom: 12, slug: r.name }));
 
 ---

@@ -9,7 +9,7 @@ import { u, accentOf, timecode } from '../data/url';
 const hero = images.areeiro;
 const routeMarkers = route.map((r) => ({ name: r.name, lat: r.lat, lng: r.lng, kind: r.mode === 'base' || r.mode === 'carro' ? 'base' : 'rota', chapter: r.chapter, label: r.name } as const));
 const dayOf: Record<string, number> = { partida: 0, londres: 1, birmingham: 2, paris: 6, manchester: 8, 'san-sebastian': 12, funchal: 15, 'ponta-delgada': 18 };
-const bases = ['Londres', 'Birmingham', 'Manchester', 'San Sebastián', 'Funchal', 'Ponta Delgada'];
+const bases = ['Londres', 'Birmingham', 'Paris', 'Manchester', 'San Sebastián', 'Funchal', 'Ponta Delgada'];
 const stops = route.filter((r) => bases.includes(r.name)).map((r) => ({ label: r.name, lat: r.lat, lng: r.lng, zoom: 12, slug: r.name }));
 ---
 

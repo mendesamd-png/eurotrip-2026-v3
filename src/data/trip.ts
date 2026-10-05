@@ -463,8 +463,10 @@ export const days: Day[] = [
 export const route: { name: string; lat: number; lng: number; chapter: string; mode: 'avião' | 'trem' | 'carro' | 'base' }[] = [
   { name: 'São Paulo', lat: -23.4356, lng: -46.4731, chapter: 'partida', mode: 'avião' },
   { name: 'Londres', lat: 51.4925, lng: -0.131, chapter: 'londres', mode: 'base' },
-  { name: 'Paris', lat: 48.8566, lng: 2.3522, chapter: 'paris', mode: 'base' },
   { name: 'Birmingham', lat: 52.4797, lng: -1.9028, chapter: 'birmingham', mode: 'trem' },
+  { name: 'Londres · volta', lat: 51.5308, lng: -0.1238, chapter: 'londres', mode: 'trem' },
+  { name: 'Paris', lat: 48.8566, lng: 2.3522, chapter: 'paris', mode: 'base' },
+  { name: 'Beauvais', lat: 49.4544, lng: 2.1128, chapter: 'paris', mode: 'avião' },
   { name: 'Manchester', lat: 53.4685, lng: -2.253, chapter: 'manchester', mode: 'trem' },
   { name: 'Amsterdã', lat: 52.3105, lng: 4.7683, chapter: 'san-sebastian', mode: 'avião' },
   { name: 'Bilbao', lat: 43.3011, lng: -2.9106, chapter: 'san-sebastian', mode: 'avião' },
@@ -476,10 +478,10 @@ export const route: { name: string; lat: number; lng: number; chapter: string; m
 
 export const stats = [
   { n: '19', label: 'noites' },
-  { n: '6', label: 'bases' },
-  { n: '4', label: 'voos emitidos' },
+  { n: '7', label: 'bases' },
+  { n: '5', label: 'voos emitidos' },
   { n: '2', label: 'trabalhos' },
   { n: '1', label: 'jogo em Old Trafford' },
 ];
 
-export const lastUpdate = '15 de setembro de 2026';
+export const lastUpdate = '5 de outubro de 2026';

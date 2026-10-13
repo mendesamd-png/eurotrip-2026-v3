@@ -16,9 +16,25 @@ import { fileURLToPath } from 'node:url';
 import { webcrypto as crypto } from 'node:crypto';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const password = process.env.BORDO_PASSWORD;
+// Senha: pela variável BORDO_PASSWORD ou digitada no terminal, sem eco.
+const askPassword = () => new Promise((resolveP) => {
+  process.stdout.write('Senha do bordo (não aparece ao digitar): ');
+  const stdin = process.stdin;
+  stdin.setRawMode?.(true); stdin.resume(); stdin.setEncoding('utf8');
+  let buf = '';
+  const onData = (ch) => {
+    for (const c of ch) {
+      if (c === '\r' || c === '\n') { stdin.setRawMode?.(false); stdin.pause(); stdin.off('data', onData); process.stdout.write('\n'); resolveP(buf); return; }
+      if (c === '\u0003') { process.stdout.write('\n'); process.exit(130); }
+      if (c === '\u007f' || c === '\b') { buf = buf.slice(0, -1); continue; }
+      buf += c;
+    }
+  };
+  stdin.on('data', onData);
+});
+const password = process.env.BORDO_PASSWORD || await askPassword();
 if (!password || password.length < 8) {
-  console.error('Defina BORDO_PASSWORD com pelo menos 8 caracteres.');
+  console.error('A senha precisa ter pelo menos 8 caracteres.');
   process.exit(1);
 }
 

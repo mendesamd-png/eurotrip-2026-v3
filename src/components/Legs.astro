@@ -2,7 +2,7 @@
 import { directionsUrl, type Leg } from '../data/transfers';
 interface Props { legs: Leg[]; numbered?: boolean }
 const { legs, numbered = true } = Astro.props;
-const tagClass = (s: Leg['status']) => (s === 'emitido' ? 'ok' : s === 'estimativa' ? '' : 'warn');
+const tagClass = (s: Leg['status']) => (s === 'emitido' || s === 'reservado' ? 'ok' : s === 'estimativa' ? '' : 'warn');
 ---
 
 <ol class="legs">

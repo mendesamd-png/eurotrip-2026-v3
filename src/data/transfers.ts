@@ -12,7 +12,7 @@ export type Leg = {
   arr?: string;               // horário de chegada (local)
   est?: string;               // duração estimada, já com "~"
   how: string;                // descrição curta
-  status: 'emitido' | 'a comprar' | 'a reservar' | 'estimativa' | 'a confirmar';
+  status: 'emitido' | 'reservado' | 'a comprar' | 'a reservar' | 'estimativa' | 'a confirmar';
   directions?: { from: string; to: string; mode?: 'transit' | 'driving' | 'walking' };
   note?: string;
 };
@@ -36,7 +36,7 @@ export const legs: Leg[] = [
   // ---- Paris → Manchester
   { chapter: 'paris', date: '24/10', from: 'Mercure Montparnasse', to: 'Porte Maillot', mode: 'metrô', est: '~30 min', how: 'Linha 6 até Charles de Gaulle–Étoile e linha 1 até Porte Maillot', status: 'estimativa', directions: dir('Mercure Paris Gare Montparnasse TGV', 'Porte Maillot, Paris'), note: 'Sair do hotel por volta das 06:00. Conferir o primeiro metrô; táxi é o plano B' },
   { chapter: 'paris', date: '24/10', from: 'Porte Maillot', to: 'BVA · Beauvais', mode: 'ônibus', est: '~1h15 a 1h30', how: 'Aérobus, o ônibus oficial do aeroporto, com saída do Boulevard Pershing', status: 'a comprar', directions: dir('Porte Maillot, Paris', 'Aéroport Paris-Beauvais', 'driving'), note: 'Comprar o bilhete online e conferir qual ônibus atende o voo das 10:15' },
-  { chapter: 'manchester', date: '24/10', from: 'BVA · Beauvais', to: 'MAN · Manchester', mode: 'voo', dep: '10:15', arr: '10:35', how: 'Ryanair FR 3723 · direto · −1h de fuso · mala de 20 kg incluída', status: 'emitido' },
+  { chapter: 'manchester', date: '24/10', from: 'BVA · Beauvais', to: 'MAN · Manchester', mode: 'voo', dep: '10:15', arr: '10:35', how: 'Ryanair FR 3723 · direto · −1h de fuso · mala de 20 kg incluída · o Douglas leva também a mala de cabine de 10 kg (upgrade)', status: 'emitido' },
   { chapter: 'manchester', date: '24/10', from: 'MAN · Manchester Airport', to: 'City Road, Hulme', mode: 'trem', est: '~40 min', how: 'Trem do aeroporto até Piccadilly (cerca de 20 min) e Uber até Hulme. Uber direto leva cerca de 30 min', status: 'estimativa', directions: dir('Manchester Airport', '343 City Road, Manchester M15') },
   { chapter: 'manchester', date: '26/10', from: 'Deansgate', to: 'Liverpool Lime Street', mode: 'trem', dep: '10:00', arr: '10:53', how: 'Northern, direto. Volta às 21:03, chegada às 21:58', status: 'emitido', note: 'Bilhetes Advance: valem só nesses trens' },
   { chapter: 'manchester', date: '25/10', from: 'City Road, Hulme', to: 'Old Trafford', mode: 'metrô', est: '~20 min', how: 'Metrolink de Cornbrook ou Deansgate-Castlefield até Old Trafford. A pé são ~35 min pela Chester Road', status: 'estimativa', directions: dir('343 City Road, Manchester M15', 'Old Trafford Stadium'), note: 'Chegar 90 min antes do apito por causa do hospitality' },
@@ -44,18 +44,18 @@ export const legs: Leg[] = [
   // ---- Manchester → Bilbao → San Sebastián
   { chapter: 'san-sebastian', date: '28/10', from: 'MAN · Manchester', to: 'AMS · Amsterdã', mode: 'voo', dep: '10:55', arr: '13:15', how: 'KLM KL1032 · 1h20 de voo · +1h de fuso', status: 'emitido' },
   { chapter: 'san-sebastian', date: '28/10', from: 'AMS · Amsterdã', to: 'BIO · Bilbao', mode: 'voo', dep: '14:25', arr: '16:30', how: 'KLM KL1525 · 2h05 de voo · conexão de 1h10 em Schiphol', status: 'emitido' },
-  { chapter: 'san-sebastian', date: '28/10', from: 'BIO · Bilbao', to: 'San Sebastián', mode: 'carro', est: '~1h05', how: 'AP-8, ~100 km, pedágio. Retirada do carro no aeroporto', status: 'a reservar', directions: dir('Bilbao Airport', 'San Sebastián', 'driving'), note: 'Chegada em San Sebastián por volta das 18:15, já no escuro no fim de outubro' },
+  { chapter: 'san-sebastian', date: '28/10', from: 'BIO · Bilbao', to: 'San Sebastián', mode: 'carro', est: '~1h05', how: 'AP-8, ~100 km, pedágio. Carro reservado (Budget, SUV automático), retirada às 17:00 no aeroporto', status: 'reservado', directions: dir('Bilbao Airport', 'San Sebastián', 'driving'), note: 'Chegada em San Sebastián por volta das 18:15, já no escuro no fim de outubro. Carta de condução física, PID e passaporte no balcão' },
   // ---- San Sebastián → Bilbao → Funchal
-  { chapter: 'funchal', date: '31/10', from: 'San Sebastián', to: 'BIO · Bilbao', mode: 'carro', est: '~1h05', how: 'AP-8 de volta, devolução do carro no aeroporto', status: 'a reservar', directions: dir('San Sebastián', 'Bilbao Airport', 'driving'), note: 'Check-in fecha às 11:40. Sair de San Sebastián até as 09:00' },
+  { chapter: 'funchal', date: '31/10', from: 'San Sebastián', to: 'BIO · Bilbao', mode: 'carro', est: '~1h05', how: 'AP-8 de volta, devolução do carro no aeroporto às 09:00', status: 'reservado', directions: dir('San Sebastián', 'Bilbao Airport', 'driving'), note: 'Check-in fecha às 11:40. Sair de San Sebastián às 07:15' },
   { chapter: 'funchal', date: '31/10', from: 'BIO · Bilbao', to: 'LIS · Lisboa', mode: 'voo', dep: '12:25', arr: '13:05', how: 'TAP TP1063 · 1h40 de voo · −1h de fuso', status: 'emitido' },
   { chapter: 'funchal', date: '31/10', from: 'LIS · Lisboa', to: 'FNC · Madeira', mode: 'voo', dep: '15:20', arr: '17:10', how: 'TAP TP1691 · 1h50 de voo · conexão de 2h15', status: 'emitido' },
-  { chapter: 'funchal', date: '31/10', from: 'FNC · Madeira', to: 'Rua Velha da Ajuda, São Martinho', mode: 'carro', est: '~25 min', how: 'VR1 até Funchal, 22 km. Retirada do carro no aeroporto', status: 'a reservar', directions: dir('Madeira Airport', 'Rua Velha da Ajuda 28, Funchal', 'driving'), note: 'Check-in do Airbnb a partir das 15:00, chegada prevista ~18:00' },
+  { chapter: 'funchal', date: '31/10', from: 'FNC · Madeira', to: 'Rua Velha da Ajuda, São Martinho', mode: 'carro', est: '~25 min', how: 'VR1 até Funchal, 22 km. Carro reservado (Rentx, SUV manual): depois das malas, a locadora busca de shuttle no aeroporto', status: 'reservado', directions: dir('Madeira Airport', 'Rua Velha da Ajuda 28, Funchal', 'driving'), note: 'Retirada marcada para as 17:00, com tolerância até 17:59. Check-in do Airbnb a partir das 15:00, chegada prevista por volta das 18:30' },
   // ---- Funchal → Ponta Delgada
   { chapter: 'ponta-delgada', date: '03/11', from: 'São Martinho, Funchal', to: 'Ponta Delgada, costa norte', mode: 'carro', est: '~37 min', how: 'VR1 e túneis da ER104, 39 km', status: 'estimativa', directions: dir('Rua Velha da Ajuda 28, Funchal', 'Ponta Delgada, Madeira', 'driving'), note: 'Check-out 11:00, check-in 15:00: a manhã serve para o Areeiro ou para a Zona Velha' },
   // ---- volta
-  { chapter: 'ponta-delgada', date: '05/11', from: 'Ponta Delgada', to: 'FNC · Madeira', mode: 'carro', est: '~43 min', how: '39 km pela costa e VR1. Devolução do carro no aeroporto', status: 'estimativa', directions: dir('Ponta Delgada, Madeira', 'Madeira Airport', 'driving'), note: 'Voo às 18:10: devolver o carro até as 16:00' },
+  { chapter: 'ponta-delgada', date: '05/11', from: 'Ponta Delgada', to: 'FNC · Madeira', mode: 'carro', est: '~43 min', how: '39 km pela costa e VR1. Devolução do carro no aeroporto', status: 'estimativa', directions: dir('Ponta Delgada, Madeira', 'Madeira Airport', 'driving'), note: 'Voo às 18:10: devolver o carro por volta das 15:00 (a reserva vai até as 17:00)' },
   { chapter: 'ponta-delgada', date: '05/11', from: 'FNC · Madeira', to: 'LIS · Lisboa', mode: 'voo', dep: '18:10', arr: '19:55', how: 'TAP TP1692 · 1h45 de voo', status: 'emitido' },
-  { chapter: 'ponta-delgada', date: '05/11', from: 'LIS · Lisboa', to: 'GRU · Guarulhos', mode: 'voo', dep: '23:25', arr: '06:50 (06/11)', how: 'TAP TP87 · conexão de 3h30 em Lisboa', status: 'emitido' },
+  { chapter: 'ponta-delgada', date: '05/11', from: 'LIS · Lisboa', to: 'GRU · Guarulhos', mode: 'voo', dep: '23:25', arr: '06:50 (06/11)', how: 'TAP TP87 · conexão de 3h30 em Lisboa · só o Douglas; o Hugo volta um dia depois', status: 'emitido' },
 ];
 
 export const legsOf = (chapter: string) => legs.filter((l) => l.chapter === chapter);

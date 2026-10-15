@@ -1,0 +1,393 @@
+{
+  "updated": "5 de outubro de 2026",
+  "notice": "Área privada da tripulação. Códigos, telefones e comprovantes. Não compartilhar prints.",
+  "voos": [
+    {
+      "trecho": "GRU → LHR",
+      "cia": "LATAM",
+      "voo": "LA 8084",
+      "data": "16/10 · 23:50 → 17/10 · 15:05",
+      "codigo": "EDZKZV",
+      "pax": "Douglas · Hugo",
+      "nota": "89.607 LATAM Pass + R$ 64,56. Franquia: 1 mochila + mala de mão até 12 kg + despachada até 23 kg. Chegar com 4h por causa da e-DBV.",
+      "status": "emitido"
+    },
+    {
+      "trecho": "Euston ⇄ Birmingham New Street (bate e volta)",
+      "cia": "Avanti · LNR",
+      "voo": "08:06 Avanti · 21:06 LNR",
+      "data": "dom 18/10 · 08:06 → 10:02 · 21:06 → 23:38",
+      "codigo": "NW370459",
+      "pax": "Douglas · Hugo",
+      "nota": "£50 total (ida £16/pax, volta £9/pax). Advance Single: vale só nesses trens. Ida Avanti, vagão B, assentos 35 e 38. Volta só LNR/WMR, sem assento marcado. Chegar em Euston 07:45.",
+      "status": "emitido"
+    },
+    {
+      "trecho": "St Pancras → Paris Gare du Nord",
+      "cia": "Eurostar",
+      "voo": "9004",
+      "data": "qui 22/10 · 07:01 → 10:29",
+      "codigo": "XYDK4K",
+      "pax": "Hugo · Douglas",
+      "nota": "£264 pelos dois, Standard, coach 7, assentos 55 e 56. Preencher os dados de passageiro (API) no site antes de viajar. Controle de passaporte antes do embarque.",
+      "status": "emitido"
+    },
+    {
+      "trecho": "BVA (Beauvais) → MAN",
+      "cia": "Ryanair",
+      "voo": "FR 3723",
+      "data": "sáb 24/10 · 10:15 → 10:35",
+      "codigo": "RTTZYB",
+      "pax": "Hugo · Douglas",
+      "nota": "€191,73 pelos dois. Plus, assentos 12C e 12D, 2 malas despachadas de 20 kg. Só mala pequena de cabine (o app oferece upgrade para 2 malas de cabine). Aérobus de Porte Maillot até Beauvais, cerca de 1h15 a 1h30: sair do hotel por volta das 06:00.",
+      "status": "emitido"
+    },
+    {
+      "trecho": "Deansgate ⇄ Liverpool Lime Street (bate e volta)",
+      "cia": "Northern",
+      "voo": "10:00 · 21:03",
+      "data": "seg 26/10 · 10:00 → 10:53 · 21:03 → 21:58",
+      "codigo": "AV802528",
+      "pax": "Douglas · Hugo",
+      "nota": "£21,20 total (£5,30 por trecho/pax). Advance Single, só Northern e só nesses trens. Sem assento marcado. Deansgate fica a 10-15 min a pé de Hulme.",
+      "status": "emitido"
+    },
+    {
+      "trecho": "MAN → AMS → BIO",
+      "cia": "KLM",
+      "voo": "KL1032 · KL1525",
+      "data": "28/10 · 10:55 → 13:15 · 14:25 → 16:30",
+      "codigo": "ZSV542",
+      "pax": "Douglas · Hugo",
+      "nota": "GBP 308,96 pelos dois, pago pelo Hugo. Despachada 23 kg. Mão 55×35×25 cm, 12 kg combinados com acessório.",
+      "status": "emitido"
+    },
+    {
+      "trecho": "BIO → LIS → FNC",
+      "cia": "TAP",
+      "voo": "TP1063 · TP1691",
+      "data": "31/10 · 12:25 → 13:05 · 15:20 → 17:10",
+      "codigo": "ZT79SS",
+      "pax": "Douglas · Hugo",
+      "nota": "EUR 165,64/pax + EUR 35/pax bagagem (EMD, não reembolsável). Mão 55×40×25 cm, 10 kg. CHECK-IN FECHA ÀS 11:40 EM BILBAO.",
+      "status": "emitido"
+    },
+    {
+      "trecho": "FNC → LIS → GRU",
+      "cia": "TAP",
+      "voo": "TP1692 · TP87",
+      "data": "05/11 · FNC 18:10 → LIS 19:55 · LIS 23:25 → GRU 06:50 (06/11)",
+      "codigo": "CRAW4Q",
+      "pax": "Douglas · Hugo",
+      "nota": "Devolver o carro no FNC até 16:00. Franquia informada como igual à da LATAM (mão 12 kg, despachada 23 kg). Confirmar com a TAP.",
+      "status": "emitido"
+    }
+  ],
+  "hospedagens": [
+    {
+      "cidade": "Londres",
+      "nome": "Large room in Westminster",
+      "anfitriao": "Kamal",
+      "endereco": "Page Street, London SW1P 4EX",
+      "checkin": "sáb 17/10 · 15:00",
+      "checkout": "qui 22/10 · 11:00",
+      "codigo": "HMYJYB43W4",
+      "nota": "5 noites. Cancelamento grátis até 12/10.",
+      "maps": "Page Street, London SW1P 4EX"
+    },
+    {
+      "cidade": "Birmingham",
+      "nome": "Casa do Gustavo",
+      "anfitriao": "Gustavo",
+      "endereco": "150 New Street, Ap 401, Birmingham B2 4PA",
+      "checkin": "dom 18/10 · visita",
+      "checkout": "dom 18/10",
+      "codigo": "—",
+      "nota": "Bate e volta, sem pernoite. Roupas do Man United e da The North Face já entregues aqui: retirar neste dia.",
+      "maps": "150 New Street, Birmingham B2 4PA"
+    },
+    {
+      "cidade": "Paris",
+      "nome": "Mercure Paris Gare Montparnasse TGV",
+      "anfitriao": "Hotel · +33 1 56 54 84 00",
+      "endereco": "40 Rue du Commandant René Mouchotte, 75014 Paris",
+      "checkin": "qui 22/10 · a partir das 16:00",
+      "checkout": "sáb 24/10 · até 12:00",
+      "codigo": "Booking 5177.990.845 · código 1533",
+      "nota": "2 noites, quarto com 2 camas, cerca de €383,80 pagos no hotel. Reserva no nome do Hugo. Cancelamento grátis até 21/10 23:59.",
+      "maps": "Mercure Paris Gare Montparnasse TGV"
+    },
+    {
+      "cidade": "Manchester",
+      "nome": "Bright & Spacious 2 Bed Apartment",
+      "anfitriao": "My Property Host",
+      "endereco": "343 City Road, Manchester M15",
+      "checkin": "sex 23/10 · 15:00",
+      "checkout": "qua 28/10 · 10:00",
+      "codigo": "HMX82YTCYR",
+      "nota": "Chegada real em 24/10 (voo de Paris pousa 10:35). A reserva ainda começa em 23/10: alterar antes de 18/10, fim do cancelamento grátis. 2 quartos. Check-out às 10:00 no dia 28.",
+      "maps": "343 City Road, Manchester M15"
+    },
+    {
+      "cidade": "San Sebastián",
+      "nome": "Casa da Miriam",
+      "anfitriao": "Miriam Badaró",
+      "endereco": "confirmar com a Miriam",
+      "checkin": "qua 28/10 · noite",
+      "checkout": "sáb 31/10 · 8:00",
+      "codigo": "—",
+      "nota": "3 noites, cortesia da Sorgin Gallery. Sair às 8:00 para devolver o carro em Bilbao até 10:30.",
+      "maps": "San Sebastián"
+    },
+    {
+      "cidade": "Funchal",
+      "nome": "GuestReady · A homely retreat in São Martinho",
+      "anfitriao": "GuestReady · +351 916 915 185",
+      "endereco": "Rua Velha da Ajuda 28, Funchal 9000-001",
+      "checkin": "sáb 31/10 · 15:00",
+      "checkout": "ter 03/11 · 11:00",
+      "codigo": "HMB2R3QQXA",
+      "nota": "3 noites, €281,00 pagos. Avisar chegada ~18:30 (pouso 17:10 + carro).",
+      "maps": "Rua Velha da Ajuda 28, Funchal"
+    },
+    {
+      "cidade": "Ponta Delgada",
+      "nome": "Ponta Delgada Beco House",
+      "anfitriao": "Nelson · +44 7700 332032",
+      "endereco": "Ponta Delgada, Madeira 9240",
+      "checkin": "ter 03/11 · 15:00",
+      "checkout": "qui 05/11 · 11:00",
+      "codigo": "HMK93SQCMQ",
+      "nota": "2 noites, R$ 1.047,64 pagos. 2 quartos. Sem cancelamento grátis.",
+      "maps": "Ponta Delgada, Madeira 9240"
+    }
+  ],
+  "ingressos": [
+    {
+      "evento": "Gravação Gallery FUMI (Max Lamb)",
+      "quando": "ter 20/10 · 10h às 13h",
+      "onde": "Londres · endereço a confirmar",
+      "ref": "Rota.co",
+      "nota": "Meia diária. Endereço da pauta ainda não recebido.",
+      "status": "confirmado"
+    },
+    {
+      "evento": "Diária com a Miriam · Design Miami/Paris",
+      "quando": "sex 23/10 · horário a combinar",
+      "onde": "Hôtel de Maisons, Rue de l'Université, 75007 Paris",
+      "ref": "trabalho à parte",
+      "nota": "Conteúdo da Miriam na feira: entrada, escadarias, jardim, instalação, e algo na rua depois.",
+      "status": "confirmado"
+    },
+    {
+      "evento": "Manchester United x Bournemouth",
+      "quando": "dom 25/10 · 14:00 GMT",
+      "onde": "Old Trafford · Hospitality '92 Suite",
+      "ref": "Premium Membership MU (pago)",
+      "nota": "£560 total: Douglas £211,25 + Hugo £280 + £68,75 souvenir. Ingressos no app do clube. Reserva 38771876. Chegar ~12:30.",
+      "status": "confirmado"
+    },
+    {
+      "evento": "The Devil Wears Prada · Flowers Tour",
+      "quando": "dom 25/10 · 18:00",
+      "onde": "O2 Institute Birmingham",
+      "ref": "Ticketmaster · pedido 40-43942/UK7 · 3 mobile tickets",
+      "nota": "Substituído pelo show de Manchester em 24/10. Douglas deu como resolvido em 29/09.",
+      "status": "substituído"
+    },
+    {
+      "evento": "Old Trafford Tour & Museum",
+      "quando": "ter 27/10 · tour 10:30 (chegar 10:00)",
+      "onde": "Old Trafford, Sir Matt Busby Way, Manchester M16 0RA",
+      "ref": "Lead Supporter 7459475 · Transação 39470762",
+      "nota": "2 adultos (1 com desconto Premium) + 2 guias + 2 refeições já pagas. Almoço Red Café reservado às 12:00, ref. BDAMF7CY. Total £95,75.",
+      "status": "confirmado"
+    },
+    {
+      "evento": "The Devil Wears Prada",
+      "quando": "sáb 24/10 · portas 19:00",
+      "onde": "New Century Hall, Manchester",
+      "ref": "Pedido 129971388",
+      "nota": "2x General Admission (£28 face) · £66,75 total. Ingressos em PDF abaixo, QR um por pessoa. 14+.",
+      "status": "confirmado"
+    },
+    {
+      "evento": "Trilhas da Madeira (5 percursos IFCN)",
+      "quando": "01/11 16:00 PR1.2 · 02/11 08:00 PR1 Pedra Rija, 10:30 PR11, 15:00 PR8 · 04/11 10:30 PR6",
+      "onde": "Madeira",
+      "ref": "SIMplifica 2880964/2026 · bilhetes SIM4659631 a SIM4659635",
+      "nota": "2 adultos · €45 pagos 04/10 (Apple Pay) · sem reembolso nem remarcação",
+      "status": "confirmado"
+    }
+  ],
+  "documentos": [
+    {
+      "item": "ETA Reino Unido · Douglas",
+      "status": "✅ aprovado · válido até 26/07/2028 · vinculado ao passaporte"
+    },
+    {
+      "item": "ETA Reino Unido · Hugo",
+      "status": "✅ aprovado"
+    },
+    {
+      "item": "ETIAS · Douglas e Hugo",
+      "status": "✅ feito"
+    },
+    {
+      "item": "Passaporte Douglas",
+      "status": "✅ válido até 01/01/2030"
+    },
+    {
+      "item": "PID (carteira internacional)",
+      "status": "✅ válida até nov/2027 · levar para as locadoras"
+    },
+    {
+      "item": "e-DBV equipamento (~R$ 65k)",
+      "status": "⏳ preparo a partir de 16/09 · carimbo em GRU no dia 16/10 · ligar para a Receita antes de 09/10 (e-DBV × DU-E)"
+    },
+    {
+      "item": "Seguro viagem com equipamento ≥ R$ 100k",
+      "status": "🚨 contratar · venceu o prazo interno de 15/09"
+    },
+    {
+      "item": "Drone · CAA UK · AESA Espanha · ANAC Portugal",
+      "status": "não se aplica: drone fora do kit"
+    },
+    {
+      "item": "Trens · 18/10 Birmingham · 22/10 Eurostar · 26/10 Liverpool",
+      "status": "emitidos"
+    },
+    {
+      "item": "Carro Bilbao · 28/10 ~17:00 → 31/10 ~10:30",
+      "status": "⏳ reservar · Toyota Yaris automático ~R$ 127 · definir quem paga"
+    },
+    {
+      "item": "Carro Madeira · 31/10 ~18:00 → 05/11 16:00",
+      "status": "⏳ recotar com retirada em 31/10 · automático ~R$ 340"
+    },
+    {
+      "item": "Câmbio · GBP e EUR",
+      "status": "⏳ 1ª parcela atrasada"
+    }
+  ],
+  "contatos": [
+    {
+      "nome": "GuestReady (Funchal)",
+      "tel": "+351 916 915 185"
+    },
+    {
+      "nome": "Nelson (Ponta Delgada)",
+      "tel": "+44 7700 332032"
+    },
+    {
+      "nome": "TAP Espanha",
+      "tel": "+34 901 888 608"
+    },
+    {
+      "nome": "Gustavo (Birmingham)",
+      "tel": "no WhatsApp"
+    },
+    {
+      "nome": "Miriam Badaró (San Sebastián)",
+      "tel": "no WhatsApp"
+    }
+  ],
+  "files": [
+    {
+      "label": "Airbnb Londres · HMYJYB43W4",
+      "src": "docs/airbnb-londres.pdf"
+    },
+    {
+      "label": "Airbnb Manchester · HMX82YTCYR",
+      "src": "docs/airbnb-manchester.pdf"
+    },
+    {
+      "label": "Airbnb Funchal · HMB2R3QQXA",
+      "src": "docs/airbnb-funchal.pdf"
+    },
+    {
+      "label": "Airbnb Ponta Delgada · HMK93SQCMQ",
+      "src": "docs/airbnb-ponta-delgada.pdf"
+    },
+    {
+      "label": "TAP BIO→FNC · Douglas · ZT79SS",
+      "src": "docs/tap-bio-fnc-douglas.pdf"
+    },
+    {
+      "label": "TAP BIO→FNC · Hugo · ZT79SS",
+      "src": "docs/tap-bio-fnc-hugo.pdf"
+    },
+    {
+      "label": "Ticketmaster · TDWP Birmingham · 40-43942/UK7",
+      "src": "docs/tdwp-birmingham.jpeg"
+    },
+    {
+      "label": "Trem 18/10 ida · Euston → Birmingham · bilhete 1",
+      "src": "docs/trem-18-10-ida-1.pdf"
+    },
+    {
+      "label": "Trem 18/10 ida · bilhete 2",
+      "src": "docs/trem-18-10-ida-2.pdf"
+    },
+    {
+      "label": "Trem 18/10 volta · Birmingham → Euston · bilhete 1",
+      "src": "docs/trem-18-10-volta-1.pdf"
+    },
+    {
+      "label": "Trem 18/10 volta · bilhete 2",
+      "src": "docs/trem-18-10-volta-2.pdf"
+    },
+    {
+      "label": "Trem 26/10 ida · Deansgate → Liverpool · bilhete 1",
+      "src": "docs/trem-26-10-ida-1.pdf"
+    },
+    {
+      "label": "Trem 26/10 ida · bilhete 2",
+      "src": "docs/trem-26-10-ida-2.pdf"
+    },
+    {
+      "label": "Trem 26/10 volta · Liverpool → Deansgate · bilhete 1",
+      "src": "docs/trem-26-10-volta-1.pdf"
+    },
+    {
+      "label": "Trem 26/10 volta · bilhete 2",
+      "src": "docs/trem-26-10-volta-2.pdf"
+    },
+    {
+      "label": "TDWP Manchester 24/10 · 129971388 · 2 ingressos (QR)",
+      "src": "docs/tdwp-manchester-24-10.pdf"
+    },
+    {
+      "label": "Trilhas Madeira · 5 bilhetes · 2880964/2026",
+      "src": "docs/trilhas-madeira-bilhetes.pdf"
+    },
+    {
+      "label": "Trilhas Madeira · fatura FR PR8/775874",
+      "src": "docs/trilhas-madeira-fatura.pdf"
+    },
+    {
+      "label": "Trilhas Madeira · comprovante de pagamento",
+      "src": "docs/trilhas-madeira-2880964.pdf"
+    },
+    {
+      "label": "Eurostar 22/10 · Londres → Paris · XYDK4K",
+      "src": "docs/eurostar-22-10-xydk4k.pdf"
+    },
+    {
+      "label": "Booking · Mercure Paris Montparnasse · 5177.990.845",
+      "src": "docs/booking-paris-mercure.pdf"
+    },
+    {
+      "label": "Ryanair 24/10 · Beauvais → Manchester · RTTZYB (recibo)",
+      "src": "docs/ryanair-bva-man-rttzyb.jpg"
+    }
+  ],
+  "missing": [
+    "LATAM EDZKZV: o recibo contém CPF, ficou fora do site de propósito. Está no e-mail e na planilha.",
+    "KLM ZSV542: sem PDF, só prints. Baixar o e-ticket no site da KLM e colocar em private/docs/klm-zsv542.pdf.",
+    "TAP volta CRAW4Q: sem PDF ainda.",
+    "Ingresso do Man United: só no app do clube.",
+    "Ryanair RTTZYB: só o recibo em imagem. Cartão de embarque sai no check-in online.",
+    "Aérobus Porte Maillot → Beauvais (24/10): bilhete ainda a comprar."
+  ]
+}
